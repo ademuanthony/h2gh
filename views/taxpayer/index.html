@@ -1,0 +1,89 @@
+<h1 class="page-title"> Tax Master
+    <small>Tax Payers</small>
+</h1>
+<div class="page-bar">
+    <ul class="page-breadcrumb">
+        <li>
+            <i class="icon-home"></i>
+            <a href="index.html">Home</a>
+            <i class="fa fa-angle-right"></i>
+        </li>
+        <li>
+            <span>Tax Payers</span>
+        </li>
+    </ul>
+</div>
+<!-- END PAGE HEADER-->
+
+{{if .flash.error}}
+<blockquote>{{.flash.error}}</blockquote>
+{{end}}
+{{if .flash.success}}
+<blockquote>{{.flash.success}}</blockquote>
+{{end}}
+
+<div class="row">
+    <div class="col-md-6 ">
+
+        <!-- BEGIN SAMPLE FORM PORTLET-->
+        <div class="portlet light ">
+            <div class="portlet-title">
+                <div class="caption font-green">
+                    <i class="icon-pin font-green"></i>
+                    <span class="caption-subject bold uppercase"> Tax Payers</span>
+                </div>
+            </div>
+            <div class="portlet-body form">
+                <table class="table">
+                    {{range $payer := .TaxPayers}}
+                    <tr>
+                        <td>
+                            {{$payer.Name}}
+                        </td>
+                        <td>
+                            {{$payer.Tin}}
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" href="/taxes/types/delete?id={{$payer.Id}}">Delete</a>
+                        </td>
+                    </tr>
+                    {{end}}
+                </table>
+            </div>
+        </div>
+        <!-- END SAMPLE FORM PORTLET-->
+    </div>
+
+    <div class="col-md-6 ">
+        <!-- BEGIN SAMPLE FORM PORTLET-->
+        <div class="portlet light ">
+            <div class="portlet-title">
+                <div class="caption font-green">
+                    <i class="icon-pin font-green"></i>
+                    <span class="caption-subject bold uppercase"> New Tax Type</span>
+                </div>
+            </div>
+            <div class="portlet-body form">
+                <form method="POST" role="form" action="/taxes/payers/create">
+                    <div class="form-body">
+                        <div class="form-group form-md-line-input form-md-floating-label">
+                            <input type="text" class="form-control" id="name" name="name">
+                            <label for="name">Name</label>
+                            <span class="help-block">Enter the name of the tax payer</span>
+                        </div>
+                        <div class="form-group form-md-line-input form-md-floating-label">
+                            <input type="text" class="form-control" id="tin" name="tin">
+                            <label for="tin">TIN</label>
+                            <span class="help-block">Enter the unique TIN of the tax payer</span>
+                        </div>
+                    </div>
+                    <div class="form-actions noborder">
+                        <button type="submit" class="btn blue">Create</button>
+                        <button type="reset" class="btn default">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- END SAMPLE FORM PORTLET-->
+    </div>
+</div>

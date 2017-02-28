@@ -1,0 +1,75 @@
+<h1 class="page-title"> Tax Master
+    <small>Taxes</small>
+</h1>
+<div class="page-bar">
+    <ul class="page-breadcrumb">
+        <li>
+            <i class="icon-home"></i>
+            <a href="index.html">Home</a>
+            <i class="fa fa-angle-right"></i>
+        </li>
+        <li>
+            <span>Payment Reports</span>
+        </li>
+    </ul>
+</div>
+<!-- END PAGE HEADER-->
+
+{{if .flash.error}}
+<blockquote>{{.flash.error}}</blockquote>
+{{end}}
+{{if .flash.success}}
+<blockquote>{{.flash.success}}</blockquote>
+{{end}}
+
+<div class="row">
+    <div class="col-md-12 ">
+
+        <!-- BEGIN SAMPLE FORM PORTLET-->
+        <div class="portlet light ">
+            <div class="portlet-title">
+                <div class="caption font-green">
+                    <i class="icon-pin font-green"></i>
+                    <span class="caption-subject bold uppercase"> Tax Payment Report</span>
+                </div>
+            </div>
+            <div class="portlet-body form">
+                <table class="table">
+                    <tr>
+                        <th>Tax Type</th>
+                        <th>Payer Name</th>
+                        <th>TIN</th>
+                        <th>Amount</th>
+                        <th>Payment Date</th>
+                    </tr>
+                    {{range $payment := .TaxPayments}}
+                    <tr>
+                        <td>
+                            {{$payment.Tax.TaxType.Name}}
+                        </td>
+                        <td>
+                            {{$payment.Tax.TaxPayer.Name}}
+                        </td>
+                        <td>
+                            {{$payment.Tax.TaxPayer.Tin}}
+                        </td>
+                        <td>
+                            {{$payment.AmountPaid}}
+                        </td>
+                        <td>{{$payment.Date}}</td>
+                        <td>
+                            {{$payment.Status.Text}}
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" href="/taxes/payment/approve?id={{$payment.Id}}">Approve</a> <!--|
+                            <a class="btn btn-danger" href="/taxes/payment/reject?id={{$payment.Id}}">Reject</a>-->
+                        </td>
+                    </tr>
+                    {{end}}
+                </table>
+            </div>
+        </div>
+        <!-- END SAMPLE FORM PORTLET-->
+    </div>
+
+</div>

@@ -83,11 +83,11 @@ func (this *TaxPaymentController) Pay() {
 
 		if err != nil{
 			flash.Error("Invalid Tax Selected")
-			this.Redirect("/taxes/payment/pending", http.StatusBadRequest)
+			this.Redirect("/taxes/payment/pending", 400)
 		}
 		if amount != tax.Amount{
 			flash.Error("Invalid amount")
-			this.Redirect("/taxes/payment/pending", http.StatusBadRequest)
+			this.Redirect("/taxes/payment/pending", 400)
 		}
 
 		var taxPayment models.TaxPayment
@@ -133,7 +133,7 @@ func (this *TaxPaymentController) Approve() {
 	taxPayment.Status = status
 	o.Update(taxPayment)
 	flash.Success("Payment Approved")
-	this.Redirect("/payment/report", http.StatusOK)
+	this.Redirect("/payment/report", 200)
 }
 
 func (this *TaxPaymentController) Reject() {
@@ -152,5 +152,5 @@ func (this *TaxPaymentController) Reject() {
 	taxPayment.Status = status
 	o.Update(taxPayment)
 	flash.Success("Payment Approved")
-	this.Redirect("/payment/report", http.StatusOK)
+	this.Redirect("/payment/report", 200)
 }

@@ -47,7 +47,7 @@ func (this *AuthController) Login()  {
 
 func (this *AuthController) Logout() {
 	this.DelSession("uid")
-	this.Redirect("/auth/login", 308)
+	this.Redirect("/auth/login", 308)//removed
 }
 
 func (this *AuthController) Index()  {

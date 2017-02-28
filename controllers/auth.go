@@ -6,7 +6,6 @@ import (
 	"github.com/ademuanthony/TaxMaster/models"
 	"golang.org/x/crypto/bcrypt"
 	"fmt"
-	"net/http"
 )
 
 type AuthController struct {

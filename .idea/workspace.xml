@@ -2,7 +2,707 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60b9ec4e-f44c-488d-b745-a44f7b04ac25" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.yaml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TaxMaster.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/apps/css/inbox.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/apps/css/ticket.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/apps/css/todo-2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/apps/css/todo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/apps/scripts/calendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/apps/scripts/inbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/apps/scripts/timeline.min.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/apps/scripts/todo-2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/apps/scripts/todo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/css/components.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/css/plugins.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/accordion-plusminus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/datatable-row-openclose.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/flags/de.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/flags/es.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/flags/fr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/flags/ru.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/flags/us.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/loading-spinner-grey.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/57.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/60.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/72.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/84.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/1200x900/92.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/102.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/45.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/58.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/62.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/65.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/81.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/87.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/88.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/94.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portfolio/600x600/96.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portlet-collapse-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portlet-collapse-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portlet-config-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portlet-config-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portlet-expand-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portlet-expand-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portlet-reload-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portlet-reload-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portlet-remove-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/portlet-remove-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/remove-icon-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/aboutme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/amazon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/behance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/blogger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/deviantart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/dribbble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/dropbox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/evernote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/forrst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/foursquare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/googleplus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/gravatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/instagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/jolicloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/klout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/last-fm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/myspace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/picasa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/pintrest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/quora.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/reddit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/spotify.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/stumbleupon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/tumblr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/vk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/wordpress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/xing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/yahoo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/social/youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/syncfusion-icons-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/img/syncfusion-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/amcharts/amcharts/amcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/amcharts/amcharts/pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/amcharts/amcharts/radar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/amcharts/amcharts/serial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/amcharts/amcharts/themes/chalk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/amcharts/amcharts/themes/light.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/amcharts/amcharts/themes/patterns.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/amcharts/ammap/ammap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/amcharts/ammap/maps/js/worldLow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/amcharts/amstockcharts/amstock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/autosize/autosize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/backstretch/jquery.backstretch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootbox/bootbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-colorpicker/css/colorpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-colorpicker/img/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-colorpicker/img/hue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-colorpicker/img/saturation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-confirmation/bootstrap-confirmation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-contextmenu/bootstrap-contextmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-datepaginator/bootstrap-datepaginator.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-datepaginator/bootstrap-datepaginator.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-editable/bootstrap-editable/css/bootstrap-editable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-editable/bootstrap-editable/img/clear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-editable/bootstrap-editable/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-editable/bootstrap-editable/js/bootstrap-editable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-editable/inputs-ext/address/address.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-editable/inputs-ext/address/address.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-editable/inputs-ext/wysihtml5/wysihtml5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-growl/jquery.bootstrap-growl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-markdown/css/bootstrap-markdown.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-markdown/js/bootstrap-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-markdown/lib/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-modal/css/bootstrap-modal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-multiselect/css/bootstrap-multiselect.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-multiselect/js/bootstrap-multiselect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-pwstrength/pwstrength-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-select/css/bootstrap-select.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-select/js/bootstrap-select.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-selectsplitter/bootstrap-selectsplitter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-sessiontimeout/bootstrap-session-timeout.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-summernote/font/summernoted41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-summernote/font/summernotef534.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-summernote/font/summernotef534.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-summernote/font/summernotef534.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-summernote/summernote.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-summernote/summernote.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-sweetalert/sweetalert.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-sweetalert/sweetalert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-tabdrop/js/bootstrap-tabdrop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-table/bootstrap-table.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-table/bootstrap-table.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-toastr/toastr.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-toastr/toastr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-touchspin/bootstrap.touchspin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-touchspin/bootstrap.touchspin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-typeahead/bootstrap3-typeahead.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/ckeditor/ckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/clipboardjs/clipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/clockface/css/clockface.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/clockface/js/clockface.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/codemirror/lib/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/codemirror/lib/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/codemirror/mode/css/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/codemirror/mode/htmlmixed/htmlmixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/codemirror/mode/javascript/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/codemirror/theme/ambiance.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/codemirror/theme/material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/codemirror/theme/neat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/codemirror/theme/neo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/countdown/jquery.countdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/counterup/jquery.counterup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/counterup/jquery.waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/cubeportfolio/css/cubeportfolio.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/cubeportfolio/img/cbp-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/DataTables-1.10.12/images/sort_asc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/DataTables-1.10.12/images/sort_asc_disabled.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/DataTables-1.10.12/images/sort_both.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/DataTables-1.10.12/images/sort_desc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/DataTables-1.10.12/images/sort_desc_disabled.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/datatables.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/datatables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/images/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/images/sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/images/sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/images/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/images/sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/dropzone/basic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/dropzone/dropzone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/dropzone/dropzone.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/echarts/echarts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/fancybox/source/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/fancybox/source/fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/fancybox/source/fancybox_loading@2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/fancybox/source/fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/fancybox/source/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/fancybox/source/fancybox_sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/fancybox/source/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/fancybox/source/jquery.fancybox.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/flot/jquery.flot.axislabels.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/flot/jquery.flot.categories.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/flot/jquery.flot.crosshair.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/flot/jquery.flot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/flot/jquery.flot.pie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/flot/jquery.flot.resize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/flot/jquery.flot.stack.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/flowchart/flowchart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/fuelux/js/spinner.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/fullcalendar/fullcalendar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/gmaps/gmaps.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/highcharts/js/highcharts-3d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/highcharts/js/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/highcharts/js/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/highmaps/js/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/highmaps/js/modules/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/highstock/js/highstock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/holder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/horizontal-timeline/horizontal-timeline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/flat@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/flat/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/futurico/futurico.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/futurico/futurico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/futurico/futurico@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/line/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/line/line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/line/line@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/minimal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/minimal@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/minimal/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/polaris/polaris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/polaris/polaris.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/polaris/polaris@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/square.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/square@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/icheck/skins/square/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/ion.rangeslider/css/ion.rangeSlider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/ion.rangeslider/css/ion.rangeSlider.skinFlat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/ion.rangeslider/img/sprite-skin-flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/ion.rangeslider/js/ion.rangeSlider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jcrop/css/Jcrop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jcrop/css/jquery.Jcrop.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jcrop/demos/demo_files/image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jcrop/demos/demo_files/image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jcrop/demos/demo_files/image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jcrop/demos/demo_files/image4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jcrop/demos/demo_files/image5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jcrop/js/jquery.Jcrop.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jcrop/js/jquery.color.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-bootpag/jquery.bootpag.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-cookiebar/jquery.cookieBar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/blueimp-gallery/blueimp-gallery.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/blueimp-gallery/jquery.blueimp-gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/css/jquery.fileupload-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/css/jquery.fileupload.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/img/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/img/play-pause.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/img/progressbar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/img/video-play.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-audio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-process.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/jquery.fileupload-video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/jquery.fileupload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/jquery.iframe-transport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/vendor/canvas-to-blob.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/vendor/jquery.ui.widget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/vendor/load-image.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-file-upload/js/vendor/tmpl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-idle-timeout/jquery.idletimeout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-idle-timeout/jquery.idletimer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-knob/js/jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-minicolors/jquery.minicolors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-minicolors/jquery.minicolors.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-minicolors/jquery.minicolors.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-multi-select/css/multi-select.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-multi-select/img/switch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-multi-select/js/jquery.multi-select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-nestable/jquery.nestable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-nestable/jquery.nestable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-notific8/jquery.notific8.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-notific8/jquery.notific8.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-repeater/jquery.repeater.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-validation/js/additional-methods.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery-validation/js/jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery.blockui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery.input-ip-address-control-1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery.mockjax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery.pulsate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jqvmap/jqvmap/jqvmap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/js.cookie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jstree/dist/jstree.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/jstree/dist/themes/default/style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/ladda/ladda-themeless.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/ladda/ladda.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/ladda/spin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/morris/morris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/morris/morris.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/morris/raphael-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/nouislider/nouislider.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/nouislider/nouislider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/nouislider/nouislider.pips.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/nouislider/wNumb.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/pace/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/pace/themes/pace-theme-big-counter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/pace/themes/pace-theme-flash.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/plupload/js/plupload.full.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/raphael.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/select2/css/select2-bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/select2/css/select2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/select2/js/select2.full.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Iconsd41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/socicon/font/socicon.424.delayed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/socicon/font/socicon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/socicon/font/socicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/socicon/font/socicon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/socicon/font/socicon.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/socicon/font/socicond41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/socicon/socicon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/typeahead/handlebars.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/typeahead/typeahead.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/plugins/typeahead/typeahead.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/scripts/app.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/global/scripts/datatable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/global/scripts/cookie-consent.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/global/scripts/quick-nav.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/global/scripts/quick-sidebar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout/img/avatar1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout/img/avatar10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout/img/avatar11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout/img/avatar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout/img/avatar3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout/img/avatar4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout/img/avatar6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout/img/avatar7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout/img/avatar8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout/img/avatar9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout2/css/custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout2/css/layout.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout2/css/themes/blue.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout2/img/avatar3_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout2/img/logo-default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout2/img/sidebar-toggler-inverse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout2/img/sidebar-toggler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout2/scripts/demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout2/scripts/layout.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout3/img/avatar1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout3/img/avatar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/layouts/layout3/img/avatar3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/about.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/blog.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/coming-soon.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/contact.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/error.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/faq.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/image-crop.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/invoice-2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/invoice.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/lock-2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/lock.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/login-2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/login-3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/login-4.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/login-5.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/login.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/portfolio.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/pricing.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/profile-2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/profile.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/css/search.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/avatars/team1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/avatars/team12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/avatars/team2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/avatars/team3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/avatars/team4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/avatars/team5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/avatars/team6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/avatars/team7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/avatars/team8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/46.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/53.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/57.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/59.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/background/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/bg-white-lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/bg-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/login/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/login/login-invert.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/login/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/logo-big-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/logo-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/logos/logo5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/page_general_search/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/page_general_search/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/page_general_search/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/page_general_search/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/page_general_search/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/page_general_search/06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/page_general_search/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/page_general_search/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/page_general_search/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/page_general_search/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/img/page_general_search/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/bg/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/blog/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/blog/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/blog/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/gallery/image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/gallery/image4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/invoice/walmart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/pages/earth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/profile/people19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/profile/photo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/profile/photo2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/profile/photo3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/profile/profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/profile/profile_user.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar80_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar80_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar80_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar80_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar80_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar80_7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar80_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/avatar9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/teambg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/teambg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/teambg5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/users/teambg8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/works/img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/works/img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/works/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/media/works/img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/charts-amcharts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/charts-echarts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/charts-flotcharts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/charts-flowchart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/charts-google.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/charts-highcharts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/charts-highmaps.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/charts-highstock.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/charts-morris.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/coming-soon.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-bootstrap-maxlength.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-bootstrap-multiselect.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-bootstrap-select-splitter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-bootstrap-select.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-bootstrap-switch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-bootstrap-tagsinput.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-bootstrap-touchspin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-clipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-code-editors.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-color-pickers.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-context-menu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-date-time-pickers.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-editors.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-form-tools.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-ion-sliders.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-knob-dials.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-multi-select.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-nouisliders.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-select2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/components-typeahead.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/contact.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/dashboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ecommerce-dashboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ecommerce-orders-view.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ecommerce-orders.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ecommerce-products-edit.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ecommerce-products.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/form-dropzone.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/form-editable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/form-fileupload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/form-icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/form-image-crop.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/form-input-mask.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/form-repeater.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/form-samples.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/form-validation-md.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/form-validation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/form-wizard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/lock-2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/lock.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/login-4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/login-5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/login.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/maps-google.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/maps-vector.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/portfolio-1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/portfolio-2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/portfolio-3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/portfolio-4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/portlet-ajax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/portlet-draggable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/profile.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/search.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/table-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/table-datatables-ajax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/table-datatables-buttons.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/table-datatables-colreorder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/table-datatables-editable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/table-datatables-fixedheader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/table-datatables-managed.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/table-datatables-responsive.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/table-datatables-rowreorder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/table-datatables-scroller.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/timeline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-alerts-api.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-blockui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-bootbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-bootstrap-growl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-buttons.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-confirmations.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-datepaginator.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-extended-modals.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-general.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-idletimeout.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-modals.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-nestable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-notific8.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-session-timeout.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-sweetalert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-toastr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/assets/pages/scripts/ui-tree.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/auth/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/shared/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/site/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/tax/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/taxpayer/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/taxpayment/pending.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/taxpayment/report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/taxtype/index.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/taxmaster.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routers/router.go" afterPath="$PROJECT_DIR$/routers/router.go" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,51 +721,11 @@
       <file leaf-file-name="auth.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/auth.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="176">
               <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#Create#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tax.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/tax.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/app.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/sql.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2926">
-              <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -80,11 +740,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="taxPayment.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="taxPayment.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/taxPayment.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="396">
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding>
                 <element signature="e#21#150#0" expanded="true" />
               </folding>
@@ -102,21 +762,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.go">
+      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routers/router.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="e#17#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taxmaster.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taxmaster.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/default.go">
+      <file leaf-file-name="models.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/models.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="88">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routers/auth.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -156,16 +838,13 @@
       <list>
         <option value="$PROJECT_DIR$/views/index.html" />
         <option value="$PROJECT_DIR$/static/assets/global/plugins/font-awesome/css/font-awesome.min.css" />
-        <option value="$PROJECT_DIR$/routers/site.go" />
         <option value="$PROJECT_DIR$/controllers/account.go" />
         <option value="$PROJECT_DIR$/routers/auth.go" />
         <option value="$PROJECT_DIR$/routers/account.go" />
         <option value="$PROJECT_DIR$/views/account/login.html" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/controllers/taxTypes.go" />
         <option value="$PROJECT_DIR$/data/taxTypeRepository.go" />
         <option value="$PROJECT_DIR$/views/taxType/index.html" />
-        <option value="$PROJECT_DIR$/routers/router.go" />
         <option value="$PROJECT_DIR$/views/taxpayment/index.html" />
         <option value="$PROJECT_DIR$/routers/tax.go" />
         <option value="$PROJECT_DIR$/views/taxtype/index.html" />
@@ -185,6 +864,11 @@
         <option value="$PROJECT_DIR$/data/sql.sql" />
         <option value="$PROJECT_DIR$/controllers/auth.go" />
         <option value="$PROJECT_DIR$/controllers/taxPayment.go" />
+        <option value="$PROJECT_DIR$/app.yaml" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/routers/site.go" />
+        <option value="$PROJECT_DIR$/routers/router.go" />
+        <option value="$PROJECT_DIR$/taxmaster.go" />
       </list>
     </option>
   </component>
@@ -212,8 +896,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,9 +911,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaxMaster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaxMaster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,15 +934,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GO_WORKSPACE\src\github.com\ademuanthony\TaxMaster\static\assets\global\plugins\font-awesome\fonts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GO_WORKSPACE\src\github.com\ademuanthony\TaxMaster" />
       <recent name="C:\GO_WORKSPACE\src\github.com\ademuanthony\TaxMaster\views" />
       <recent name="C:\GO_WORKSPACE\src\github.com\ademuanthony\TaxMaster\views\account" />
       <recent name="C:\GO_WORKSPACE\src\github.com\ademuanthony\TaxMaster\static\assets\global\plugins\font-awesome\fonts" />
       <recent name="C:\GO_WORKSPACE\src\github.com\ademuanthony\TaxMaster\static\assets\global\plugins\bootstrap\css" />
-      <recent name="C:\GO_WORKSPACE\src\github.com\ademuanthony\TaxMaster\views\shared" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GO_WORKSPACE\src\github.com\ademuanthony\TaxMaster" />
+      <recent name="C:\GO_WORKSPACE\src\github.com\ademuanthony\TaxMaster\static\assets\global\plugins\font-awesome\fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -308,6 +1007,9 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="ApexTest" factoryName="Apex Test">
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -436,6 +1138,26 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="OdpsJavaConfigurationType" factoryName="MaxCompute Java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <odpsJavaType />
+      <odpsProjectName />
+      <tableName />
+      <tableColumns />
+      <tablePartition />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -506,6 +1228,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -547,38 +1282,38 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33522084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14178303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3356009" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14607948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -601,22 +1336,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/models.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/auth/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -652,7 +1371,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/../TaxMasterAppEngine/taxmaster.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -688,7 +1407,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/../TaxMasterAppEngine/taxmaster.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
@@ -745,24 +1464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/site.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routers/account.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routers/auth.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -804,25 +1509,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../astaxie/beego/controller.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="198" column="21" lean-forward="false" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routers/tax.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="31" column="92" lean-forward="false" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -837,14 +1528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/models.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="70" column="18" lean-forward="false" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,10 +1575,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -938,25 +1630,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/taxType.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/auth.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="176">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#Create#0" expanded="false" />
@@ -966,11 +1642,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/taxPayment.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="396">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding>
             <element signature="e#21#150#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TaxMasterAppEngine/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/auth.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/site.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/tax.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="31" column="92" lean-forward="false" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TaxMasterAppEngine/taxmaster.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/taxType.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#17#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taxmaster.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/models.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

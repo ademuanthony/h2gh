@@ -28,7 +28,8 @@ func setTaxesRoutes()  {
 }
 
 func setTaxPaymentRoutes() {
-	beego.Router("/taxes/payment/report",&controllers.TaxPaymentController{},"*:Index")
+	//beego.Router("/taxes/payment/report",&controllers.TaxPaymentController{},"*:Index")
+	beego.Router("/taxes/payment/report",&controllers.TaxPaymentController{},"*:PublicPaymentReport")
 	beego.Router("/taxes/payment/pending",&controllers.TaxPaymentController{},"*:Pending")
 	beego.Router("/taxes/payment/pay",&controllers.TaxPaymentController{},"*:Pay")
 	beego.Router("/taxes/payment/approve",&controllers.TaxPaymentController{},"*:Approve")

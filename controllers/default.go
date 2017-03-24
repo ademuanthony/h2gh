@@ -29,9 +29,21 @@ func (this *MainController) Get() {
 
 func (this *MainController) Site() {
 	this.Layout = "shared/layout.html"
-	this.Data["Website"] = "taxmaster.me"
-	this.Data["Email"] = "astaxie@gmail.com"
-	this.Data["DashboardActive"] = "active"
+	o := orm.NewOrm()
+
+	var totalPayment float64
+	o.Raw("SELECT SUM(amount) as totalPayment FROM public_payment").QueryRow(&totalPayment)
+
+	var confirmedPayment float64
+	o.Raw("SELECT COUNT(*) as confirmedPayment FROM public_payment WHERE status_id = 3").QueryRow(&confirmedPayment)
+
+	var pendingPayment float64
+	o.Raw("SELECT SUM(amount) as pendingPayment FROM public_payment WHERE status_id = 4").QueryRow(&pendingPayment)
+
+
+	this.Data["TotalPayment"] = totalPayment
+	this.Data["ConfirmedPayment"] = confirmedPayment
+	this.Data["PendingPament"] = pendingPayment
 	this.TplName = "site/index.html"
 }
 

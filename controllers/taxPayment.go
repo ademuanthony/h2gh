@@ -32,6 +32,25 @@ func (this *TaxPaymentController) Index() {
 	this.Data["TaxPayments"] = taxPayments;
 }
 
+func (this *TaxPaymentController) PublicPaymentReport() {
+	this.TplName = "taxpayment/report.html"
+	this.Layout = "shared/layout.html";
+	this.Data["ReportActive"] = "active"
+
+	flash := beego.NewFlash()
+	flash.Store(&this.Controller)
+	o := orm.NewOrm()
+
+	//load tax payers for the new assessment
+	var taxPayments []*models.PublicPayment
+	_, err := o.QueryTable("public_payment").RelatedSel().All(&taxPayments)
+	if err != nil{
+		fmt.Printf("Error in loading tax payment reports %s", err)
+		flash.Error("Error in loading tax payment reports. Please try again later")
+	}
+	this.Data["TaxPayments"] = taxPayments;
+}
+
 func (this *TaxPaymentController) Pending() {
 	this.Data["HideNav"] = true
 	this.Layout = "shared/layout.html"

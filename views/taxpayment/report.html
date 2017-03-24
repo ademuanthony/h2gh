@@ -37,7 +37,6 @@
                 <table class="table">
                     <tr>
                         <th>Tax Type</th>
-                        <th>Payer Name</th>
                         <th>TIN</th>
                         <th>Amount</th>
                         <th>Payment Date</th>
@@ -45,24 +44,17 @@
                     {{range $payment := .TaxPayments}}
                     <tr>
                         <td>
-                            {{$payment.Tax.TaxType.Name}}
+                            {{$payment.TaxType.Name}}
                         </td>
                         <td>
-                            {{$payment.Tax.TaxPayer.Name}}
+                            {{$payment.Tin}}
                         </td>
                         <td>
-                            {{$payment.Tax.TaxPayer.Tin}}
-                        </td>
-                        <td>
-                            {{$payment.AmountPaid}}
+                            {{$payment.Amount}}
                         </td>
                         <td>{{$payment.Date}}</td>
                         <td>
                             {{$payment.Status.Text}}
-                        </td>
-                        <td>
-                            <a class="btn btn-primary" href="/taxes/payment/approve?id={{$payment.Id}}">Approve</a> <!--|
-                            <a class="btn btn-danger" href="/taxes/payment/reject?id={{$payment.Id}}">Reject</a>-->
                         </td>
                     </tr>
                     {{end}}

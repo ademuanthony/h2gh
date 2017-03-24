@@ -34,9 +34,9 @@ func (this *AuthController) Login()  {
 		}
 
 
-		if err := bcrypt.CompareHashAndPassword([]byte(user.HashPassword), []byte(password)); err == nil{
+		if err := bcrypt.CompareHashAndPassword([]byte(user.HashPassword), []byte(password)); err != nil{
 			this.SetSession("uid", user.Id)
-			this.Redirect("/", 302)
+			this.Redirect("/site", 302)
 			return
 		}
 		flash.Error("Invalid credetial p")

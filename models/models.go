@@ -16,10 +16,10 @@ var(
 )
 
 func init() {
-	orm.RegisterModel(new(UserAuth), new(TaxType), new(TaxPayer), new(Tax), new(TaxPayment), new(Status))
+	orm.RegisterModel(new(UserAuth), new(TaxType), new(TaxPayer), new(Tax), new(TaxPayment), new(Status), new(PublicPayment))
 
 	// set default database
-	orm.RegisterDataBase("default", "mysql", "root:0000@/taxmaster?charset=utf8", 30)
+	orm.RegisterDataBase("default", "mysql", "root:@/taxmaster?charset=utf8", 30)
 }
 
 type(
@@ -70,6 +70,22 @@ type(
 		Date time.Time
 		Tax *Tax `orm:"rel(fk)"`
 		Status *Status `orm:"rel(fk)"`
+	}
+
+	PublicPayment struct {
+		Id int
+		Tin string
+		Amount float64
+		Note string
+		Date time.Time
+		TaxType *TaxType `orm:"rel(fk)"`
+		Status *Status `orm:"rel(fk)"`
+	}
+
+	VoguepayTransaction struct {
+		Total float64
+		Status string
+		MerchantId string
 	}
 )
 

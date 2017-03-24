@@ -9,8 +9,14 @@ import (
 
 func init() {
 	var FilterUser = func(ctx *context.Context) {
-		if strings.HasPrefix(ctx.Input.URL(), "/auth") {
+		allowedPaths := []string{"/auth", "/public"}
+		if string(ctx.Input.URL()) ==  "/"{
 			return
+		}
+		for _,url := range allowedPaths{
+			if strings.HasPrefix(ctx.Input.URL(), url)  {
+				return
+			}
 		}
 
 		_, ok := ctx.Input.Session("uid").(int)

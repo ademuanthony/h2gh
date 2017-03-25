@@ -41,14 +41,38 @@ func (this *TaxPaymentController) PublicPaymentReport() {
 	flash.Store(&this.Controller)
 	o := orm.NewOrm()
 
+	startDateString := this.GetString("startDate")
+	endDateString := this.GetString("endDate")
+	taxTypeId, err := this.GetInt("taxTypeId")
 	//load tax payers for the new assessment
 	var taxPayments []*models.PublicPayment
-	_, err := o.QueryTable("public_payment").RelatedSel().All(&taxPayments)
+	query := o.QueryTable("public_payment")
+	if(err == nil){
+		query = query.Filter("tax_type_id__exact", taxTypeId)
+	}
+	if startDateString != ""{
+		layout := "2006-01-01"
+		startDate, err := time.Parse(layout, startDateString)
+		endDate, err := time.Parse(layout, endDateString)
+		if err == nil{
+			query = query.Filter("date__gte", startDate)
+			query = query.Filter("date__lte", endDate)
+		}
+	}
+	_, err = query.RelatedSel().All(&taxPayments)
 	if err != nil{
 		fmt.Printf("Error in loading tax payment reports %s", err)
 		flash.Error("Error in loading tax payment reports. Please try again later")
 	}
 	this.Data["TaxPayments"] = taxPayments;
+
+	var taxTypes []*models.TaxType
+	_, err = o.QueryTable("tax_type").All(&taxTypes)
+	if err != nil{
+		fmt.Printf("Error in loading tax types %s", err)
+		flash.Error("Error in loading tax types. Please try again later")
+	}
+	this.Data["TaxTypes"] = taxTypes;
 }
 
 func (this *TaxPaymentController) Pending() {

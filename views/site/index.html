@@ -22,7 +22,7 @@
 
 <!-- BEGIN DASHBOARD STATS 1-->
 <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <a class="dashboard-stat dashboard-stat-v2 red" href="#">
             <div class="visual">
                 <i class="fa fa-bar-chart-o"></i>
@@ -34,7 +34,21 @@
             </div>
         </a>
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <a class="dashboard-stat dashboard-stat-v2 red" href="#">
+            <div class="visual">
+                <i class="fa fa-bar-chart-o"></i>
+            </div>
+            <div class="details">
+                <div class="number">
+                    <span data-counter="counterup" data-value="{{.PendingPayment}}">{{.PendingPayment}}</span> </div>
+                <div class="desc"> Pending Payment </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <a class="dashboard-stat dashboard-stat-v2 green" href="#">
             <div class="visual">
                 <i class="fa fa-shopping-cart"></i>
@@ -43,7 +57,7 @@
                 <div class="number">
                     <span data-counter="counterup" data-value="{{.ConfirmedPayment}}">{{.ConfirmedPayment}}</span>
                 </div>
-                <div class="desc"> No of Payment </div>
+                <div class="desc"> Confirmed Payment </div>
             </div>
         </a>
     </div>

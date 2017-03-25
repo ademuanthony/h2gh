@@ -29,16 +29,19 @@ func (this *MainController) Get() {
 
 func (this *MainController) Site() {
 	this.Layout = "shared/layout.html"
+
 	o := orm.NewOrm()
 
-	var totalPayment float64
-	o.Raw("SELECT SUM(amount) as totalPayment FROM public_payment").QueryRow(&totalPayment)
+	var maps []orm.Params
 
-	var confirmedPayment float64
-	o.Raw("SELECT COUNT(*) as confirmedPayment FROM public_payment WHERE status_id = 3").QueryRow(&confirmedPayment)
+	o.Raw("SELECT SUM(amount) as totalPayment FROM public_payment").Values(&maps)
+	totalPayment := maps[0]["totalPayment"]
 
-	var pendingPayment float64
-	o.Raw("SELECT SUM(amount) as pendingPayment FROM public_payment WHERE status_id = 4").QueryRow(&pendingPayment)
+	o.Raw("SELECT SUM(amount) as confirmedPayment FROM public_payment WHERE status_id = ?", models.StatusPending).Values(&maps)
+	confirmedPayment := maps[0]["confirmedPayment"]
+
+	o.Raw("SELECT SUM(amount) as pendingPayment FROM public_payment WHERE status_id = ?", models.StatusApproved).Values(&maps)
+	pendingPayment := maps[0]["pendingPayment"]
 
 
 	this.Data["TotalPayment"] = totalPayment

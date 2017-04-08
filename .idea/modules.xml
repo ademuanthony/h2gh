@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TaxMaster.iml" filepath="$PROJECT_DIR$/TaxMaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h2gh.iml" filepath="$PROJECT_DIR$/h2gh.iml" />
     </modules>
   </component>
 </project>

@@ -19,7 +19,7 @@ func init() {
 	orm.RegisterModel(new(UserAuth), new(TaxType), new(TaxPayer), new(Tax), new(TaxPayment), new(Status), new(PublicPayment))
 
 	// set default database
-	orm.RegisterDataBase("default", "mysql", "root:@/taxmaster?charset=utf8", 30)
+	orm.RegisterDataBase("default", "mysql", "root:0000@/h2gh?charset=utf8", 30)
 }
 
 type(

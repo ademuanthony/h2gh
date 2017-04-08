@@ -2,11 +2,12 @@ package routers
 
 import (
 	"github.com/astaxie/beego"
-	"github.com/ademuanthony/TaxMaster/controllers"
+	"github.com/ademuanthony/h2gh/controllers"
 )
 
 func setAuthRoute() {
-	beego.Router("/auth/login",&controllers.AuthController{},"*:Login")
+	beego.Router("/register",&controllers.AuthController{},"*:Register")
+	beego.Router("/login",&controllers.AuthController{},"*:Login")
 
-	beego.Router("/auth/logout",&controllers.AuthController{},"*:Logout")
+	beego.Router("/logout",&controllers.AuthController{},"*:Logout")
 }

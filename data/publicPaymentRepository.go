@@ -3,7 +3,7 @@ package data
 import (
 	"github.com/astaxie/beego/orm"
 	"time"
-	"github.com/ademuanthony/TaxMaster/utilities"
+	"github.com/ademuanthony/h2gh/utilities"
 	"strconv"
 )
 

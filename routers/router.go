@@ -10,10 +10,5 @@ func init() {
    // beego.Router("/", &controllers.MainController{})
 	setSiteRoute()
 	setAuthRoute()
-	setAccountRoute()
-	//tax
-	setTaxesRoutes()
-	setTaxPayerRoutes()
-	setTaxRoutes()
-	setTaxPaymentRoutes()
+
 }

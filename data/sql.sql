@@ -1,7 +1,7 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server version:               10.1.21-MariaDB - mariadb.org binary distribution
--- Server OS:                    Win32
+-- Server version:               5.7.17-0ubuntu0.16.04.1 - (Ubuntu)
+-- Server OS:                    Linux
 -- HeidiSQL Version:             9.4.0.5125
 -- --------------------------------------------------------
 
@@ -12,263 +12,110 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
 
--- Dumping database structure for taxmaster
-DROP DATABASE IF EXISTS `taxmaster`;
-CREATE DATABASE IF NOT EXISTS `taxmaster` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `taxmaster`;
+-- Dumping database structure for h2gh
+CREATE DATABASE IF NOT EXISTS `h2gh` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `h2gh`;
 
--- Dumping structure for table taxmaster.auths
-DROP TABLE IF EXISTS `auths`;
-CREATE TABLE IF NOT EXISTS `auths` (
+-- Dumping structure for table h2gh.bank
+CREATE TABLE IF NOT EXISTS `bank` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `email` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `password` varchar(265) COLLATE utf8_unicode_ci NOT NULL,
-  `firstName` varchar(265) COLLATE utf8_unicode_ci NOT NULL,
-  `lastName` varchar(265) COLLATE utf8_unicode_ci NOT NULL,
-  `hashPassword` varchar(265) COLLATE utf8_unicode_ci NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
 
--- Dumping data for table taxmaster.auths: ~0 rows (approximately)
-/*!40000 ALTER TABLE `auths` DISABLE KEYS */;
-INSERT INTO `auths` (`id`, `email`, `password`, `firstName`, `lastName`, `hashPassword`) VALUES
-	(7, 'ademuanthony@gmail.com', '', 'Anthony', 'Ademua', '$2a$10$y/STMpNcJVBZn/30EEiSs./TPkw/uYvNhu/hJkbUkrJ9VymzFd6Mm');
-/*!40000 ALTER TABLE `auths` ENABLE KEYS */;
+-- Dumping data for table h2gh.bank: ~21 rows (approximately)
+/*!40000 ALTER TABLE `bank` DISABLE KEYS */;
+INSERT INTO `bank` (`id`, `name`) VALUES
+	(1, 'ACCESS BANK PLC'),
+	(2, 'CITIBANK NIGERIA LIMITED'),
+	(3, 'DIAMOND BANK PLC'),
+	(4, 'ECOBANK NIGERIA PLC'),
+	(5, 'ENTERPRISE BANK'),
+	(6, 'FIDELITY BANK PLC'),
+	(7, 'FIRST BANK OF NIGERIA PLC'),
+	(8, 'FIRST CITY MONUMENT BANK PLC'),
+	(9, 'GUARANTY TRUST BANK PLC'),
+	(10, 'KEY STONE BANK'),
+	(11, 'MAINSTREET BANK'),
+	(12, 'SKYE BANK PLC'),
+	(13, 'STANBIC IBTC BANK LTD.'),
+	(14, 'STANDARD CHARTERED BANK NIGERIA LTD.'),
+	(15, 'STERLING BANK PLC'),
+	(16, 'UNION BANK OF NIGERIA PLC'),
+	(17, 'UNITED BANK FOR AFRICA PLC'),
+	(18, 'UNITY  BANK PLC'),
+	(19, 'WEMA BANK PLC'),
+	(20, 'ZENITH BANK PLC'),
+	(21, 'HERITAGE BANKING COMPANY LTD.');
+/*!40000 ALTER TABLE `bank` ENABLE KEYS */;
 
--- Dumping structure for table taxmaster.members
-DROP TABLE IF EXISTS `members`;
-CREATE TABLE IF NOT EXISTS `members` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `membership_id` varchar(200) NOT NULL,
-  `username` varchar(200) NOT NULL,
-  `parent_id` varchar(200) NOT NULL,
-  `sponsor_id` varchar(200) NOT NULL,
-  `level` int(11) NOT NULL,
-  `left_index` int(11) NOT NULL,
-  `right_index` int(11) NOT NULL,
-  `registration_pin` varchar(200) NOT NULL,
-  `stage` varchar(200) NOT NULL,
-  `firstname` varchar(250) DEFAULT NULL,
-  `lastname` varchar(250) DEFAULT NULL,
-  `profile_image` varchar(256) NOT NULL,
-  `phonenumber` varchar(250) DEFAULT NULL,
-  `sex` varchar(250) DEFAULT NULL,
-  `dob` varchar(250) DEFAULT NULL,
-  `country` varchar(200) DEFAULT NULL,
-  `state` varchar(200) DEFAULT NULL,
-  `city` varchar(200) DEFAULT NULL,
-  `address` varchar(250) DEFAULT NULL,
-  `nameofkin` varchar(250) DEFAULT NULL,
-  `transaction_password` varchar(250) DEFAULT NULL,
-  `nextofkinaddress` varchar(250) DEFAULT NULL,
-  `kinrelationship` varchar(250) DEFAULT NULL,
-  `phonenumberofkin` varchar(250) DEFAULT NULL,
-  `status` int(11) NOT NULL DEFAULT '1',
-  `email_address` varchar(128) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+-- Dumping structure for table h2gh.member
+CREATE TABLE IF NOT EXISTS `member` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  `referral_id` int(11) DEFAULT NULL,
+  `first_name` varchar(255) DEFAULT NULL,
+  `last_name` varchar(255) DEFAULT NULL,
+  `phone_number` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `hash_password` varchar(255) DEFAULT NULL,
+  `bank_id` int(10) unsigned DEFAULT NULL,
+  `account_name` varchar(255) DEFAULT NULL,
+  `account_number` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `idx_members_deleted_at` (`deleted_at`),
+  KEY `idx_members_referral_id` (`referral_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table taxmaster.members: ~0 rows (approximately)
-/*!40000 ALTER TABLE `members` DISABLE KEYS */;
-INSERT INTO `members` (`id`, `membership_id`, `username`, `parent_id`, `sponsor_id`, `level`, `left_index`, `right_index`, `registration_pin`, `stage`, `firstname`, `lastname`, `profile_image`, `phonenumber`, `sex`, `dob`, `country`, `state`, `city`, `address`, `nameofkin`, `transaction_password`, `nextofkinaddress`, `kinrelationship`, `phonenumberofkin`, `status`, `email_address`) VALUES
-	(1, 'S01C4RXY', 'tony', '', '', 1, 1, 46, '08998989', '2', 'Ademu', 'Anthony', 'baby.jpg', '08035146243', 'Female', '2016-09-25', 'Nigeria', 'Kogi', 'Imane', 'Imane', 'Ademu Anthoy E', '1234', '20 Sora Ogumakin, Iyana-Ikpaja', 'My Bother', '08035146243', 1, 'blenyo11@gmail.com');
-/*!40000 ALTER TABLE `members` ENABLE KEYS */;
+-- Dumping data for table h2gh.member: ~0 rows (approximately)
+/*!40000 ALTER TABLE `member` DISABLE KEYS */;
+/*!40000 ALTER TABLE `member` ENABLE KEYS */;
 
--- Dumping structure for table taxmaster.public_payment
-DROP TABLE IF EXISTS `public_payment`;
-CREATE TABLE IF NOT EXISTS `public_payment` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `tax_type_id` int(11) DEFAULT NULL,
-  `status_id` int(11) DEFAULT NULL,
-  `tin` varchar(18) DEFAULT NULL,
+-- Dumping structure for table h2gh.payment
+CREATE TABLE IF NOT EXISTS `payment` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `deleted_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `member_id` int(11) DEFAULT NULL,
+  `from_member_id` int(11) DEFAULT NULL,
   `amount` double DEFAULT NULL,
-  `note` varchar(256) DEFAULT NULL,
-  `date` datetime DEFAULT CURRENT_TIMESTAMP,
+  `description` varchar(255) DEFAULT NULL,
+  `queue_id` int(11) DEFAULT NULL,
+  `status` varchar(255) DEFAULT NULL,
+  `penalty_time` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `FK__public_payment_tax_type` (`tax_type_id`),
-  KEY `FK_public_payment_status` (`status_id`),
-  CONSTRAINT `FK__public_payment_tax_type` FOREIGN KEY (`tax_type_id`) REFERENCES `tax_type` (`id`),
-  CONSTRAINT `FK_public_payment_status` FOREIGN KEY (`status_id`) REFERENCES `status` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+  KEY `idx_payments_member_id` (`member_id`),
+  KEY `idx_payments_queue_id` (`queue_id`),
+  KEY `idx_payments_deleted_at` (`deleted_at`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table taxmaster.public_payment: ~6 rows (approximately)
-/*!40000 ALTER TABLE `public_payment` DISABLE KEYS */;
-INSERT INTO `public_payment` (`id`, `tax_type_id`, `status_id`, `tin`, `amount`, `note`, `date`) VALUES
-	(1, 1, 4, '90709779', 9809, 'hoi', '2016-04-24 06:29:13'),
-	(2, 2, 4, '60495849', 58000, 'Nothing', '2017-01-24 06:55:22'),
-	(3, 2, 3, '8943', 56336, 'dhdhg', '2017-02-24 06:57:51'),
-	(4, 1, 4, '55-2890', 6857, 'hkfyu', '2017-03-24 07:00:14'),
-	(5, 1, 3, '5645', 90009, 'hkfyu', '2016-07-24 07:01:45'),
-	(6, 1, 4, '5255', 2433, 'hkfyu', '2016-08-24 07:04:53'),
-	(7, 3, 3, '3290832', 9000, 'nothing', '2016-06-25 10:00:20'),
-	(8, 1, 3, '5255', 2433, 'hkfyu', '2016-05-24 07:04:53'),
-	(9, 1, 4, '5255', 2433, 'hkfyu', '2016-05-24 07:04:53'),
-	(10, 1, 3, '55-2890', 6857, 'hkfyu', '2016-09-24 07:00:14'),
-	(11, 1, 3, '90709779', 9809, 'hoi', '2016-11-24 06:29:13'),
-	(12, 2, 3, '8943', 56336, 'dhdhg', '2016-09-24 06:57:51'),
-	(13, 3, 3, '3290832', 9000, 'nothing', '2016-12-25 10:00:20'),
-	(14, 1, 3, '55-2890', 6857, 'hkfyu', '2016-12-24 07:00:14'),
-	(15, 1, 4, '90709779', 9809, 'hoi', '2016-08-24 06:29:13'),
-	(16, 3, 3, '3290832', 9000, 'nothing', '2016-10-25 10:00:20'),
-	(17, 1, 4, '55-2890', 6857, 'hkfyu', '2016-11-24 07:00:14'),
-	(18, 2, 3, '60495849', 58000, 'Nothing', '2016-08-24 06:55:22');
-/*!40000 ALTER TABLE `public_payment` ENABLE KEYS */;
+-- Dumping data for table h2gh.payment: ~0 rows (approximately)
+/*!40000 ALTER TABLE `payment` DISABLE KEYS */;
+/*!40000 ALTER TABLE `payment` ENABLE KEYS */;
 
--- Dumping structure for table taxmaster.status
-DROP TABLE IF EXISTS `status`;
-CREATE TABLE IF NOT EXISTS `status` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `text` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
-
--- Dumping data for table taxmaster.status: ~6 rows (approximately)
-/*!40000 ALTER TABLE `status` DISABLE KEYS */;
-INSERT INTO `status` (`id`, `text`) VALUES
-	(1, 'Active'),
-	(2, 'Inactive'),
-	(3, 'Pending'),
-	(4, 'Approved'),
-	(5, 'Rejected'),
-	(6, 'Paid');
-/*!40000 ALTER TABLE `status` ENABLE KEYS */;
-
--- Dumping structure for table taxmaster.stores
-DROP TABLE IF EXISTS `stores`;
-CREATE TABLE IF NOT EXISTS `stores` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `merchant_id` int(11) NOT NULL,
-  `name` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `sub_domain` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `icon` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `logo` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `banner` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `url` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `remita_account_id` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `bank_account_name` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `bank_account_number` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `theme` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `header_color` varchar(16) COLLATE utf8_unicode_ci NOT NULL,
-  `footer_color` varchar(16) COLLATE utf8_unicode_ci NOT NULL,
-  `bottom_color` varchar(16) COLLATE utf8_unicode_ci NOT NULL,
-  `phone_number` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `email` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `short_about_test` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
-  `address` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
-  `status` int(11) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
--- Dumping data for table taxmaster.stores: ~0 rows (approximately)
-/*!40000 ALTER TABLE `stores` DISABLE KEYS */;
-INSERT INTO `stores` (`id`, `merchant_id`, `name`, `sub_domain`, `icon`, `logo`, `banner`, `url`, `remita_account_id`, `bank_account_name`, `bank_account_number`, `theme`, `header_color`, `footer_color`, `bottom_color`, `phone_number`, `email`, `short_about_test`, `address`, `status`) VALUES
-	(1, 1, 'Food for all', 'taxmaster', '', 'logo.png', '', 'http://taxmaster.com/', '', '', '', 'taxmaster', '#008080', '#004080', '#ff0080', '+234 708 513 7865', 'laveritas@gmail.com', 'This is the best dealerr of all kinds of goods', '20 Papa Ahafa Road Iyanoba', 0);
-/*!40000 ALTER TABLE `stores` ENABLE KEYS */;
-
--- Dumping structure for table taxmaster.tax
-DROP TABLE IF EXISTS `tax`;
-CREATE TABLE IF NOT EXISTS `tax` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `tax_type_id` int(11) DEFAULT NULL,
-  `tax_payer_id` int(11) DEFAULT NULL,
-  `comment` varchar(500) DEFAULT NULL,
-  `amount` float DEFAULT NULL,
-  `due_date` datetime DEFAULT NULL,
-  `status_id` int(11) DEFAULT '3',
+-- Dumping structure for table h2gh.queue
+CREATE TABLE IF NOT EXISTS `queue` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  `member_id` int(11) DEFAULT NULL,
+  `amount` double DEFAULT NULL,
+  `sort_order` int(11) DEFAULT NULL,
+  `description` varchar(255) DEFAULT NULL,
+  `status` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `FK_tax_tax_type` (`tax_type_id`),
-  KEY `FK_tax_tax_payer` (`tax_payer_id`),
-  KEY `FK_tax_status` (`status_id`),
-  CONSTRAINT `FK_tax_status` FOREIGN KEY (`status_id`) REFERENCES `status` (`id`),
-  CONSTRAINT `FK_tax_tax_payer` FOREIGN KEY (`tax_payer_id`) REFERENCES `tax_payer` (`id`),
-  CONSTRAINT `FK_tax_tax_type` FOREIGN KEY (`tax_type_id`) REFERENCES `tax_type` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+  KEY `idx_queues_deleted_at` (`deleted_at`),
+  KEY `idx_queues_member_id` (`member_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table taxmaster.tax: ~2 rows (approximately)
-/*!40000 ALTER TABLE `tax` DISABLE KEYS */;
-INSERT INTO `tax` (`id`, `tax_type_id`, `tax_payer_id`, `comment`, `amount`, `due_date`, `status_id`) VALUES
-	(1, 2, 1, 'dsff', 5500, NULL, 6),
-	(2, 2, 1, 'Another Tax', 5600, NULL, 3);
-/*!40000 ALTER TABLE `tax` ENABLE KEYS */;
-
--- Dumping structure for table taxmaster.tax_payer
-DROP TABLE IF EXISTS `tax_payer`;
-CREATE TABLE IF NOT EXISTS `tax_payer` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `tin` varchar(50) DEFAULT NULL,
-  `name` varchar(50) DEFAULT NULL,
-  `contact_name` varchar(50) DEFAULT NULL,
-  `contact_email` varchar(50) DEFAULT NULL,
-  `contact_phone_number` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
-
--- Dumping data for table taxmaster.tax_payer: ~4 rows (approximately)
-/*!40000 ALTER TABLE `tax_payer` DISABLE KEYS */;
-INSERT INTO `tax_payer` (`id`, `tin`, `name`, `contact_name`, `contact_email`, `contact_phone_number`) VALUES
-	(1, '0987894534', 'Solid Food', '', '', ''),
-	(2, '7658909872', 'Alpha Binto', '', '', ''),
-	(3, '0987894534', 'Solid Food', '', '', ''),
-	(4, '1234567890', 'Jude Nnadi', NULL, NULL, NULL);
-/*!40000 ALTER TABLE `tax_payer` ENABLE KEYS */;
-
--- Dumping structure for table taxmaster.tax_payment
-DROP TABLE IF EXISTS `tax_payment`;
-CREATE TABLE IF NOT EXISTS `tax_payment` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `tax_id` int(11) NOT NULL,
-  `amount_paid` float DEFAULT NULL,
-  `date` date DEFAULT NULL,
-  `status_id` int(11) NOT NULL DEFAULT '3',
-  PRIMARY KEY (`id`),
-  KEY `FK__tax_payment_tax` (`tax_id`),
-  KEY `FK_tax_payment_status` (`status_id`),
-  CONSTRAINT `FK__tax_payment_tax` FOREIGN KEY (`tax_id`) REFERENCES `tax` (`id`),
-  CONSTRAINT `FK_tax_payment_status` FOREIGN KEY (`status_id`) REFERENCES `status` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
-
--- Dumping data for table taxmaster.tax_payment: ~3 rows (approximately)
-/*!40000 ALTER TABLE `tax_payment` DISABLE KEYS */;
-INSERT INTO `tax_payment` (`id`, `tax_id`, `amount_paid`, `date`, `status_id`) VALUES
-	(1, 1, 5500, '2017-02-28', 3),
-	(2, 2, 5600, '2017-02-28', 3),
-	(3, 1, 5500, '2017-02-28', 3);
-/*!40000 ALTER TABLE `tax_payment` ENABLE KEYS */;
-
--- Dumping structure for table taxmaster.tax_type
-DROP TABLE IF EXISTS `tax_type`;
-CREATE TABLE IF NOT EXISTS `tax_type` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
-
--- Dumping data for table taxmaster.tax_type: ~3 rows (approximately)
-/*!40000 ALTER TABLE `tax_type` DISABLE KEYS */;
-INSERT INTO `tax_type` (`id`, `name`) VALUES
-	(1, 'VAT'),
-	(2, 'PAYE'),
-	(3, 'PTF');
-/*!40000 ALTER TABLE `tax_type` ENABLE KEYS */;
-
--- Dumping structure for table taxmaster.user_auth
-DROP TABLE IF EXISTS `user_auth`;
-CREATE TABLE IF NOT EXISTS `user_auth` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `first_name` varchar(128) DEFAULT NULL,
-  `last_name` varchar(128) DEFAULT NULL,
-  `email` varchar(256) DEFAULT NULL,
-  `password` varchar(28) DEFAULT NULL,
-  `hash_password` varchar(256) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
-
--- Dumping data for table taxmaster.user_auth: ~2 rows (approximately)
-/*!40000 ALTER TABLE `user_auth` DISABLE KEYS */;
-INSERT INTO `user_auth` (`id`, `first_name`, `last_name`, `email`, `password`, `hash_password`) VALUES
-	(1, 'Anthony', 'Ademu', 'a@b.c', '', '$2a$10$wdHhkMdI.M8g7z3.9icH1.0vKIXSZBrI52CUMy62LTZlqGC93PXkO'),
-	(2, 'Anthony', 'Ademu', 'anthonyademu@gmail.com', '', '$2a$10$lO8O7ZRXaeUdpeO4/Ks7depJdc3nUrlPymphPVrFPclj.q7ridcpW');
-/*!40000 ALTER TABLE `user_auth` ENABLE KEYS */;
+-- Dumping data for table h2gh.queue: ~0 rows (approximately)
+/*!40000 ALTER TABLE `queue` DISABLE KEYS */;
+/*!40000 ALTER TABLE `queue` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

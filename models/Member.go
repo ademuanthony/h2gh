@@ -1,23 +1,16 @@
 package models
 
-import "github.com/jinzhu/gorm"
-
 type Member struct {
-	gorm.Model
+	Id           	int64
+	Email        	string
+	Password     	string
+	HashPassword 	string
+	FirstName    	string
+	LastName     	string
+	PhoneNumber  	string
+	AccountName  	string
+	AccountNumber 	string
+	Status 		string
 
-	ReferralID int `gorm:"index"`
-
-	Name string
-	PhoneNumber string
-	Email string
-	Password string
-	EncryptedPassword string
-
-	BankID uint
-	AccountName string
-	AccountNumber string
-
-	Bank Bank `gorm:"ForeignKey:BankID;save_associations:false"`
-
-	Payments []Payment
+	Bank *Bank `orm:"rel(fk)"`
 }

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Loading Spinner */
+        .spinner{margin:0;width:70px;height:18px;margin:-35px 0 0 -9px;position:absolute;top:50%;
+        left:50%;text-align:center}.spinner > div{width:18px;height:18px;background-color:#333;
+        border-radius:100%;display:inline-block;-webkit-animation:bouncedelay 1.4s infinite ease-in-out;
+        animation:bouncedelay 1.4s infinite ease-in-out;-webkit-animation-fill-mode:both;
+        animation-fill-mode:both}.spinner .bounce1{-webkit-animation-delay:-.32s;
+        animation-delay:-.32s}.spinner .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}
+        @-webkit-keyframes
+         bouncedelay{0%,80%,100%{-webkit-transform:scale(0.0)}40%{-webkit-transform:scale(1.0)}}
+        @keyframes bouncedelay{0%,80%,100%{transform:scale(0.0);
+        -webkit-transform:scale(0.0)}40%{transform:scale(1.0);-webkit-transform:scale(1.0)}}
+    </style>
+    <meta charset="UTF-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title> {{.Title}} | Help 2 Get Help</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/monarch/assets/images/icons/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/monarch/assets/images/icons/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/monarch/assets/images/icons/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/static/monarch/assets/images/icons/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/static/monarch/assets/images/icons/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/static/monarch/assets-minified/frontend-all-demo.css">
+    <!-- JS Core -->
+    <script type="text/javascript" src="/static/monarch/assets-minified/js-core.js"></script>
+
+    <script type="text/javascript">
+    $(window).load(function(){
+        setTimeout(function() {
+            $('#loading').fadeOut( 400, "linear" );
+        }, 300);
+    });
+    </script>
+</head>
+<body>
+<div id="loading">
+    <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+</div>
+<div id="page-wrapper">
+    <div class="top-bar bg-topbar">
+        <div class="container">
+            <div class="float-left">
+                <a href="#" class="btn btn-sm bg-facebook tooltip-button" data-placement="bottom" title="Follow us on Facebook">
+                    <i class="glyph-icon icon-facebook"></i>
+                </a>
+                <a href="#" class="btn btn-sm bg-google tooltip-button" data-placement="bottom" title="Follow us on Google+">
+                    <i class="glyph-icon icon-google-plus"></i>
+                </a>
+                <a href="#" class="btn btn-sm bg-twitter tooltip-button" data-placement="bottom" title="Follow us on Twitter">
+                    <i class="glyph-icon icon-twitter"></i>
+                </a>
+                <a href="#" class="btn btn-top btn-sm" title="Give us a call">
+                    <i class="glyph-icon icon-phone"></i>
+                    +08034832738
+                </a>
+            </div>
+            <div class="float-right user-account-btn dropdown">
+                <a href="/dashboard" title="Go to your member area"
+                   class="btn btn-sm float-left btn-alt btn-hover mrg10R btn-default">
+                    <span>Go to Control Panel</span>
+                    <i class="glyph-icon icon-arrow-right"></i>
+                </a>
+                <a class="btn btn-sm float-left btn-alt btn-hover mrg10R btn-default" href="/login">Login</a>
+                <a  class="btn btn-sm float-left btn-alt btn-hover mrg10R btn-default"
+                    href="/register">Register</a>
+            </div>
+        </div><!-- .container -->
+    </div><!-- .top-bar -->
+    <div class="main-header wow fadeInDown bg-blue font-inverse">
+        <div class="container">
+            <a href="/" class="header-logo"
+               title="Home Page">Help 2 Get Help</a><!-- .header-logo -->
+
+            <ul class="header-nav collapse">
+                <li>
+                    <a href="/" title="Homepages">
+                        Homepages
+                        <i class="glyph-icon icon-home"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="How It Works">
+                        How It Works
+                        <i class="glyph-icon icon-info"></i>
+                    </a>
+                </li>
+            </ul><!-- .header-nav -->
+        </div><!-- .container -->
+    </div><!-- .main-header -->
+    <!-- Owl carousel -->
+    <!--<link rel="stylesheet" type="text/css" href="/static/monarch/assets/widgets/owlcarousel/owlcarousel.css">-->
+    <script type="text/javascript" src="/static/monarch/assets/widgets/owlcarousel/owlcarousel.js"></script>
+    <script type="text/javascript" src="/static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js"></script>
+
+
+
+    <div class="owl-slider-2 slider-wrapper">
+        <div class="poly-bg-1 hero-box font-inverse hero-box-smaller">
+            <div class="container clearfix">
+                <div class="col-md-4 img-holder wow fadeInUp">
+                    <img src="/static/img/Naira-vs-Dollar-330x242.jpg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="hero-heading wow fadeInDown" data-wow-duration="0.6s">Start Making Money</h1>
+                    <p class="hero-text wow bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.2s">
+                        Our members are making thousands in a matter of hours. Join a network that really pays
+                    </p>
+                    <a href="/register" class="btn-outline-inverse hero-btn wow fadeInUp"
+                       data-wow-delay="0.4s" title="Purchase Button">Register Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="poly-bg-1 hero-box font-inverse hero-box-smaller">
+            <div class="container clearfix">
+                <div class="col-md-4 img-holder wow fadeInUp">
+                    <img src="/static/img/Naira-vs-Dollar-330x242.jpg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="hero-heading wow fadeInDown" data-wow-duration="0.6s">Robust Referral System</h1>
+                    <p class="hero-text wow bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.2s">
+                        You will make 5000 Naira everytime your downline make a donation. That is alot of money
+                    </p>
+                    <a href="/register" class="btn-outline-inverse hero-btn wow fadeInUp"
+                       data-wow-delay="0.4s" title="Purchase Button">Register Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="poly-bg-1 hero-box font-inverse hero-box-smaller">
+            <div class="container clearfix">
+                <div class="col-md-4 img-holder wow fadeInUp">
+                    <img src="/static/img/Naira-vs-Dollar-330x242.jpg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="hero-heading wow fadeInDown" data-wow-duration="0.6s">Give Help & Get Help</h1>
+                    <p class="hero-text wow bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.2s">
+                        Give a helping Hand And get a Helping hand. Make money by helping someone with your spare money.
+                        Join the winning team
+                    </p>
+                    <a href="/register" class="btn-outline-inverse hero-btn wow fadeInUp"
+                       data-wow-delay="0.4s" title="Purchase Button">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="large-padding pad25A" id="howItWorks">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>How it works</h3>
+                <ul>
+                    <li>Join the system using a Member's referral Code</li>
+                    <li>Make a Donation of 20,000 Naira</li>
+                    <li>The system gives you <span class="font-red">12 hours</span> to pay your beneficiary</li>
+                    <li>The system matches you with two people within 12 hours to 7 days</li>
+                    <li>You will be paid 35,000 (20,000 and 15,000)</li>
+                </ul>
+
+                <h4>Make money from referral</h4>
+                <p>The system is built to reward the members as muche as possible</p>
+                <ul>
+                    <li>Share your referral code and get people to register under you</li>
+                    <li>Make 5000 naira <span class="font-red">everytime</span> they make a donation</li>
+                </ul>
+                <p>If your downline make a pledge of 20000, he is paid 35000 and you are paid 5000</p>
+            </div>
+
+            <div class="col-md-4 col-md-offset-1">
+                <div class="icon-box icon-box-offset-large bg-default content-box icon-boxed" style="margin-top: 75px;">
+                    <i class="icon-large glyph-icon bg-white border-default btn-border icon-linecons-clock wow bounceInDown" data-wow-delay="1s"></i>
+                    <h3 class="text-transform-upr icon-title wow fadeInUp">Donation 20000</h3>
+                    <p class="icon-content wow fadeInUp">
+                        Donate 20000 and get 35000. Its that easy<br />
+                        <a class="btn btn-block btn-danger" href="/register">Register</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="large-padding pad25B">
+        <div class="container pad25B row">
+
+        </div>
+    </div>
+    <style>
+    .hero-box-smaller .owl-pagination {
+        display: none;
+    }
+</style>
+
+    <div class="cta-box-btn bg-yellow">
+        <div class="container">
+            <a href="/register" class="btn btn-success" title="">
+                Join our team
+                <span>It takes less than 2 minutes to get everything set up.</span>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="main-footer bg-gradient-4 clearfix">
+        <div class="footer-pane">
+            <div class="container clearfix">
+                <div class="logo">&copy; 2017 H2GH. All Rights Reserved.</div>
+                <div class="footer-nav-bottom">
+                    <a href="/" title="Home">Home Page</a>
+                    <a href="#" title="Layout">How It Works</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JS Demo -->
+<script type="text/javascript" src="/static/monarch/assets-minified/frontend-all-demo.js"></script>
+</body>
+</html>

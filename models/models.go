@@ -6,32 +6,15 @@ import (
 	"time"
 )
 
-var(
-	StatusActive int = 1
-	StatusInactive int = 2
-	StatusPending int = 3
-	StatusApproved int = 4
-	StatusRejected int = 5
-	StatusPaid = 6
-)
 
 func init() {
-	orm.RegisterModel(new(UserAuth), new(TaxType), new(TaxPayer), new(Tax), new(TaxPayment), new(Status), new(PublicPayment))
+	orm.RegisterModel(new(Member), new(Bank))
 
 	// set default database
 	orm.RegisterDataBase("default", "mysql", "root:0000@/h2gh?charset=utf8", 30)
 }
 
 type(
-	UserAuth struct {
-		Id int
-		Email string
-		Password string
-		HashPassword string
-		FirstName string
-		LastName string
-	}
-
 	Status struct {
 		Id int
 		Text string

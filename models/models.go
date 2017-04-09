@@ -8,7 +8,7 @@ import (
 
 
 func init() {
-	orm.RegisterModel(new(Member), new(Bank))
+	orm.RegisterModel(new(Member), new(Bank), new(Queue), new(Payment))
 
 	// set default database
 	orm.RegisterDataBase("default", "mysql", "root:0000@/h2gh?charset=utf8", 30)

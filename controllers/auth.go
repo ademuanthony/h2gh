@@ -6,6 +6,8 @@ import (
 	"github.com/ademuanthony/h2gh/models"
 	"golang.org/x/crypto/bcrypt"
 	"fmt"
+	"strconv"
+	"github.com/ademuanthony/h2gh/services"
 )
 
 type AuthController struct {
@@ -54,6 +56,7 @@ func (this *AuthController) Logout() {
 
 func (this *AuthController) Register() {
 	o := orm.NewOrm()
+	o.Begin()
 
 	flash := beego.NewFlash()
 	flash.Store(&this.Controller)
@@ -87,6 +90,24 @@ func (this *AuthController) Register() {
 		if err != nil {
 			fmt.Printf("NUM: ERR: %v\n", err)
 		}
+
+		referralCode := this.GetString("ReferralCode")
+		if referralCode != ""{
+			id, err := strconv.ParseInt(referralCode[4:], 10, 64)
+			if err != nil{
+				flash.Error("Invalid referral Code")
+				this.Data["Member"] = user
+				return
+			}
+			if ok := o.QueryTable(new(models.Member)).Filter("id", id).Exist(); !ok{
+				flash.Error("Invalid referral Code")
+				this.Data["Member"] = user
+				return
+			}
+			user.ReferralId = id
+
+		}
+
 		user.HashPassword = string(hashedPassword)
 		user.Password = ""
 		user.Status = models.StatusActive
@@ -97,12 +118,22 @@ func (this *AuthController) Register() {
 		user.Bank = bank
 		id, err := o.Insert(&user)
 		if err != nil{
+			o.Rollback()
 			fmt.Printf("NUM: ERR: %v\n", err)
 			flash.Error("Error in creating account. Please try again later")
 			this.Data["Member"] = user
 			return
 		}
 
+		// pair new user to make payment
+		service := services.Peer2PeerService{O: o}
+		err = service.CreatePayment(id)
+
+		if err != nil{
+			panic(err)
+		}
+
+		o.Commit()
 		this.SetSession("uid", user.Id)
 		beego.BeeLogger.Error("Inserted id, " + string(id))
 		this.Ctx.Redirect(302, "/dashboard")

@@ -11,6 +11,7 @@ func (this *DashboardController) Index()  {
 	flash.Store(&this.Controller)
 
 	this.Data["Title"] = "Dashboard"
+	this.Data["DashboardActive"] = "active"
 
 	this.Layout = "shared/layout.html"
 

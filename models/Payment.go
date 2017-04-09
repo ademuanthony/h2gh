@@ -1,26 +1,27 @@
 package models
 
 import (
-	"github.com/jinzhu/gorm"
 	"time"
 )
 
 type Payment struct {
-	gorm.Model
+	Id int64
 
+	CreatedAt time.Time
 	// Id of the user that is receiving the payment
-	MemberId   uint `gorm:"index"`
-	Member     Member
+	//MemberId   int64 `orm:"rel(fk)"`
+	ToMember     *Member `orm:"rel(fk)"`
 
 	// Id of the user that is making the payment
-	FromMemberId uint
+	//FromMemberId int64 `orm:"rel(fk)"`
+	FromMember *Member `orm:"rel(fk)"`
 
 	// Payment amount [5000 for referral bonus and 15000 for rebate]
 	Amount       float64
 
 	Description  string
 
-	QueueId      uint `gorm:"index"`
+	QueueId      int64 `gorm:"index"`
 
 	Status       string
 

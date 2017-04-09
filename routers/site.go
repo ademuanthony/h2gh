@@ -8,6 +8,13 @@ import (
 func setSiteRoute() {
 	beego.Router("/", &controllers.MainController{})
 
+
 	beego.Router("/dashboard",&controllers.DashboardController{},"*:Index")
+
+	beego.Router("/payment/confirm",&controllers.PaymentController{},"*:Confirm")
+
+	beego.Router("/account",&controllers.AccountController{},"*:Index")
+
+	beego.Router("/account/change-password",&controllers.AccountController{},"*:ChangePassword")
 
 }

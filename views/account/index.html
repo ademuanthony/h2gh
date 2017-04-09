@@ -1,0 +1,124 @@
+<h1 class="page-title"> H2GH
+    <small>My Profile</small>
+</h1>
+<div class="page-bar">
+    <ul class="page-breadcrumb">
+        <li>
+            <i class="icon-home"></i>
+            <a href="/dashboard">Home</a>
+            <i class="fa fa-angle-right"></i>
+        </li>
+        <li>
+            <span>My Profile</span>
+        </li>
+    </ul>
+</div>
+<!-- END PAGE HEADER-->
+
+{{if .flash.error}}
+<blockquote>{{.flash.error}}</blockquote>
+{{end}}
+{{if .flash.success}}
+<blockquote>{{.flash.success}}</blockquote>
+{{end}}
+
+<div class="row">
+
+    <div class="col-md-4">
+        <!-- BEGIN SAMPLE FORM PORTLET-->
+        <div class="portlet light ">
+            <div class="portlet-title">
+                <div class="caption font-green">
+                    <i class="icon-pin font-green"></i>
+                    <span class="caption-subject bold uppercase"> Account Details</span>
+                </div>
+            </div>
+            <div class="portlet-body form">
+                <table class="table" style="min-height:361px">
+                    <tr>
+                        <td>Name</td>
+                        <td>{{.CurrentMember.FirstName}} {{.CurrentMember.LastName}}</td>
+                    </tr>
+
+                    <tr>
+                        <td>Phone Number</td>
+                        <td>{{.CurrentMember.PhoneNumber}}</td>
+                    </tr>
+                    <tr>
+                        <td>Email Address</td>
+                        <td>{{.CurrentMember.Email}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- END SAMPLE FORM PORTLET-->
+    </div>
+
+    <div class="col-md-4">
+        <!-- BEGIN SAMPLE FORM PORTLET-->
+        <div class="portlet light ">
+            <div class="portlet-title">
+                <div class="caption font-green">
+                    <i class="icon-pin font-green"></i>
+                    <span class="caption-subject bold uppercase"> Bank Details</span>
+                </div>
+            </div>
+            <div class="portlet-body form">
+                <table class="table" style="min-height:361px">
+                    <tr>
+                        <td>Bank</td>
+                        <td>{{.CurrentMember.Bank.Name}}</td>
+                    </tr>
+                    <tr>
+                        <td>Account Name</td>
+                        <td>{{.CurrentMember.AccountName}}</td>
+                    </tr>
+
+                    <tr>
+                        <td>Account Number</td>
+                        <td>{{.CurrentMember.AccountNumber}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- END SAMPLE FORM PORTLET-->
+    </div>
+
+    <div class="col-md-4">
+        <!-- BEGIN SAMPLE FORM PORTLET-->
+        <div class="portlet light ">
+            <div class="portlet-title">
+                <div class="caption font-green">
+                    <i class="icon-pin font-green"></i>
+                    <span class="caption-subject bold uppercase"> Change Password</span>
+                </div>
+            </div>
+            <div class="portlet-body form">
+                <form method="POST" role="form" action="/account/change-password">
+                    <div class="form-body">
+                        <div class="form-group form-md-line-input form-md-floating-label">
+                            <input required type="password" class="form-control" name="CurrentPassword">
+                            <label>Current Password</label>
+                            <span class="help-block">Enter the current password</span>
+                        </div>
+                        <div class="form-group form-md-line-input form-md-floating-label">
+                            <input required type="password" class="form-control" name="NewPassword">
+                            <label>New Password</label>
+                            <span class="help-block">Re-enter the new password</span>
+                        </div>
+                        <div class="form-group form-md-line-input form-md-floating-label">
+                            <input required type="password" class="form-control" name="ConfirmPassword">
+                            <label>Confirm Password</label>
+                            <span class="help-block">Re-enter the new password</span>
+                        </div>
+                    </div>
+                    <div class="form-actions noborder">
+                        <button type="submit" class="btn blue">Change Password</button>
+                        <button type="reset" class="btn default">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- END SAMPLE FORM PORTLET-->
+    </div>
+</div>

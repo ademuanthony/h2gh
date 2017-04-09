@@ -1,0 +1,285 @@
+<!-- BEGIN PAGE HEADER-->
+
+<h1 class="page-title"> Help 2 Get Help
+    <small>Dashboard</small>
+</h1>
+<div class="page-bar">
+    <ul class="page-breadcrumb">
+        <li>
+            <i class="icon-home"></i>
+            <a href="/dashboard">Home</a>
+            <i class="fa fa-angle-right"></i>
+        </li>
+        <li>
+            <span>Dashboard</span>
+        </li>
+    </ul>
+</div>
+
+<div class="row">
+
+
+    <script>
+
+        function getTimeRemaining(endtime) {
+          var t = Date.parse(endtime) - Date.parse(new Date());
+          var seconds = Math.floor((t / 1000) % 60);
+          var minutes = Math.floor((t / 1000 / 60) % 60);
+          var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+          var days = Math.floor(t / (1000 * 60 * 60 * 24));
+          return {
+            'total': t,
+            'days': days,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds
+          };
+        }
+
+        function initializeClock(id, endtime) {
+          var clock = document.getElementById(id);
+          var daysSpan = clock.querySelector('.days');
+          var hoursSpan = clock.querySelector('.hours');
+          var minutesSpan = clock.querySelector('.minutes');
+          var secondsSpan = clock.querySelector('.seconds');
+
+          function updateClock() {
+            var t = getTimeRemaining(endtime);
+
+            daysSpan.innerHTML = "0" + t.days;
+            hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+            if (t.total <= 0) {
+              clearInterval(timeinterval);
+            }
+          }
+
+          updateClock();
+          var timeinterval = setInterval(updateClock, 1000);
+        }
+
+
+    </script>
+
+    {{range $pendingPayment := .PendingPayments}}
+    <div class="col-md-6">
+        <div class="portlet light portlet-fit ">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class=" icon-layers font-green"></i>
+                    <span class="caption-subject font-green bold uppercase">Pending Payment</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div style="    background-color: darkred; min-height: 215px; color: white; padding: 16px 60px;">
+                            <h4>Pay BEFORE</h4>
+
+                            <style>
+                            #clockdiv{{$pendingPayment.Id}}{
+                            font-family: sans-serif;
+                            color: #fff;
+                            display: inline-block;
+                            font-weight: 100;
+                            text-align: center;
+                            font-size: 30px;
+                        }
+
+                        #clockdiv{{$pendingPayment.Id}} > div{
+                            padding: 10px;
+                            border-radius: 3px;
+                            background: #00BF96;
+                            display: inline-block;
+                        }
+
+                        #clockdiv{{$pendingPayment.Id}} div > span{
+                            padding: 15px;
+                            border-radius: 3px;
+                            background: #00816A;
+                            display: inline-block;
+                        }
+
+                        .smalltext{
+                            padding-top: 5px;
+                            font-size: 16px;
+                        }
+                        </style>
+
+
+                            <div id="clockdiv{{$pendingPayment.Id}}" class="row">
+                                <div class="col-md-3 col-sm-6">
+                                    <span class="days"></span>
+                                    <div class="smalltext">Days</div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <span class="hours"></span>
+                                    <div class="smalltext">Hours</div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <span class="minutes"></span>
+                                    <div class="smalltext">Minutes</div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <span class="seconds"></span>
+                                    <div class="smalltext">Seconds</div>
+                                </div>
+                            </div>
+
+                            <p style="color:white">To Avoid Account Termination</p>
+
+                            <script>
+                                var deadline = new Date({{$pendingPayment.PenaltyTime}});
+                                initializeClock('clockdiv{{$pendingPayment.Id}}', deadline);
+                            </script>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <p>Name: {{$pendingPayment.ToMember.FirstName}} {{$pendingPayment.ToMember.LastName}} </p>
+                        <p>Phone Number: {{$pendingPayment.ToMember.PhoneNumber}}</p>
+                        <p>Phone Number: {{$pendingPayment.Amount}}</p>
+                        <p>Bank: {{$pendingPayment.ToMember.Bank.Name}}</p>
+                        <p>Account Name: {{$pendingPayment.ToMember.AccountName}}</p>
+                        <p>Account Number: {{$pendingPayment.ToMember.AccountNumber}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    {{end}}
+
+
+</div>
+
+<!-- BEGIN DASHBOARD STATS 1-->
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <a class="dashboard-stat dashboard-stat-v2 red" href="#">
+            <div class="visual">
+                <i class="fa fa-bar-chart-o"></i>
+            </div>
+            <div class="details">
+                <div class="number">
+                    <span data-counter="counterup" data-value="{{.TotalPayment}}">{{.TotalDonation}}</span> </div>
+                <div class="desc"> Total Donation </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <a class="dashboard-stat dashboard-stat-v2 red" href="#">
+            <div class="visual">
+                <i class="fa fa-bar-chart-o"></i>
+            </div>
+            <div class="details">
+                <div class="number">
+                    <span data-counter="counterup" data-value="{{.PendingPayment}}">{{.TotalRebate}}</span> </div>
+                <div class="desc"> Rebate Received </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <a class="dashboard-stat dashboard-stat-v2 green" href="#">
+            <div class="visual">
+                <i class="fa fa-shopping-cart"></i>
+            </div>
+            <div class="details">
+                <div class="number">
+                    <span data-counter="counterup" data-value="{{.ConfirmedPayment}}">{{.TotalBonus}}</span>
+                </div>
+                <div class="desc"> Total Bonus </div>
+            </div>
+        </a>
+    </div>
+
+</div>
+<div class="clearfix"></div>
+<!-- END DASHBOARD STATS 1-->
+<!-- BEGIN : GOOGLE PIE CHARTS -->
+<div class="row">
+    <div class="col-md-6">
+        <div class="portlet light portlet-fit ">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class=" icon-layers font-green"></i>
+                    <span class="caption-subject font-green bold uppercase">Pending Confirmations</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Phone Number</th>
+                            <th>Amount</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    {{range $payment := .PendingConfirmations}}
+                    <tr>
+                        <td>
+                            {{$payment.FromMember.FirstName}} {{$payment.FromMember.LastName}}
+                        </td>
+                        <td>
+                            {{$payment.FromMember.PhoneNumber}}
+                        </td>
+                        <td>{{$payment.Amount}}</td>
+                        <td>
+                            <a class="btn btn-success" href="/payment/confirm?paymentId={{$payment.Id}}">Confirm</a>
+                        </td>
+                    </tr>
+                    {{end}}
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="col-md-6">
+        <div class="portlet light portlet-fit ">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class=" icon-layers font-green"></i>
+                    <span class="caption-subject font-green bold uppercase">Payments Received</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Phone Number</th>
+                        <th>Amount</th>
+                        <th>Description</th>
+                    </tr>
+                    </thead>
+                    {{range $payment := .PaymentsReceived}}
+                    <tr>
+                        <td>
+                            {{$payment.FromMember.FirstName}} {{$payment.FromMember.LastName}}
+                        </td>
+                        <td>
+                            {{$payment.FromMember.PhoneNumber}}
+                        </td>
+                        <td>{{$payment.Amount}}</td>
+                        <td>{{$payment.Description}}</td>
+                    </tr>
+                    {{end}}
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="clearfix"></div>
+<!-- BEGIN : GOOGLE PIE CHARTS -->
+
+

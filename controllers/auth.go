@@ -37,12 +37,12 @@ func (this *AuthController) Login()  {
 		}
 
 
-		if err := bcrypt.CompareHashAndPassword([]byte(user.HashPassword), []byte(password)); err != nil{
+		if err := bcrypt.CompareHashAndPassword([]byte(user.HashPassword), []byte(password)); err == nil{
 			this.SetSession("uid", user.Id)
-			fmt.Printf("User Id: %v\n", user.Id)
 			this.Redirect("/dashboard", 302)
 			return
 		}
+
 		flash.Error("Invalid credetial p")
 		flash.Store(&this.Controller)
 	}
@@ -130,7 +130,10 @@ func (this *AuthController) Register() {
 		err = service.CreatePayment(id)
 
 		if err != nil{
-			panic(err)
+			o.Rollback()
+			flash.Error("Error in creating account. Please try again later")
+			this.Data["Member"] = user
+			return
 		}
 
 		o.Commit()

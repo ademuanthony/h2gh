@@ -19,7 +19,6 @@ func (this Peer2PeerService) CreatePayment(fromMemberId int64) error {
 	var rebateQueue models.Queue
 	err := this.O.QueryTable(new(models.Queue)).Filter("amount", 15000).Filter("status", models.StatusPending).RelatedSel().OrderBy("sort_order").One(&rebateQueue)
 	if err != nil{
-		panic(err)
 		return errors.New("No one is on queue to receive payment")
 	}
 	var payment models.Payment

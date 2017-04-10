@@ -93,6 +93,11 @@ func (this *AuthController) Register() {
 
 		referralCode := this.GetString("ReferralCode")
 		if referralCode != ""{
+			if len(referralCode) != 8{
+				flash.Error("Invalid referral Code")
+				this.Data["Member"] = user
+				return
+			}
 			id, err := strconv.ParseInt(referralCode[4:], 10, 64)
 			if err != nil{
 				flash.Error("Invalid referral Code")

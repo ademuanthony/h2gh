@@ -78,13 +78,13 @@
                         <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
                         <label>First Name</label>
                         <input required class="form-control form-control-solid placeholder-no-fix" type="text"
-                               autocomplete="off" name="FirstName" />
+                               value="{{.Member.FirstName}}" name="FirstName" />
                     </div>
                     <div class="form-group col-md-6">
                         <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
                         <label>Last Name</label>
                         <input required class="form-control form-control-solid placeholder-no-fix" type="text"
-                               autocomplete="off" name="LastName" />
+                               value="{{.Member.LastName}}" name="LastName" />
                     </div>
                 </div>
 
@@ -94,13 +94,13 @@
                         <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
                         <label>Phone Number</label>
                         <input required class="form-control form-control-solid placeholder-no-fix" type="text"
-                               autocomplete="off" name="PhoneNumber" />
+                               value="{{.Member.PhoneNumber}}" name="PhoneNumber" />
                     </div>
                     <div class="form-group col-md-6">
                         <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
                         <label>Email</label>
                         <input required class="form-control form-control-solid placeholder-no-fix" type="email"
-                               autocomplete="off" name="Email" />
+                               value="{{.Member.Email}}" name="Email" />
                     </div>
                 </div>
 
@@ -125,7 +125,7 @@
                         <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
                         <label>Referral Code</label>
                         <input class="form-control form-control-solid placeholder-no-fix" type="text"
-                               name="ReferralCode" />
+                               name="ReferralCode" value="{{.ReferralCode}}" />
                     </div>
 
                     <div class="form-group col-md-6">
@@ -133,7 +133,7 @@
                         <select class="form-control" name="BankId">
                             <option value=""></option>
                             {{range $bank := .Banks}}
-                            <option value="{{$bank.Id}}">{{$bank.Name}}</option>
+                            <option {{ if $bank.Selected }} selected {{ end }} value="{{$bank.Id}}">{{$bank.Text}}</option>
                             {{end}}
                         </select>
                     </div>
@@ -146,13 +146,13 @@
                         <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
                         <label>Account Name</label>
                         <input class="form-control form-control-solid placeholder-no-fix" type="text"
-                               name="AccountName" />
+                               name="AccountName" value="{{.Member.AccountName}}" />
                     </div>
                     <div class="form-group col-md-6">
                         <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
                         <label>Account Number</label>
                         <input class="form-control form-control-solid placeholder-no-fix" type="text"
-                               name="AccountNumber" />
+                               name="AccountNumber" value="{{.Member.AccountNumber}}" />
                     </div>
                 </div>
 

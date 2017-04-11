@@ -27,7 +27,10 @@ func (this *DashboardController) Index()  {
 	o := orm.NewOrm()
 	accountService := services.AccountService{O:o}
 
-	this.Data["CurrentMember"], _ = accountService.GetMemberById(currentUserId)
+	currentMember, _ := accountService.GetMemberById(currentUserId)
+
+	this.Data["CurrentMember"] = currentMember;
+	this.Data["ReferralCode"] = currentMember.GetReferralCode()
 
 	var pendingPayments []models.Payment
 	_,err := o.QueryTable(new(models.Payment)).Filter("from_member_id", currentUserId).Filter("status", models.StatusPending).RelatedSel().All(&pendingPayments)

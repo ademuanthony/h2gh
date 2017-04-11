@@ -767,3 +767,20 @@ Thank you for confirming the payment. You have been requeued for another payment
 2017/04/11 03:30:30 [1;34m[D] [server.go:2202] |   129.56.10.29|[47m 307 [0m|   6.989956ms|   match|[44m GET     [0m /payment/confirm   r:/payment/confirm[0m
 2017/04/11 03:30:30 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|   5.355002ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
 2017/04/11 03:36:50 [1;34m[D] [server.go:2202] |   66.249.64.31|[42m 200 [0m|    862.421µs|   match|[44m GET     [0m /     r:/[0m
+github.com/ademuanthony/h2gh/dto
+github.com/ademuanthony/h2gh/services
+github.com/ademuanthony/h2gh/controllers
+github.com/ademuanthony/h2gh/routers
+github.com/ademuanthony/h2gh
+2017/04/11 03:46:39 [32m[1mSUCCESS [21m[0m ▶ 0006 Built Successfully!
+2017/04/11 03:46:39 [34m[1mINFO    [21m[0m ▶ 0007 Restarting 'h2gh'...
+2017/04/11 03:46:39 [32m[1mSUCCESS [21m[0m ▶ 0008 './h2gh' is running...
+2017/04/11 03:46:39 [1;34m[I] [asm_amd64.s:2086] http server Running on http://:80[0m
+2017/04/11 03:46:39 [32m[1mSUCCESS [21m[0m ▶ 0009 Built Successfully!
+2017/04/11 03:46:39 [34m[1mINFO    [21m[0m ▶ 0010 Restarting 'h2gh'...
+2017/04/11 03:46:39 [32m[1mSUCCESS [21m[0m ▶ 0011 './h2gh' is running...
+2017/04/11 03:46:39 [1;34m[I] [asm_amd64.s:2086] http server Running on http://:80[0m
+2017/04/11 03:46:40 [32m[1mSUCCESS [21m[0m ▶ 0012 Built Successfully!
+2017/04/11 03:46:40 [34m[1mINFO    [21m[0m ▶ 0013 Restarting 'h2gh'...
+2017/04/11 03:46:40 [32m[1mSUCCESS [21m[0m ▶ 0014 './h2gh' is running...
+2017/04/11 03:46:40 [1;34m[I] [asm_amd64.s:2086] http server Running on http://:80[0m

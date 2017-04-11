@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"strconv"
 	"github.com/ademuanthony/h2gh/services"
+	"github.com/ademuanthony/h2gh/dto"
 )
 
 type AuthController struct {
@@ -67,8 +68,13 @@ func (this *AuthController) Register() {
 		panic(err)
 	}
 
-	this.Data["Banks"] = banks
+	this.Data["Banks"] = buildBankOptions(0, banks)
 	this.Data["Title"] = "Create Account"
+
+	fmt.Printf("Banks: %v\n", this.Data["Banks"])
+
+	//get referral code url
+	this.Data["ReferralCode"] = this.GetString("ReferralCode")
 
 	this.TplName = "auth/register.html";
 
@@ -79,10 +85,28 @@ func (this *AuthController) Register() {
 			fmt.Printf("NUM: ERR: %v\n", err)
 		}
 
+		bankId, err := this.GetInt64("BankId")
+		if err != nil{
+			fmt.Printf("NUM: ERR: %v\n", err)
+			flash.Error("Please select your bank")
+			this.Data["Member"] = user
+			return
+		}
+
+		this.Data["Banks"] = buildBankOptions(bankId, banks)
+
+
 		if this.GetString("ConfirmPassword") != user.Password{
 			fmt.Printf("NUM: ERR: %v\n", err)
 			flash.Error("Password and Confirm password must be the same")
 			this.Data["Member"] = user
+			return
+		}
+
+		//check email duplicate
+		if o.QueryTable(new(models.Member)).Filter("email", user.Email).Exist() {
+			flash.Error("The selected email has already been taken");
+			this.Data["Member"] = user;
 			return
 		}
 
@@ -92,7 +116,14 @@ func (this *AuthController) Register() {
 		}
 
 		referralCode := this.GetString("ReferralCode")
+		this.Data["ReferralCode"] = referralCode
+
 		if referralCode != ""{
+			if len(referralCode) != 8{
+				flash.Error("Invalid referral Code")
+				this.Data["Member"] = user
+				return
+			}
 			id, err := strconv.ParseInt(referralCode[4:], 10, 64)
 			if err != nil{
 				flash.Error("Invalid referral Code")
@@ -112,7 +143,6 @@ func (this *AuthController) Register() {
 		user.Password = ""
 		user.Status = models.StatusActive
 
-		bankId, _ := this.GetInt64("BankId")
 		bank := &models.Bank{Id:bankId}
 
 		user.Bank = bank
@@ -143,4 +173,16 @@ func (this *AuthController) Register() {
 	}
 
 
+}
+
+func buildBankOptions(selectedBankId int64, banks []models.Bank) []dto.Option {
+	var options = make([]dto.Option, len(banks))
+	for index, bank := range banks{
+		option := dto.Option{Id:bank.Id, Text:bank.Name}
+		if selectedBankId == bank.Id{
+			option.Selected = true
+		}
+		options[index] = option
+	}
+	return options
 }

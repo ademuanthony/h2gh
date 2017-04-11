@@ -1,0 +1,769 @@
+[35m[1m______
+| ___ \
+| |_/ /  ___   ___
+| ___ \ / _ \ / _ \
+| |_/ /|  __/|  __/
+\____/  \___| \___| v1.8.1
+[21m[0m2017/04/09 21:32:00 [34m[1mINFO    [21m[0m ▶ 0001 Using 'h2gh' as 'appname'
+2017/04/09 21:32:00 [34m[1mINFO    [21m[0m ▶ 0002 Initializing watcher...
+2017/04/09 21:32:01 [32m[1mSUCCESS [21m[0m ▶ 0003 Built Successfully!
+2017/04/09 21:32:01 [34m[1mINFO    [21m[0m ▶ 0004 Restarting 'h2gh'...
+2017/04/09 21:32:01 [32m[1mSUCCESS [21m[0m ▶ 0005 './h2gh' is running...
+2017/04/09 21:32:01 [1;34m[I] [asm_amd64.s:2086] http server Running on http://:80[0m
+2017/04/09 21:32:47 [1;34m[D] [server.go:2202] |  154.66.57.189|[42m 200 [0m|   1.497083ms|   match|[44m GET     [0m /     r:/[0m
+2017/04/09 21:32:48 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|    2.23158ms|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/09 21:32:48 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     77.048µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/04/09 21:32:48 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|    325.829µs|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/04/09 21:32:48 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|    114.476µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/04/09 21:32:48 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|    197.785µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/04/09 21:32:48 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|    110.358µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/04/09 21:32:48 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     105.13µs|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/04/09 21:32:48 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 302 [0m|     55.394µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/09 21:32:48 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     72.738µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/04/09 21:32:49 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|    239.567µs|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/04/09 21:32:49 [1;34m[D] [server.go:2202] |  154.66.57.189|[42m 200 [0m|    803.462µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/09 21:33:06 [1;34m[D] [server.go:2202] |  154.66.57.189|[42m 200 [0m|    879.872µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/09 21:33:06 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     75.979µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/09 21:33:06 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     34.071µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/09 21:33:06 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     45.366µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2.min.css[0m
+2017/04/09 21:33:06 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     84.432µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/09 21:33:06 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     66.293µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/09 21:33:06 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|   1.009124ms|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/09 21:33:06 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|      84.17µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2-bootstrap.min.css[0m
+2017/04/09 21:33:06 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     110.27µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     51.922µs|   match|[44m GET     [0m /static/assets/pages/css/login-2.min.css[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     66.825µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.min.js[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     64.368µs|   match|[44m GET     [0m /static/assets/global/plugins/js.cookie.min.js[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     49.407µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     73.323µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/jquery.validate.min.js[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     39.114µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     46.411µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.blockui.min.js[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|      61.06µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/js/bootstrap.min.js[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|    103.872µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/additional-methods.min.js[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     98.139µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/js/select2.full.min.js[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     51.189µs|   match|[44m GET     [0m /static/assets/global/scripts/app.min.js[0m
+2017/04/09 21:33:07 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     48.636µs|   match|[44m GET     [0m /static/assets/pages/scripts/login.min.js[0m
+2017/04/09 21:38:27 [1;34m[D] [server.go:2202] |  197.210.24.77|[42m 200 [0m|     924.09µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/09 21:38:28 [1;34m[D] [server.go:2202] |  197.210.24.77|[42m 200 [0m|    119.942µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/04/09 21:38:29 [1;34m[D] [server.go:2202] | 197.210.25.160|[42m 200 [0m|     72.422µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/04/09 21:38:33 [1;34m[D] [server.go:2202] |  197.210.25.19|[42m 200 [0m| 3.906244875s|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/04/09 21:38:36 [1;34m[D] [server.go:2202] |  197.210.25.19|[42m 200 [0m| 241.914877ms|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/04/09 21:38:42 [1;34m[D] [server.go:2202] |  197.210.24.77|[42m 200 [0m|14.413999856s|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/09 21:38:44 [1;34m[D] [server.go:2202] |  197.210.24.77|[42m 200 [0m|     96.937µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/04/09 21:38:46 [1;34m[D] [server.go:2202] |  197.210.24.77|[42m 200 [0m|     85.682µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/04/09 21:38:46 [1;34m[D] [server.go:2202] |  197.210.24.77|[47m 302 [0m|     40.036µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/09 21:38:47 [1;34m[D] [server.go:2202] |  197.210.24.77|[42m 200 [0m|    749.805µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/09 21:38:50 [1;34m[D] [server.go:2202] | 197.210.25.160|[42m 200 [0m| 4.048003832s|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/04/09 21:38:52 [1;34m[D] [server.go:2202] |  197.210.25.19|[42m 200 [0m| 4.288308324s|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/04/09 21:38:54 [1;34m[D] [server.go:2202] |  197.210.25.19|[42m 200 [0m|    110.644µs|   match|[44m GET     [0m /static/monarch/assets/images/icons/apple-touch-icon-144-precomposed.png[0m
+2017/04/09 21:38:55 [1;34m[D] [server.go:2202] |  197.210.24.77|[42m 200 [0m|    105.348µs|   match|[44m GET     [0m /static/monarch/assets/images/icons/favicon.png[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] the request url is  /register[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] Handler crashed with error Error 1146: Table 'h2gh.bank' doesn't exist[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] /root/projects/go/src/github.com/ademuanthony/h2gh/controllers/auth.go:67[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/reflect/value.go:434[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/reflect/value.go:302[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] /root/projects/go/src/github.com/astaxie/beego/router.go:809[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579[0m
+2017/04/09 21:39:02 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086[0m
+2017/04/09 21:39:08 [1;34m[D] [server.go:2202] |  197.210.24.77|[47m 302 [0m|     53.758µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/04/09 21:39:09 [1;34m[D] [server.go:2202] |  197.210.24.77|[42m 200 [0m|    835.777µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/09 21:39:09 [1;34m[D] [server.go:2202] |  197.210.25.19|[42m 200 [0m|    843.254µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/09 21:39:19 [1;34m[D] [server.go:2202] |  197.210.25.19|[42m 200 [0m| 9.038909179s|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/09 21:39:34 [1;34m[D] [server.go:2202] |  197.210.25.19|[42m 200 [0m|    107.968µs|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/04/09 21:39:34 [1;34m[D] [server.go:2202] | 197.210.25.160|[47m 302 [0m|     48.211µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/09 21:39:35 [1;34m[D] [server.go:2202] |  197.210.25.19|[42m 200 [0m|    101.274µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/04/09 21:39:35 [1;34m[D] [server.go:2202] | 197.210.25.160|[42m 200 [0m|    838.195µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/09 21:39:50 [1;34m[D] [server.go:2202] | 197.210.25.160|[42m 200 [0m| 15.35702072s|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] the request url is  /register[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] Handler crashed with error Error 1049: Unknown database 'h2gh'[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] /root/projects/go/src/github.com/ademuanthony/h2gh/controllers/auth.go:67[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/reflect/value.go:434[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/reflect/value.go:302[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] /root/projects/go/src/github.com/astaxie/beego/router.go:809[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579[0m
+2017/04/09 21:40:41 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086[0m
+2017/04/09 21:40:42 [1;34m[D] [server.go:2202] | 197.210.25.160|[47m 302 [0m|      49.31µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/04/09 21:40:47 [1;34m[D] [server.go:2202] | 197.210.25.160|[42m 200 [0m|    746.875µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/09 21:42:01 [1;34m[D] [server.go:2202] | 197.210.25.160|[42m 200 [0m|   1.180773ms|   match|[44m GET     [0m /     r:/[0m
+2017/04/09 21:42:17 [1;34m[D] [server.go:2202] | 197.210.25.160|[42m 200 [0m|14.910420919s|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/09 21:42:35 [1;34m[D] [server.go:2202] | 197.210.25.160|[47m 302 [0m|     51.725µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/09 21:42:47 [1;34m[D] [server.go:2202] | 197.210.25.160|[42m 200 [0m|    771.135µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/09 21:44:48 [1;34m[D] [server.go:2202] |  154.66.57.189|[42m 200 [0m|   1.896711ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/09 21:45:02 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 302 [0m|  91.941865ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/09 21:45:03 [1;34m[D] [server.go:2202] |  154.66.57.189|[42m 200 [0m|   5.083971ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/09 21:45:03 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     82.867µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/09 21:45:04 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     69.001µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/09 21:45:04 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     84.915µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/09 21:45:04 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|      71.38µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/04/09 21:45:04 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     67.101µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/04/09 21:45:05 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     64.344µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/04/09 21:45:05 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|    153.527µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/09 21:45:05 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|    132.273µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/09 21:45:05 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     59.857µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/04/09 21:45:05 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     80.383µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/avatar3_small.jpg[0m
+2017/04/09 21:45:05 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     75.757µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/09 21:45:05 [1;34m[D] [server.go:2202] |  154.66.57.189|[47m 304 [0m|     61.937µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler-inverse.png[0m
+2017/04/09 21:51:21 [1;34m[D] [server.go:2202] |   154.66.26.90|[42m 200 [0m|    847.195µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/09 21:51:22 [1;34m[D] [server.go:2202] |   154.66.26.90|[43m 404 [0m|    240.957µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/09 21:52:00 [1;34m[D] [server.go:2202] |   154.66.26.90|[42m 200 [0m|    1.94718ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/09 21:52:04 [1;34m[D] [server.go:2202] |   154.66.26.90|[42m 200 [0m|    4.83467ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/09 21:52:13 [1;34m[D] [server.go:2202] |   154.66.26.90|[42m 200 [0m|   2.088761ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/09 21:52:17 [1;34m[D] [server.go:2202] |   154.66.26.90|[42m 200 [0m|    900.439µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/09 21:52:19 [1;34m[D] [server.go:2202] |   154.66.26.90|[43m 404 [0m|    259.743µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/09 21:52:20 [1;34m[D] [server.go:2202] |   154.66.26.90|[42m 200 [0m|     56.298µs|   match|[44m GET     [0m /static/monarch/assets/images/icons/favicon.png[0m
+2017/04/10 00:19:18 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    957.835µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 00:19:19 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    115.282µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/04/10 00:19:19 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     82.395µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/04/10 00:19:20 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 616.862023ms|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/04/10 00:19:20 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 1.296221435s|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/10 00:19:21 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     167.43µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/04/10 00:19:22 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    128.648µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/04/10 00:19:22 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    212.364µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/04/10 00:19:22 [1;34m[D] [server.go:2202] | 197.210.28.136|[47m 302 [0m|     51.933µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/10 00:19:23 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    803.762µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 00:19:23 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 917.674457ms|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/04/10 00:19:26 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 3.286236134s|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/04/10 00:19:30 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|   1.482662ms|   match|[44m GET     [0m /register   r:/register[0m
+2017/04/10 00:19:31 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    111.568µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/10 00:19:31 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 258.528851ms|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/10 00:19:31 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    150.044µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/10 00:19:31 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    130.793µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2.min.css[0m
+2017/04/10 00:19:31 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    115.359µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/10 00:19:32 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 677.911124ms|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/10 00:19:32 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    124.051µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/10 00:19:32 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    106.826µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2-bootstrap.min.css[0m
+2017/04/10 00:19:32 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     64.165µs|   match|[44m GET     [0m /static/assets/pages/css/login-2.min.css[0m
+2017/04/10 00:19:32 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    109.041µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/js/bootstrap.min.js[0m
+2017/04/10 00:19:32 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     66.695µs|   match|[44m GET     [0m /static/assets/global/plugins/js.cookie.min.js[0m
+2017/04/10 00:19:32 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    114.792µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/jquery.validate.min.js[0m
+2017/04/10 00:19:33 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     94.527µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/additional-methods.min.js[0m
+2017/04/10 00:19:33 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    108.317µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js[0m
+2017/04/10 00:19:33 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     74.923µs|   match|[44m GET     [0m /static/assets/pages/scripts/login.min.js[0m
+2017/04/10 00:19:33 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    143.619µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/js/select2.full.min.js[0m
+2017/04/10 00:19:33 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    103.913µs|   match|[44m GET     [0m /static/assets/global/scripts/app.min.js[0m
+2017/04/10 00:19:33 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     82.591µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.blockui.min.js[0m
+2017/04/10 00:19:33 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     95.948µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js[0m
+2017/04/10 00:19:35 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 2.507204277s|   match|[44m GET     [0m /static/assets/global/plugins/jquery.min.js[0m
+2017/04/10 00:19:38 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    142.157µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 00:19:40 [1;34m[D] [server.go:2202] | 197.210.28.136|[47m 302 [0m|     48.903µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/04/10 00:19:40 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    783.429µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 00:21:53 [1;31m[E] [value.go:434] Inserted id, [0m
+2017/04/10 00:21:53 [1;34m[D] [server.go:2202] | 197.210.28.136|[47m 302 [0m|  98.214793ms|   match|[46m POST    [0m /register   r:/register[0m
+2017/04/10 00:21:55 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|   5.133605ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 00:21:56 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    120.563µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/10 00:21:56 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    106.959µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/10 00:21:56 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|      89.23µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/10 00:21:56 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    112.318µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/10 00:21:56 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    111.848µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/10 00:21:56 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 287.242933ms|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/10 00:21:57 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     48.129µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/10 00:21:57 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     45.734µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/avatar3_small.jpg[0m
+2017/04/10 00:21:57 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|      82.64µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/04/10 00:21:57 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 617.647521ms|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 00:21:57 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     67.453µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/04/10 00:21:57 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|      56.74µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/04/10 00:21:57 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     60.898µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/04/10 00:21:58 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 1.529060209s|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/10 00:22:02 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     49.885µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 00:22:03 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 696.595804ms|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 00:22:04 [1;34m[D] [server.go:2202] | 197.210.28.136|[43m 404 [0m|    234.307µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/04/10 00:24:39 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|   1.887978ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 00:24:40 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    107.744µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/10 00:24:40 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|      91.68µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/10 00:24:40 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     94.584µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/10 00:24:40 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     81.403µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/10 00:24:41 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    107.647µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/10 00:24:41 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 396.041908ms|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/10 00:24:41 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     47.691µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/10 00:24:42 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 828.891909ms|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 00:24:42 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|  1.63794892s|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/10 00:25:04 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|   5.022664ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 00:25:05 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     95.283µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/10 00:25:05 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     83.675µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/10 00:25:05 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     75.218µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/10 00:25:05 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|    116.047µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/10 00:25:05 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 205.700757ms|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/10 00:25:05 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     91.364µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/10 00:25:05 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m|     133.52µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/10 00:25:06 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 1.300304033s|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/10 00:25:07 [1;34m[D] [server.go:2202] | 197.210.28.136|[42m 200 [0m| 1.489950256s|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 04:23:39 [1;34m[D] [server.go:2202] |138.128.206.233|[42m 200 [0m|    937.456µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 05:25:23 [1;34m[D] [server.go:2202] | 115.112.64.154|[42m 200 [0m|   1.057702ms|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 05:25:23 [1;34m[D] [server.go:2202] | 115.112.64.154|[42m 200 [0m|    974.414µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 05:28:29 [1;34m[D] [server.go:2202] | 139.162.108.53|[42m 200 [0m|    859.687µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 06:00:57 [1;34m[D] [server.go:2202] |   192.186.3.75|[42m 200 [0m|    979.426µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 07:03:26 [1;34m[D] [server.go:2202] |  94.23.221.113|[47m 302 [0m|     82.314µs| nomatch|[44m GET     [0m /etc/apps/phpsysinfo/xml.php[0m
+2017/04/10 07:03:26 [1;34m[D] [server.go:2202] |  94.23.221.113|[42m 200 [0m|    833.307µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 07:03:26 [1;34m[D] [server.go:2202] |  94.23.221.113|[47m 302 [0m|     47.393µs| nomatch|[44m GET     [0m /etc/apps/phpinfo/index.php[0m
+2017/04/10 07:03:26 [1;34m[D] [server.go:2202] |  94.23.221.113|[42m 200 [0m|     757.69µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 07:06:13 [1;34m[D] [server.go:2202] |   60.51.76.111|[42m 200 [0m|    931.197µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 09:15:08 [1;34m[D] [server.go:2202] |  23.110.55.210|[47m 302 [0m|     83.734µs| nomatch|[44m GET     [0m /plugins/weathermap/editor.php[0m
+2017/04/10 09:15:09 [1;34m[D] [server.go:2202] |  23.110.55.210|[42m 200 [0m|    834.887µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 10:10:02 [1;34m[D] [server.go:2202] |   154.66.56.24|[42m 200 [0m|    944.708µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 10:10:03 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     34.526µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/10 10:10:03 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     36.921µs|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/04/10 10:10:03 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     49.989µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/04/10 10:10:03 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     50.372µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/04/10 10:10:03 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     30.133µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/04/10 10:10:03 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     33.712µs|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/04/10 10:10:03 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     22.494µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/04/10 10:10:03 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 302 [0m|     39.635µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/10 10:10:03 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|      34.34µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/04/10 10:10:03 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     29.852µs|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/04/10 10:10:03 [1;34m[D] [server.go:2202] |   154.66.56.24|[42m 200 [0m|    715.493µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 10:10:06 [1;34m[D] [server.go:2202] |   154.66.56.24|[42m 200 [0m|    796.309µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     31.699µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     20.414µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     48.029µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     13.478µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2.min.css[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|    198.244µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     46.829µs|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     17.614µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     14.754µs|   match|[44m GET     [0m /static/assets/pages/css/login-2.min.css[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     13.982µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.min.js[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     16.315µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2-bootstrap.min.css[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     34.499µs|   match|[44m GET     [0m /static/assets/global/plugins/js.cookie.min.js[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     32.916µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     16.286µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/jquery.validate.min.js[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     22.548µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/js/bootstrap.min.js[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     16.181µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.blockui.min.js[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     19.652µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js[0m
+2017/04/10 10:10:07 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     21.792µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/additional-methods.min.js[0m
+2017/04/10 10:10:08 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     32.967µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/js/select2.full.min.js[0m
+2017/04/10 10:10:08 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|      29.89µs|   match|[44m GET     [0m /static/assets/global/scripts/app.min.js[0m
+2017/04/10 10:10:08 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     18.758µs|   match|[44m GET     [0m /static/assets/pages/scripts/login.min.js[0m
+[mysql] 2017/04/10 10:10:11 packets.go:33: unexpected EOF
+[mysql] 2017/04/10 10:10:11 packets.go:130: write tcp 127.0.0.1:37714->127.0.0.1:3306: write: broken pipe
+2017/04/10 10:10:11 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 302 [0m|  93.373335ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 10:10:11 [1;34m[D] [server.go:2202] |   154.66.56.24|[42m 200 [0m|   5.208447ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     31.537µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     26.737µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     19.729µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     31.074µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     19.735µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|      22.38µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     22.953µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     17.839µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/avatar3_small.jpg[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     32.694µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     32.162µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     37.511µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 10:10:12 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 304 [0m|     20.362µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler-inverse.png[0m
+2017/04/10 10:10:23 [1;34m[D] [server.go:2202] |   154.66.56.24|[42m 200 [0m|    2.08349ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 10:10:30 [1;34m[D] [server.go:2202] |   154.66.56.24|[42m 200 [0m|     803.98µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 10:10:33 [1;34m[D] [server.go:2202] |   154.66.56.24|[42m 200 [0m|   1.427975ms|   match|[44m GET     [0m /register   r:/register[0m
+2017/04/10 10:12:39 [1;31m[E] [value.go:434] Inserted id, [0m
+2017/04/10 10:12:39 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 302 [0m| 100.122396ms|   match|[46m POST    [0m /register   r:/register[0m
+2017/04/10 10:12:39 [1;34m[D] [server.go:2202] |   154.66.56.24|[42m 200 [0m|   5.081448ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 10:13:21 [1;34m[D] [server.go:2202] |   154.66.56.24|[42m 200 [0m|    726.794µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 10:13:26 [1;34m[D] [server.go:2202] |   154.66.56.24|[47m 302 [0m|  92.619849ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 10:13:27 [1;34m[D] [server.go:2202] |   154.66.56.24|[42m 200 [0m|   5.085805ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 10:51:20 [1;34m[D] [server.go:2202] |192.169.215.225|[42m 200 [0m|    925.803µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 10:52:41 [1;34m[D] [server.go:2202] |  66.249.64.100|[47m 302 [0m|    102.188µs| nomatch|[44m GET     [0m /robots.txt[0m
+2017/04/10 10:52:41 [1;34m[D] [server.go:2202] |  66.249.64.100|[42m 200 [0m|    760.173µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 10:52:41 [1;34m[D] [server.go:2202] |  66.249.64.100|[42m 200 [0m|    936.336µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 10:52:44 [1;34m[D] [server.go:2202] |  66.249.64.100|[42m 200 [0m|    102.882µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/04/10 10:52:44 [1;34m[D] [server.go:2202] |  66.249.64.100|[42m 200 [0m|  93.017488ms|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/10 10:52:44 [1;34m[D] [server.go:2202] |  66.249.64.104|[42m 200 [0m|  46.432596ms|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/04/10 10:52:44 [1;34m[D] [server.go:2202] |  66.249.64.100|[42m 200 [0m|     62.766µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/04/10 10:52:44 [1;34m[D] [server.go:2202] |  66.249.64.100|[42m 200 [0m|    154.889µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/04/10 10:55:08 [1;34m[D] [server.go:2202] |  66.249.64.108|[42m 200 [0m|    811.424µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 10:56:40 [1;34m[D] [server.go:2202] |  66.249.64.108|[42m 200 [0m|   1.411182ms|   match|[44m GET     [0m /register   r:/register[0m
+2017/04/10 10:58:27 [1;34m[D] [server.go:2202] |  66.249.64.104|[47m 302 [0m|     98.252µs| nomatch|[44m GET     [0m /dashboard[0m
+2017/04/10 10:58:28 [1;34m[D] [server.go:2202] |  66.249.64.100|[42m 200 [0m|     784.36µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 10:59:47 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m|     870.35µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 10:59:47 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m|     51.864µs|   match|[44m GET     [0m /static/monarch/assets/images/icons/favicon.png[0m
+2017/04/10 10:59:48 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m| 139.505631ms|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/04/10 10:59:48 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m| 419.418416ms|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/10 10:59:48 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m|     92.456µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/04/10 10:59:48 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m|     62.103µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/04/10 10:59:49 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m|    104.954µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/04/10 10:59:50 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m| 563.346757ms|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/04/10 10:59:50 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m|     132.09µs|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/04/10 10:59:50 [1;34m[D] [server.go:2202] |  197.210.25.67|[47m 302 [0m|     33.352µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/10 10:59:51 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m|    115.894µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/04/10 10:59:51 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m|    729.414µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 10:59:51 [1;34m[D] [server.go:2202] |  197.210.25.67|[42m 200 [0m|     164.14µs|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/04/10 11:06:11 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    906.704µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 11:06:12 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    107.598µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/04/10 11:06:12 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|     86.548µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/04/10 11:06:12 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m| 374.207619ms|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/04/10 11:06:12 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m| 752.701314ms|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/10 11:06:14 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m| 377.330666ms|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/04/10 11:06:15 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    148.512µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/04/10 11:06:15 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|      73.34µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/04/10 11:06:15 [1;34m[D] [server.go:2202] |    41.190.11.1|[47m 302 [0m|     57.017µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/10 11:06:15 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m| 188.816715ms|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/04/10 11:06:16 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|  378.17404ms|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/04/10 11:06:18 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|    776.328µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 11:06:23 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|     131.73µs|   match|[44m GET     [0m /static/monarch/assets/images/icons/favicon.png[0m
+2017/04/10 11:06:23 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|     67.961µs|   match|[44m GET     [0m /static/monarch/assets/images/icons/apple-touch-icon-144-precomposed.png[0m
+2017/04/10 11:07:33 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|   1.953901ms|   match|[44m GET     [0m /register   r:/register[0m
+2017/04/10 11:07:34 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|    118.978µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/10 11:07:34 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|    104.479µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/10 11:07:34 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|    103.532µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/10 11:07:34 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|    108.559µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2.min.css[0m
+2017/04/10 11:07:34 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|    106.585µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2-bootstrap.min.css[0m
+2017/04/10 11:07:34 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m| 373.824389ms|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/10 11:07:35 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    111.002µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/10 11:07:36 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|     99.505µs|   match|[44m GET     [0m /static/assets/pages/css/login-2.min.css[0m
+2017/04/10 11:07:36 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m| 761.927071ms|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/10 11:07:36 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m| 188.919276ms|   match|[44m GET     [0m /static/assets/global/plugins/jquery.min.js[0m
+2017/04/10 11:07:37 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|    151.708µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/js/bootstrap.min.js[0m
+2017/04/10 11:07:37 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|     65.892µs|   match|[44m GET     [0m /static/assets/global/plugins/js.cookie.min.js[0m
+2017/04/10 11:07:37 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    113.874µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js[0m
+2017/04/10 11:07:37 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|     127.42µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.blockui.min.js[0m
+2017/04/10 11:07:40 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|     146.62µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/jquery.validate.min.js[0m
+2017/04/10 11:07:40 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    125.224µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/additional-methods.min.js[0m
+2017/04/10 11:07:40 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|    193.821µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/js/select2.full.min.js[0m
+2017/04/10 11:07:41 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|    120.511µs|   match|[44m GET     [0m /static/assets/global/scripts/app.min.js[0m
+2017/04/10 11:07:41 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|     67.334µs|   match|[44m GET     [0m /static/assets/pages/scripts/login.min.js[0m
+2017/04/10 11:07:41 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m| 187.244579ms|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 11:07:43 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    124.796µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js[0m
+2017/04/10 11:07:56 [1;34m[D] [server.go:2202] |    41.190.10.1|[47m 302 [0m|     64.221µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/04/10 11:07:56 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    919.428µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] the request url is  /register[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] Handler crashed with error runtime error: slice bounds out of range[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:34[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] /root/projects/go/src/github.com/ademuanthony/h2gh/controllers/auth.go:96[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/reflect/value.go:434[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/reflect/value.go:302[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] /root/projects/go/src/github.com/astaxie/beego/router.go:809[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579[0m
+2017/04/10 11:11:39 [1;35m[C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086[0m
+2017/04/10 11:11:40 [1;34m[D] [server.go:2202] |    41.190.11.1|[47m 302 [0m|     99.857µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/04/10 11:11:40 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    768.306µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 11:12:44 [1;34m[D] [server.go:2202] |   154.66.56.24|[42m 200 [0m|    843.312µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 11:12:45 [1;34m[D] [server.go:2202] |   154.66.56.24|[43m 404 [0m|    274.491µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/10 11:16:56 [1;34m[D] [server.go:2202] |    41.190.11.1|[47m 302 [0m|       84.5µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/04/10 11:16:57 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    923.014µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 11:18:46 [1;31m[E] [value.go:434] Inserted id, [0m
+2017/04/10 11:18:46 [1;34m[D] [server.go:2202] |    41.190.11.1|[47m 302 [0m|  99.341462ms|   match|[46m POST    [0m /register   r:/register[0m
+2017/04/10 11:18:47 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|   5.330808ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 11:18:47 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    113.713µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/10 11:18:48 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|     93.828µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/10 11:18:48 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m| 189.082579ms|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 11:18:48 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|    122.866µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/04/10 11:18:49 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    123.999µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/04/10 11:18:49 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|     44.195µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/04/10 11:18:49 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|     62.191µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/04/10 11:18:49 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|     60.463µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/avatar3_small.jpg[0m
+2017/04/10 11:18:49 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m| 192.869941ms|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 11:18:49 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|     67.458µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 11:18:55 [1;34m[D] [server.go:2202] |    41.190.10.1|[43m 404 [0m|    270.076µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/04/10 11:37:18 [1;34m[D] [server.go:2202] | 197.210.226.59|[47m 302 [0m|     95.585µs| nomatch|[44m GET     [0m /dashboard[0m
+2017/04/10 11:39:14 [1;34m[D] [server.go:2202] | 197.210.226.59|[42m 200 [0m|    877.166µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 11:39:27 [1;34m[D] [server.go:2202] |197.210.227.234|[47m 302 [0m|     72.723µs| nomatch|[44m GET     [0m /dashboard[0m
+2017/04/10 11:39:32 [1;34m[D] [server.go:2202] |197.210.227.234|[42m 200 [0m|    823.414µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 11:39:35 [1;34m[D] [server.go:2202] |197.210.227.234|[42m 200 [0m|    115.581µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/10 11:39:35 [1;34m[D] [server.go:2202] |197.210.226.138|[42m 200 [0m|     132.32µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/10 11:39:35 [1;34m[D] [server.go:2202] |197.210.227.176|[42m 200 [0m|    137.173µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/10 11:39:37 [1;34m[D] [server.go:2202] |197.210.226.151|[42m 200 [0m|    134.711µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2.min.css[0m
+2017/04/10 11:39:37 [1;34m[D] [server.go:2202] | 197.210.226.59|[42m 200 [0m|    131.401µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2-bootstrap.min.css[0m
+2017/04/10 11:39:38 [1;34m[D] [server.go:2202] |197.210.227.176|[42m 200 [0m|    142.485µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/10 11:39:38 [1;34m[D] [server.go:2202] |197.210.226.138|[42m 200 [0m| 238.513663ms|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/10 11:39:41 [1;34m[D] [server.go:2202] |197.210.226.151|[42m 200 [0m|     78.155µs|   match|[44m GET     [0m /static/assets/pages/css/login-2.min.css[0m
+2017/04/10 11:39:41 [1;34m[D] [server.go:2202] |197.210.226.151|[42m 200 [0m| 5.706540486s|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/10 11:39:41 [1;34m[D] [server.go:2202] |197.210.227.234|[42m 200 [0m|    126.846µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/js/bootstrap.min.js[0m
+2017/04/10 11:39:42 [1;34m[D] [server.go:2202] |197.210.226.151|[42m 200 [0m|     101.62µs|   match|[44m GET     [0m /static/assets/global/plugins/js.cookie.min.js[0m
+2017/04/10 11:39:43 [1;34m[D] [server.go:2202] |197.210.226.151|[42m 200 [0m|    114.283µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js[0m
+2017/04/10 11:39:46 [1;34m[D] [server.go:2202] |197.210.226.151|[42m 200 [0m|    102.937µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.blockui.min.js[0m
+2017/04/10 11:39:48 [1;34m[D] [server.go:2202] |197.210.226.151|[42m 200 [0m|    133.262µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js[0m
+2017/04/10 11:39:49 [1;34m[D] [server.go:2202] |197.210.226.151|[42m 200 [0m|    108.727µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/jquery.validate.min.js[0m
+2017/04/10 11:39:50 [1;34m[D] [server.go:2202] | 197.210.226.59|[42m 200 [0m| 9.028628288s|   match|[44m GET     [0m /static/assets/global/plugins/jquery.min.js[0m
+2017/04/10 11:39:50 [1;34m[D] [server.go:2202] |197.210.227.176|[42m 200 [0m|    106.286µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/additional-methods.min.js[0m
+2017/04/10 11:39:50 [1;34m[D] [server.go:2202] |197.210.226.151|[42m 200 [0m|    192.371µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/js/select2.full.min.js[0m
+2017/04/10 11:39:51 [1;34m[D] [server.go:2202] |197.210.227.176|[42m 200 [0m|    109.006µs|   match|[44m GET     [0m /static/assets/global/scripts/app.min.js[0m
+2017/04/10 11:39:54 [1;34m[D] [server.go:2202] |197.210.226.151|[42m 200 [0m|     81.775µs|   match|[44m GET     [0m /static/assets/pages/scripts/login.min.js[0m
+2017/04/10 11:40:31 [1;34m[D] [server.go:2202] |197.210.226.151|[47m 302 [0m|     66.643µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/04/10 11:40:31 [1;34m[D] [server.go:2202] |197.210.226.151|[42m 200 [0m|    786.379µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 11:56:26 [1;34m[D] [server.go:2202] |197.210.227.234|[47m 302 [0m|  93.008247ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 11:58:34 [1;34m[D] [server.go:2202] |197.210.226.138|[42m 200 [0m|   5.110652ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 11:58:35 [1;34m[D] [server.go:2202] |197.210.227.176|[42m 200 [0m|    120.255µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/10 11:58:35 [1;34m[D] [server.go:2202] |197.210.226.154|[42m 200 [0m|      88.48µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/10 11:58:35 [1;34m[D] [server.go:2202] |197.210.227.234|[42m 200 [0m|    108.209µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/04/10 11:58:35 [1;34m[D] [server.go:2202] | 197.210.226.76|[42m 200 [0m|     72.093µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/04/10 11:58:35 [1;34m[D] [server.go:2202] |197.210.226.138|[42m 200 [0m| 413.744403ms|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 11:58:35 [1;34m[D] [server.go:2202] | 197.210.226.47|[42m 200 [0m|      81.13µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/04/10 11:58:37 [1;34m[D] [server.go:2202] |197.210.226.154|[42m 200 [0m|     67.031µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/04/10 11:58:37 [1;34m[D] [server.go:2202] |197.210.227.176|[42m 200 [0m|     60.804µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/avatar3_small.jpg[0m
+2017/04/10 12:03:05 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|   5.077792ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 12:03:34 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|    2.02236ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 12:04:00 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|   4.883922ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 12:04:51 [1;34m[D] [server.go:2202] |    41.190.10.1|[47m 308 [0m|     84.526µs|   match|[44m GET     [0m /logout   r:/logout[0m
+2017/04/10 12:05:06 [1;34m[D] [server.go:2202] |    41.190.10.1|[47m 302 [0m|     64.637µs| nomatch|[44m GET     [0m /logout[0m
+2017/04/10 12:05:06 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|    802.882µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 12:05:15 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|   1.523048ms|   match|[44m GET     [0m /register   r:/register[0m
+2017/04/10 12:13:17 [1;34m[D] [server.go:2202] | 197.210.227.51|[42m 200 [0m|   5.816469ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 12:13:27 [1;34m[D] [server.go:2202] | 197.210.227.51|[42m 200 [0m| 885.463867ms|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 12:13:32 [1;34m[D] [server.go:2202] | 197.210.227.51|[42m 200 [0m|     66.945µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 12:13:33 [1;34m[D] [server.go:2202] |  197.210.226.9|[42m 200 [0m| 417.678235ms|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 12:13:33 [1;34m[D] [server.go:2202] |197.210.227.245|[42m 200 [0m| 557.402998ms|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 12:13:34 [1;34m[D] [server.go:2202] |197.210.227.245|[43m 404 [0m|    244.037µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/04/10 12:14:27 [1;34m[D] [server.go:2202] |197.210.227.245|[42m 200 [0m|   2.750748ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 12:14:27 [1;34m[D] [server.go:2202] |197.210.227.245|[42m 200 [0m|    113.436µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 12:14:52 [1;34m[D] [server.go:2202] |197.210.227.245|[42m 200 [0m|   4.959768ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 12:14:54 [1;34m[D] [server.go:2202] |197.210.227.245|[42m 200 [0m|    127.204µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 12:15:17 [1;34m[D] [server.go:2202] |197.210.227.245|[42m 200 [0m|    5.16673ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 12:15:30 [1;34m[D] [server.go:2202] |197.210.227.245|[42m 200 [0m|    130.977µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 12:17:49 [1;34m[D] [server.go:2202] |    171.97.9.67|[42m 200 [0m|    874.472µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 12:19:49 [1;31m[E] [value.go:434] Inserted id, [0m
+2017/04/10 12:19:49 [1;34m[D] [server.go:2202] |    41.190.11.1|[47m 302 [0m| 102.158285ms|   match|[46m POST    [0m /register   r:/register[0m
+2017/04/10 12:19:49 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|   4.974924ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 12:20:45 [1;34m[D] [server.go:2202] |    41.190.10.1|[42m 200 [0m|   1.862431ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 12:21:54 [1;34m[D] [server.go:2202] |    41.190.11.1|[47m 308 [0m|     94.051µs|   match|[44m GET     [0m /logout   r:/logout[0m
+2017/04/10 12:22:04 [1;34m[D] [server.go:2202] |    41.190.11.1|[47m 302 [0m|     66.463µs| nomatch|[44m GET     [0m /logout[0m
+2017/04/10 12:22:07 [1;34m[D] [server.go:2202] |    41.190.11.1|[42m 200 [0m|     751.19µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 12:26:04 [1;34m[D] [server.go:2202] | 197.210.24.124|[42m 200 [0m|    835.602µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 12:26:07 [1;34m[D] [server.go:2202] | 197.210.24.124|[42m 200 [0m| 211.421495ms|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/04/10 12:26:07 [1;34m[D] [server.go:2202] | 197.210.24.124|[42m 200 [0m|     62.563µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/04/10 12:26:12 [1;34m[D] [server.go:2202] | 197.210.24.124|[42m 200 [0m|    281.072µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/04/10 12:26:13 [1;34m[D] [server.go:2202] | 197.210.24.124|[42m 200 [0m|     98.352µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/04/10 12:26:25 [1;34m[D] [server.go:2202] |   197.210.25.5|[42m 200 [0m|11.593677821s|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/04/10 12:26:37 [1;34m[D] [server.go:2202] |   197.210.25.5|[42m 200 [0m|30.214599439s|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/10 12:27:01 [1;34m[D] [server.go:2202] | 197.210.24.124|[43m 404 [0m|    238.743µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/10 12:27:03 [1;34m[D] [server.go:2202] |   197.210.25.5|[42m 200 [0m|    130.724µs|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/04/10 12:27:03 [1;34m[D] [server.go:2202] | 197.210.24.124|[42m 200 [0m|      90.18µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/04/10 12:29:43 [1;34m[D] [server.go:2202] | 197.210.24.124|[42m 200 [0m|   5.097631ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 12:29:43 [1;34m[D] [server.go:2202] | 197.210.24.124|[42m 200 [0m| 105.561978ms|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 12:29:44 [1;34m[D] [server.go:2202] | 197.210.24.124|[42m 200 [0m|     59.426µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 12:29:44 [1;34m[D] [server.go:2202] |   197.210.25.5|[42m 200 [0m| 106.027379ms|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 12:29:45 [1;34m[D] [server.go:2202] | 197.210.24.176|[42m 200 [0m| 105.605164ms|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 12:44:56 [1;34m[D] [server.go:2202] | 197.210.24.124|[42m 200 [0m|17m52.612365626s|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/04/10 13:42:16 [1;34m[D] [server.go:2202] | 197.210.24.176|[47m 302 [0m|      83.14µs| nomatch|[44m GET     [0m /dashboard[0m
+2017/04/10 13:42:20 [1;34m[D] [server.go:2202] | 197.210.24.176|[42m 200 [0m|    862.035µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 13:42:23 [1;34m[D] [server.go:2202] | 197.210.24.176|[47m 302 [0m|  92.625003ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 13:42:23 [1;34m[D] [server.go:2202] | 197.210.24.176|[42m 200 [0m|   5.151582ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 13:42:44 [1;34m[D] [server.go:2202] | 197.210.24.176|[42m 200 [0m|   2.110178ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 13:43:00 [1;34m[D] [server.go:2202] | 197.210.24.176|[42m 200 [0m|   5.438558ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 15:29:44 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 302 [0m|   92.44406ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 15:29:45 [1;34m[D] [server.go:2202] |   41.190.10.64|[42m 200 [0m|   4.965155ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 15:29:46 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|      55.65µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/10 15:29:46 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|     27.695µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/10 15:29:46 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|     54.079µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/10 15:29:46 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|     34.736µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/10 15:29:46 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 304 [0m|     37.565µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/10 15:29:46 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 304 [0m|     40.563µs|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/10 15:29:46 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 304 [0m|     54.205µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 15:29:46 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|     41.142µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/10 15:29:46 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|     36.703µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|      53.44µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 304 [0m|      47.47µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 304 [0m|     50.313µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/avatar3_small.jpg[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 304 [0m|     41.684µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 304 [0m|     32.548µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.min.js[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|     28.541µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/js/bootstrap.min.js[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|     55.409µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|     48.701µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.blockui.min.js[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 304 [0m|     43.211µs|   match|[44m GET     [0m /static/assets/global/scripts/app.min.js[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 304 [0m|     31.057µs|   match|[44m GET     [0m /static/assets/global/plugins/js.cookie.min.js[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 304 [0m|     31.232µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/04/10 15:29:47 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|      34.07µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js[0m
+2017/04/10 15:29:48 [1;34m[D] [server.go:2202] |   41.190.10.64|[47m 304 [0m|     50.221µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/04/10 15:29:48 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|     49.219µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/04/10 15:29:48 [1;34m[D] [server.go:2202] |   41.190.11.64|[47m 304 [0m|     59.309µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/04/10 17:03:11 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 302 [0m|     88.548µs| nomatch|[44m GET     [0m /dashboard[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|    784.292µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     34.553µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/js/bootstrap.min.js[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     13.629µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.min.js[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     45.625µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2-bootstrap.min.css[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     31.074µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2.min.css[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     41.961µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|      30.54µs|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     38.479µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     37.521µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     27.051µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/js/select2.full.min.js[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     35.596µs|   match|[44m GET     [0m /static/assets/global/scripts/app.min.js[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     30.962µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     24.793µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     27.156µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/additional-methods.min.js[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     33.692µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|      26.11µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/jquery.validate.min.js[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|      26.03µs|   match|[44m GET     [0m /static/assets/global/plugins/js.cookie.min.js[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     44.326µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.blockui.min.js[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|      36.24µs|   match|[44m GET     [0m /static/assets/pages/scripts/login.min.js[0m
+2017/04/10 17:03:12 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     35.754µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/10 17:03:13 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     17.842µs|   match|[44m GET     [0m /static/assets/pages/css/login-2.min.css[0m
+2017/04/10 17:03:19 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 302 [0m|  92.220304ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 17:03:20 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|   5.243881ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 17:03:26 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     25.161µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/04/10 17:03:26 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     14.336µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/04/10 17:03:26 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     30.325µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/avatar3_small.jpg[0m
+2017/04/10 17:03:26 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     12.999µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 17:03:26 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|      8.797µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/10 17:03:26 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     21.245µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/04/10 17:03:26 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     14.321µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/04/10 17:03:26 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     14.257µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/10 17:03:29 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     31.072µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 17:03:29 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|      25.33µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 17:03:47 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|   2.031608ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 17:03:50 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     32.959µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 17:03:53 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     33.189µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 17:03:53 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     21.021µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 17:04:07 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|   5.760647ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 17:04:09 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     34.873µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 17:04:15 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     48.408µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 17:04:15 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     26.639µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 17:05:33 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|    882.346µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 17:05:38 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|     85.558µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/04/10 17:05:38 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|    108.697µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/04/10 17:05:38 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|    132.843µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/04/10 17:05:40 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m| 2.063665884s|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/04/10 17:05:43 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m| 8.805385929s|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/10 17:05:43 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m| 5.746123339s|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/04/10 17:06:06 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|    128.722µs|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/04/10 17:06:06 [1;34m[D] [server.go:2202] | 197.210.28.139|[43m 404 [0m|    235.741µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/10 17:06:06 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|    117.724µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/04/10 17:06:14 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m| 8.387847483s|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/04/10 17:38:38 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|   1.470243ms|   match|[44m GET     [0m /register   r:/register[0m
+2017/04/10 17:38:48 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     47.238µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 17:38:51 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|    790.352µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 17:38:58 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 302 [0m|  93.312826ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 17:38:58 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|   5.185892ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 17:38:59 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     30.144µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 17:39:00 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     32.391µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 17:39:00 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     24.119µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 17:39:00 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     31.962µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 17:39:15 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|   2.055579ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 17:39:22 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     28.914µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 17:39:25 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     32.229µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 17:39:28 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     32.925µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 17:39:28 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     51.511µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 17:39:58 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|   5.024388ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 17:39:59 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     35.903µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 17:40:02 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     45.264µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 17:40:02 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     35.636µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 17:40:03 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|      32.99µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 17:40:39 [1;34m[D] [server.go:2202] | 197.210.28.139|[42m 200 [0m|   5.085253ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 17:40:48 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     32.289µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 17:40:48 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     30.889µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 17:40:53 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|      33.34µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 17:40:55 [1;34m[D] [server.go:2202] | 197.210.28.139|[47m 304 [0m|     36.351µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 19:20:07 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 302 [0m|     95.999µs| nomatch|[44m GET     [0m /dashboard[0m
+2017/04/10 19:20:08 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|    811.472µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 19:20:09 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     53.722µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/10 19:20:09 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     61.693µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/10 19:20:10 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|      55.46µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2-bootstrap.min.css[0m
+2017/04/10 19:20:10 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     36.672µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/10 19:20:10 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     31.272µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2.min.css[0m
+2017/04/10 19:20:11 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     62.132µs|   match|[44m GET     [0m /static/assets/pages/css/login-2.min.css[0m
+2017/04/10 19:20:11 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     62.171µs|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/10 19:20:12 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     52.122µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/10 19:20:12 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     52.284µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/10 19:20:12 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     51.483µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.min.js[0m
+2017/04/10 19:20:13 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     54.953µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/js/bootstrap.min.js[0m
+2017/04/10 19:20:14 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     49.542µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js[0m
+2017/04/10 19:20:14 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     43.886µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/jquery.validate.min.js[0m
+2017/04/10 19:20:14 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     48.175µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.blockui.min.js[0m
+2017/04/10 19:20:16 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     49.721µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/js/select2.full.min.js[0m
+2017/04/10 19:20:16 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     45.638µs|   match|[44m GET     [0m /static/assets/global/scripts/app.min.js[0m
+2017/04/10 19:20:16 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     37.539µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/additional-methods.min.js[0m
+2017/04/10 19:20:18 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     62.791µs|   match|[44m GET     [0m /static/assets/pages/scripts/login.min.js[0m
+2017/04/10 19:20:18 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     27.392µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js[0m
+2017/04/10 19:20:18 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     45.197µs|   match|[44m GET     [0m /static/assets/global/plugins/js.cookie.min.js[0m
+2017/04/10 19:20:27 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 302 [0m|  92.967957ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 19:20:29 [1;34m[D] [server.go:2202] |   41.190.2.148|[42m 200 [0m|   5.067756ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 19:20:31 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     51.967µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 19:20:39 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     53.405µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/10 19:20:39 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     61.471µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/10 19:20:40 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     61.653µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 19:20:40 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     47.356µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 19:20:40 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     45.702µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/04/10 19:20:40 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     29.391µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/04/10 19:20:40 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     27.916µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/04/10 19:20:40 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     57.226µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/04/10 19:20:40 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     47.569µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/avatar3_small.jpg[0m
+2017/04/10 19:20:40 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     48.781µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 19:21:32 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 308 [0m|     76.646µs|   match|[44m GET     [0m /logout   r:/logout[0m
+2017/04/10 19:21:43 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 302 [0m|     70.648µs| nomatch|[44m GET     [0m /logout[0m
+2017/04/10 19:21:44 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|    872.582µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 19:22:22 [1;34m[D] [server.go:2202] |   41.190.2.148|[42m 200 [0m|   1.429897ms|   match|[44m GET     [0m /register   r:/register[0m
+2017/04/10 19:27:14 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|   1.897289ms|   match|[44m GET     [0m /register   r:/register[0m
+2017/04/10 19:27:22 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|    832.745µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 19:28:02 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 302 [0m|  92.394019ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 19:28:02 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|   5.290751ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 19:28:21 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|   1.999052ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 19:28:43 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 308 [0m|     84.465µs|   match|[44m GET     [0m /logout   r:/logout[0m
+2017/04/10 19:28:51 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 302 [0m|     69.477µs| nomatch|[44m GET     [0m /logout[0m
+2017/04/10 19:28:51 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|    797.432µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 19:28:57 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 302 [0m|   92.96046ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 19:28:58 [1;34m[D] [server.go:2202] |   41.190.2.148|[42m 200 [0m|   4.978565ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 19:29:06 [1;34m[D] [server.go:2202] |   41.190.2.148|[42m 200 [0m|   1.939043ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 19:29:19 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 308 [0m|     87.597µs|   match|[44m GET     [0m /logout   r:/logout[0m
+2017/04/10 19:29:28 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 302 [0m|     66.805µs| nomatch|[44m GET     [0m /logout[0m
+2017/04/10 19:29:28 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|    774.735µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 19:29:52 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 302 [0m|  92.429479ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 19:29:53 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|     4.8952ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 19:30:03 [1;34m[D] [server.go:2202] |   41.190.2.148|[42m 200 [0m|    2.02369ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 19:30:14 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 308 [0m|     73.996µs|   match|[44m GET     [0m /logout   r:/logout[0m
+2017/04/10 19:30:23 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 302 [0m|     67.248µs| nomatch|[44m GET     [0m /logout[0m
+2017/04/10 19:30:23 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|    895.302µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 19:30:29 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 302 [0m|  92.017222ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 19:30:30 [1;34m[D] [server.go:2202] |   41.190.2.148|[42m 200 [0m|   5.016543ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 19:30:38 [1;34m[D] [server.go:2202] |   41.190.2.148|[42m 200 [0m|   2.099292ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 19:31:55 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 307 [0m| 186.890988ms|   match|[46m POST    [0m /account/change-password   r:/account/change-password[0m
+2017/04/10 19:31:57 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|     2.0057ms|   match|[46m POST    [0m /account   r:/account[0m
+2017/04/10 19:32:15 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 308 [0m|     90.608µs|   match|[44m GET     [0m /logout   r:/logout[0m
+2017/04/10 19:32:26 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 302 [0m|     70.529µs| nomatch|[44m GET     [0m /logout[0m
+2017/04/10 19:32:27 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|    821.255µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 19:32:40 [1;34m[D] [server.go:2202] |197.210.227.131|[47m 302 [0m|     68.615µs| nomatch|[44m GET     [0m /account[0m
+2017/04/10 19:32:41 [1;34m[D] [server.go:2202] |197.210.227.131|[42m 200 [0m|    801.502µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 19:32:44 [1;34m[D] [server.go:2202] |197.210.227.225|[47m 302 [0m|  93.017809ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 19:32:45 [1;34m[D] [server.go:2202] |197.210.227.131|[42m 200 [0m|   4.961231ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 19:32:46 [1;34m[D] [server.go:2202] |197.210.227.131|[47m 304 [0m|      31.14µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 19:32:47 [1;34m[D] [server.go:2202] |197.210.227.131|[47m 304 [0m|     32.598µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 19:32:47 [1;34m[D] [server.go:2202] |197.210.227.131|[47m 304 [0m|     16.473µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 19:32:47 [1;34m[D] [server.go:2202] |197.210.227.131|[47m 304 [0m|     42.251µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 19:33:07 [1;34m[D] [server.go:2202] |197.210.227.131|[42m 200 [0m|   1.901557ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 19:33:09 [1;34m[D] [server.go:2202] |197.210.227.131|[47m 304 [0m|     34.369µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 19:33:11 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|  92.322519ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 19:33:12 [1;34m[D] [server.go:2202] |197.210.227.131|[47m 304 [0m|     34.491µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 19:33:12 [1;34m[D] [server.go:2202] |197.210.227.131|[47m 304 [0m|      43.85µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/10 19:33:12 [1;34m[D] [server.go:2202] |197.210.227.131|[47m 304 [0m|     37.253µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/10 19:33:43 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|  91.834742ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 19:33:56 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|  93.191651ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 19:34:20 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 302 [0m|  91.939292ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 19:34:21 [1;34m[D] [server.go:2202] |   41.190.2.148|[42m 200 [0m|   4.792382ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 19:34:39 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|   1.903195ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 19:34:43 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|   1.903528ms|   match|[44m GET     [0m /account   r:/account[0m
+2017/04/10 19:35:06 [1;34m[D] [server.go:2202] |   41.190.2.148|[42m 200 [0m|     825.48µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 19:35:13 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|    780.605µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 19:35:13 [1;34m[D] [server.go:2202] |   41.190.3.148|[42m 200 [0m|    798.253µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 19:58:25 [1;34m[D] [server.go:2202] | 63.243.252.209|[42m 200 [0m|    897.169µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 20:41:47 [1;34m[D] [server.go:2202] |  41.60.134.211|[47m 302 [0m|      80.75µs| nomatch|[44m GET     [0m /muieblackcat[0m
+2017/04/10 20:41:47 [1;34m[D] [server.go:2202] |  41.60.134.211|[47m 302 [0m|     57.608µs| nomatch|[44m GET     [0m //phpMyAdmin/scripts/setup.php[0m
+2017/04/10 20:41:48 [1;34m[D] [server.go:2202] |  41.60.134.211|[47m 302 [0m|    100.891µs| nomatch|[44m GET     [0m //phpmyadmin/scripts/setup.php[0m
+2017/04/10 20:41:48 [1;34m[D] [server.go:2202] |  41.60.134.211|[47m 302 [0m|     65.892µs| nomatch|[44m GET     [0m //pma/scripts/setup.php[0m
+2017/04/10 20:41:49 [1;34m[D] [server.go:2202] |  41.60.134.211|[47m 302 [0m|     61.193µs| nomatch|[44m GET     [0m //myadmin/scripts/setup.php[0m
+2017/04/10 20:41:49 [1;34m[D] [server.go:2202] |  41.60.134.211|[47m 302 [0m|      55.55µs| nomatch|[44m GET     [0m //MyAdmin/scripts/setup.php[0m
+2017/04/10 20:52:15 [1;34m[D] [server.go:2202] |162.242.156.106|[42m 200 [0m|    973.877µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 21:11:35 [1;34m[D] [server.go:2202] |   41.190.2.148|[42m 200 [0m|   1.067595ms|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 21:11:36 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     50.811µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/10 21:11:36 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     56.538µs|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/04/10 21:11:36 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     50.686µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/04/10 21:11:36 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     56.756µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/04/10 21:11:37 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     62.889µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/04/10 21:11:37 [1;34m[D] [server.go:2202] |   41.190.3.148|[47m 304 [0m|     51.663µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/04/10 21:11:37 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     50.611µs|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/04/10 21:11:37 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     33.995µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/04/10 21:11:37 [1;34m[D] [server.go:2202] |   41.190.2.148|[43m 404 [0m|     237.41µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/10 21:11:38 [1;34m[D] [server.go:2202] |   41.190.2.148|[47m 304 [0m|     54.566µs|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/04/10 21:28:32 [1;34m[D] [server.go:2202] |162.242.156.106|[42m 200 [0m|    958.973µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 21:56:29 [1;34m[D] [server.go:2202] |  46.109.98.125|[42m 200 [0m|    934.718µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/10 21:56:30 [1;34m[D] [server.go:2202] |  46.109.98.125|[47m 302 [0m|     58.218µs| nomatch|[44m GET     [0m /ncsi.txt[0m
+2017/04/10 21:56:30 [1;34m[D] [server.go:2202] |  46.109.98.125|[47m 302 [0m|     49.287µs| nomatch|[44m GET     [0m /HNAP1/[0m
+2017/04/10 21:56:30 [1;34m[D] [server.go:2202] |  46.109.98.125|[42m 200 [0m|    815.429µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 22:17:01 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 302 [0m|     97.367µs| nomatch|[44m GET     [0m /dashboard[0m
+2017/04/10 22:17:02 [1;34m[D] [server.go:2202] |197.210.226.216|[42m 200 [0m|    812.351µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     34.226µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     44.951µs|   match|[44m GET     [0m /static/assets/pages/css/login-2.min.css[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     57.506µs|   match|[44m GET     [0m /static/assets/global/plugins/js.cookie.min.js[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     27.785µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.min.js[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     40.797µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2-bootstrap.min.css[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     29.855µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2.min.css[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|      18.28µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/additional-methods.min.js[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     27.961µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     29.505µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     32.699µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     26.334µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     24.244µs|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     28.602µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/js/bootstrap.min.js[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|      27.22µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     55.002µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/jquery.validate.min.js[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     42.117µs|   match|[44m GET     [0m /static/assets/global/scripts/app.min.js[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     34.556µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     29.077µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/js/select2.full.min.js[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     30.898µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.blockui.min.js[0m
+2017/04/10 22:17:03 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|      26.85µs|   match|[44m GET     [0m /static/assets/pages/scripts/login.min.js[0m
+2017/04/10 22:17:06 [1;34m[D] [server.go:2202] | 197.210.227.49|[47m 302 [0m|  91.794382ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/10 22:17:06 [1;34m[D] [server.go:2202] |197.210.226.216|[42m 200 [0m|    5.01465ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/10 22:17:07 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     35.222µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/10 22:17:07 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     28.959µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/10 22:17:07 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|      13.19µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/10 22:17:07 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     16.572µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/04/10 22:17:07 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     18.536µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/04/10 22:17:07 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     16.873µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/04/10 22:17:07 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     19.775µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/avatar3_small.jpg[0m
+2017/04/10 22:17:07 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|     23.682µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/04/10 22:17:09 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|      33.18µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/10 22:17:09 [1;34m[D] [server.go:2202] |197.210.226.216|[47m 304 [0m|       49.7µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/04/11 00:03:51 [1;34m[D] [server.go:2202] |  191.96.249.97|[47m 302 [0m|     93.308µs| nomatch|[44m GET     [0m /cgi-bin/php[0m
+2017/04/11 02:15:40 [1;34m[D] [server.go:2202] |   66.249.64.25|[42m 200 [0m|    975.297µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/11 02:46:10 [1;34m[D] [server.go:2202] |   66.249.64.25|[47m 302 [0m|     87.217µs| nomatch|[44m GET     [0m /about1.aspx[0m
+2017/04/11 02:46:11 [1;34m[D] [server.go:2202] |   66.249.64.31|[42m 200 [0m|     811.37µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/11 02:54:36 [1;34m[D] [server.go:2202] |  157.55.39.149|[47m 302 [0m|       90.6µs| nomatch|[44m GET     [0m /robots.txt[0m
+2017/04/11 02:54:36 [1;34m[D] [server.go:2202] |  157.55.39.149|[42m 200 [0m|    814.733µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/11 03:11:20 [1;34m[D] [server.go:2202] |   66.249.64.28|[42m 200 [0m|    952.551µs|   match|[44m GET     [0m /     r:/[0m
+2017/04/11 03:20:22 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|   1.019133ms|   match|[44m GET     [0m /     r:/[0m
+2017/04/11 03:21:13 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m| 48.11389089s|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/04/11 03:21:35 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    129.601µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/04/11 03:21:50 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     140.25µs|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/04/11 03:21:53 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    112.795µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/04/11 03:21:53 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    101.701µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/04/11 03:21:53 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    167.222µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/04/11 03:21:53 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    127.238µs|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/04/11 03:21:53 [1;34m[D] [server.go:2202] |   129.56.10.29|[47m 302 [0m|     80.349µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/11 03:21:53 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    774.394µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/11 03:21:54 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m| 323.596891ms|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/04/11 03:21:54 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    112.124µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/04/11 03:23:02 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    771.181µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/11 03:23:05 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     104.54µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/04/11 03:23:05 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     73.298µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/04/11 03:23:05 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     62.561µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/04/11 03:23:05 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     98.489µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2.min.css[0m
+2017/04/11 03:23:06 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    108.159µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2-bootstrap.min.css[0m
+2017/04/11 03:23:06 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m| 247.866575ms|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/11 03:23:21 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    119.264µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/04/11 03:23:37 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     59.699µs|   match|[44m GET     [0m /static/assets/pages/css/login-2.min.css[0m
+2017/04/11 03:23:37 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m| 248.056728ms|   match|[44m GET     [0m /static/assets/global/plugins/jquery.min.js[0m
+2017/04/11 03:24:16 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|1m5.559982738s|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/04/11 03:24:20 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    124.489µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/js/bootstrap.min.js[0m
+2017/04/11 03:24:21 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     65.469µs|   match|[44m GET     [0m /static/assets/global/plugins/js.cookie.min.js[0m
+2017/04/11 03:24:21 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    132.421µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js[0m
+2017/04/11 03:24:21 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    135.912µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.blockui.min.js[0m
+2017/04/11 03:24:22 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    119.162µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js[0m
+2017/04/11 03:24:22 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     97.185µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/jquery.validate.min.js[0m
+2017/04/11 03:24:22 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    111.731µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/additional-methods.min.js[0m
+2017/04/11 03:24:22 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    111.538µs|   match|[44m GET     [0m /static/assets/global/scripts/app.min.js[0m
+2017/04/11 03:24:22 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    141.828µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/js/select2.full.min.js[0m
+2017/04/11 03:24:23 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     90.856µs|   match|[44m GET     [0m /static/assets/pages/scripts/login.min.js[0m
+2017/04/11 03:28:23 [1;34m[D] [server.go:2202] |   129.56.10.29|[47m 302 [0m|  92.296353ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/11 03:28:23 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|   5.264527ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/11 03:28:24 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     134.06µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/04/11 03:28:24 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     58.249µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/04/11 03:28:24 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     98.804µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/04/11 03:28:24 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 206 [0m|     65.853µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/11 03:28:25 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     99.786µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/04/11 03:28:25 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 206 [0m| 248.049918ms|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/04/11 03:28:25 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     84.572µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/04/11 03:28:26 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     74.016µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/04/11 03:28:26 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|       49.8µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/04/11 03:28:26 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     34.619µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/avatar3_small.jpg[0m
+2017/04/11 03:28:26 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     45.168µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler-inverse.png[0m
+2017/04/11 03:28:26 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    135.894µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/04/11 03:28:26 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|      24.25µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/04/11 03:28:26 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|     86.746µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+Thank you for confirming the payment. You have been requeued for another payment. Please wait while you matched again
+2017/04/11 03:30:16 [1;34m[D] [server.go:2202] |   129.56.10.29|[47m 307 [0m|   7.659998ms|   match|[44m GET     [0m /payment/confirm   r:/payment/confirm[0m
+2017/04/11 03:30:17 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    5.03783ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+Thank you for confirming the payment. You have been requeued for another payment. Please wait while you matched again
+2017/04/11 03:30:22 [1;34m[D] [server.go:2202] |   129.56.10.29|[47m 307 [0m|   5.389784ms|   match|[44m GET     [0m /payment/confirm   r:/payment/confirm[0m
+2017/04/11 03:30:23 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|   5.364005ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+Thank you for confirming the payment. You have been requeued for another payment. Please wait while you matched again
+2017/04/11 03:30:26 [1;34m[D] [server.go:2202] |   129.56.10.29|[47m 307 [0m|  14.523735ms|   match|[44m GET     [0m /payment/confirm   r:/payment/confirm[0m
+2017/04/11 03:30:26 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|    5.23297ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+Thank you for confirming the payment. You have been requeued for another payment. Please wait while you matched again
+2017/04/11 03:30:30 [1;34m[D] [server.go:2202] |   129.56.10.29|[47m 307 [0m|   6.989956ms|   match|[44m GET     [0m /payment/confirm   r:/payment/confirm[0m
+2017/04/11 03:30:30 [1;34m[D] [server.go:2202] |   129.56.10.29|[42m 200 [0m|   5.355002ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/11 03:36:50 [1;34m[D] [server.go:2202] |   66.249.64.31|[42m 200 [0m|    862.421µs|   match|[44m GET     [0m /     r:/[0m

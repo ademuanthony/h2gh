@@ -12,7 +12,7 @@ type AccountService struct {
 	Ctx *context.Context
 }
 
-func (this AccountService) GetMemberById(id int64) (models.Member, error) {
+func (this *AccountService) GetMemberById(id int64) (models.Member, error) {
 	var member models.Member
 	err := this.O.QueryTable(new(models.Member)).RelatedSel().Filter("id", id).One(&member)
 	return member, err

@@ -13,6 +13,10 @@ func setSiteRoute() {
 
 	beego.Router("/payment/confirm",&controllers.PaymentController{},"*:Confirm")
 
+
+	beego.Router("/downlines",&controllers.Promotion{},"*:Downlines")
+
+
 	beego.Router("/account",&controllers.AccountController{},"*:Index")
 
 	beego.Router("/account/change-password",&controllers.AccountController{},"*:ChangePassword")

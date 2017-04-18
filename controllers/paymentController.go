@@ -69,6 +69,9 @@ func (this *PaymentController) Confirm() {
 	if !o.QueryTable(new(models.Payment)).Filter("from_member_id", payment.FromMember.Id).Filter("status", models.StatusPending).Exclude("id", paymentId).Exist(){
 		//queue the user that made this payment to receive payment
 		err = peer2peerService.QueueUserForPayment(payment.FromMember.Id, 15000)
+		if err == nil{
+			err = peer2peerService.QueueUserForPayment(payment.FromMember.Id, 15000)
+		}
 		if err != nil && err.Error() != utilities.ErrorUserAlreadyInQueue{
 			panic(err)
 			o.Rollback()
@@ -76,7 +79,7 @@ func (this *PaymentController) Confirm() {
 			this.Redirect("/dashboard", http.StatusTemporaryRedirect)
 			return
 		}
-		// queue his referrer for payment
+		// queue his referrer for bonus
 		if payment.FromMember.ReferralId > 0{
 			err = peer2peerService.QueueUserForPayment(payment.FromMember.ReferralId, 5000)
 			if err != nil && err.Error() != utilities.ErrorUserAlreadyInQueue{
@@ -91,14 +94,18 @@ func (this *PaymentController) Confirm() {
 
 	//if this is a rebate payment
 	if payment.Amount == 15000{
+		//and the user have no pending rebate, create another payment for him
+		if !o.QueryTable(new(models.Payment)).Filter("to_member_id", currentMember.Id).Filter("status", models.StatusPending).Exist(){
+			peer2peerService.CreatePayment(currentMember.Id)
+		}
 		// requeue the current member for another rebate
-		if err := peer2peerService.QueueUserForPayment(currentMember.Id, 15000); err != nil && err.Error() != utilities.ErrorUserAlreadyInQueue{
+		/*if err := peer2peerService.QueueUserForPayment(currentMember.Id, 15000); err != nil && err.Error() != utilities.ErrorUserAlreadyInQueue{
 			panic(err)
 			o.Rollback()
 			flash.Error("Something want wrong. Please try again")
 			this.Redirect("/dashboard", http.StatusTemporaryRedirect)
 			return
-		}
+		}*/
 	}
 
 

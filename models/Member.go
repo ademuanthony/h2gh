@@ -3,6 +3,7 @@ package models
 import (
 	"github.com/willf/pad"
 	"strconv"
+	"time"
 )
 
 type Member struct {
@@ -17,6 +18,7 @@ type Member struct {
 	AccountName  	string
 	AccountNumber 	string
 	Status 		string
+	CreatedAt	time.Time
 
 	Bank *Bank `orm:"rel(fk)"`
 }

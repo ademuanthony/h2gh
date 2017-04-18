@@ -9,6 +9,7 @@ import (
 	"strconv"
 	"github.com/ademuanthony/h2gh/services"
 	"github.com/ademuanthony/h2gh/dto"
+	"time"
 )
 
 type AuthController struct {
@@ -65,7 +66,7 @@ func (this *AuthController) Register() {
 	var banks []models.Bank
 	_, err := o.QueryTable(new(models.Bank)).All(&banks)
 	if err != nil{
-		panic(err)
+		fmt.Printf("%v\n", err)
 	}
 
 	this.Data["Banks"] = buildBankOptions(0, banks)
@@ -142,6 +143,7 @@ func (this *AuthController) Register() {
 		user.HashPassword = string(hashedPassword)
 		user.Password = ""
 		user.Status = models.StatusActive
+		user.CreatedAt = time.Now()
 
 		bank := &models.Bank{Id:bankId}
 
@@ -171,7 +173,6 @@ func (this *AuthController) Register() {
 		beego.BeeLogger.Error("Inserted id, " + string(id))
 		this.Ctx.Redirect(302, "/dashboard")
 	}
-
 
 }
 

@@ -2239,3 +2239,1207 @@ github.com/ademuanthony/h2gh
 2017/04/18 02:03:02 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|    548.599µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler-inverse.png[0m
 2017/04/18 02:03:02 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|     527.43µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
 2017/04/18 02:03:02 [1;34m[D] [server.go:2202] | 169.159.82.164|[43m 404 [0m|    237.857µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/04/18 02:06:03 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|   5.463675ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/18 02:06:04 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|    648.985µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/04/18 02:06:04 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|   1.268398ms|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/04/18 02:06:04 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|    674.071µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/04/18 02:06:04 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|    561.217µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/04/18 02:11:13 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|   5.208304ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+Thank you for confirming the payment. You have been requeued for another payment. Please wait while you matched again
+2017/04/18 02:11:22 [1;34m[D] [server.go:2202] | 169.159.82.164|[47m 307 [0m|   5.182636ms|   match|[44m GET     [0m /payment/confirm   r:/payment/confirm[0m
+2017/04/18 02:11:22 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|   5.772396ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+Thank you for confirming the payment. You have been requeued for another payment. Please wait while you matched again
+2017/04/18 02:11:25 [1;34m[D] [server.go:2202] | 169.159.82.164|[47m 307 [0m|   7.194967ms|   match|[44m GET     [0m /payment/confirm   r:/payment/confirm[0m
+2017/04/18 02:11:26 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|   5.626343ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+Thank you for confirming the payment. You have been requeued for another payment. Please wait while you matched again
+2017/04/18 02:11:33 [1;34m[D] [server.go:2202] | 169.159.82.164|[47m 307 [0m|   6.379028ms|   match|[44m GET     [0m /payment/confirm   r:/payment/confirm[0m
+2017/04/18 02:11:34 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|   5.571489ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+Thank you for confirming the payment. You have been requeued for another payment. Please wait while you matched again
+2017/04/18 02:11:36 [1;34m[D] [server.go:2202] | 169.159.82.164|[47m 307 [0m|   7.852169ms|   match|[44m GET     [0m /payment/confirm   r:/payment/confirm[0m
+2017/04/18 02:11:36 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|   5.572339ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/18 02:36:52 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|   1.112967ms|   match|[44m GET     [0m /     r:/[0m
+2017/04/18 02:36:53 [1;34m[D] [server.go:2202] | 169.159.82.164|[43m 404 [0m|    282.523µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/18 02:36:57 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|    882.919µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/18 02:37:00 [1;34m[D] [server.go:2202] | 169.159.82.164|[47m 302 [0m|  91.397024ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/18 02:37:00 [1;34m[D] [server.go:2202] | 169.159.82.164|[42m 200 [0m|   5.646994ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+Tick at 2017-04-18 03:01:45.927103886 +0000 UTC
+runtime: goroutine stack exceeds 1000000000-byte limit
+fatal error: stack overflow
+
+runtime stack:
+runtime.throw(0x95d6ac, 0xe)
+	/usr/local/go/src/runtime/panic.go:566 +0x95
+runtime.newstack()
+	/usr/local/go/src/runtime/stack.go:1061 +0x416
+runtime.morestack()
+	/usr/local/go/src/runtime/asm_amd64.s:366 +0x7f
+
+goroutine 8 [running]:
+github.com/astaxie/beego/orm.getFlatParams(0xc420171040, 0xc4202d75b0, 0x1, 0x1, 0xbc7c80, 0x499342, 0x8, 0x10)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db_utils.go:57 fp=0xc440900440 sp=0xc440900438
+github.com/astaxie/beego/orm.(*dbBase).GenerateOperatorSQL(0xc420158ed0, 0xc4201603c0, 0xc420171040, 0x955a5d, 0x5, 0xc4202d75b0, 0x1, 0x1, 0xbc7c80, 0x0, ...)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db.go:1114 +0x92 fp=0xc440900648 sp=0xc440900440
+github.com/astaxie/beego/orm.(*dbTables).getCondSQL(0xc440900fb8, 0xc42017fb00, 0x0, 0xbc7c80, 0x0, 0xc4202d5ef0, 0x8e, 0xc42017a1a0, 0xc4409009c8)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db_tables.go:375 +0x3cc fp=0xc440900928 sp=0xc440900648
+github.com/astaxie/beego/orm.(*dbBase).ReadBatch(0xc420158ed0, 0xba1f00, 0xc42011fa20, 0xc4202d8200, 0xc4201603c0, 0xc42017fb00, 0x88ca00, 0xc42017fa80, 0xbc7c80, 0x0, ...)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db.go:949 +0xca0 fp=0xc4409012e0 sp=0xc440900928
+github.com/astaxie/beego/orm.(*querySet).All(0xc4202d8200, 0x88ca00, 0xc42017fa80, 0x0, 0x0, 0x0, 0xba63c0, 0xc4202d8200, 0xbc7c80)
+	/root/projects/go/src/github.com/astaxie/beego/orm/orm_queryset.go:194 +0xc1 fp=0xc440901368 sp=0xc4409012e0
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:91 +0x32e fp=0xc4409016b8 sp=0xc440901368
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440901a08 sp=0xc4409016b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440901d58 sp=0xc440901a08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409020a8 sp=0xc440901d58
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409023f8 sp=0xc4409020a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440902748 sp=0xc4409023f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440902a98 sp=0xc440902748
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440902de8 sp=0xc440902a98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440903138 sp=0xc440902de8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440903488 sp=0xc440903138
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409037d8 sp=0xc440903488
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440903b28 sp=0xc4409037d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440903e78 sp=0xc440903b28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409041c8 sp=0xc440903e78
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440904518 sp=0xc4409041c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440904868 sp=0xc440904518
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440904bb8 sp=0xc440904868
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440904f08 sp=0xc440904bb8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440905258 sp=0xc440904f08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409055a8 sp=0xc440905258
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409058f8 sp=0xc4409055a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440905c48 sp=0xc4409058f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440905f98 sp=0xc440905c48
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409062e8 sp=0xc440905f98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440906638 sp=0xc4409062e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440906988 sp=0xc440906638
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440906cd8 sp=0xc440906988
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440907028 sp=0xc440906cd8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440907378 sp=0xc440907028
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409076c8 sp=0xc440907378
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440907a18 sp=0xc4409076c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440907d68 sp=0xc440907a18
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409080b8 sp=0xc440907d68
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440908408 sp=0xc4409080b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440908758 sp=0xc440908408
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440908aa8 sp=0xc440908758
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440908df8 sp=0xc440908aa8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440909148 sp=0xc440908df8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440909498 sp=0xc440909148
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409097e8 sp=0xc440909498
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440909b38 sp=0xc4409097e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440909e88 sp=0xc440909b38
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090a1d8 sp=0xc440909e88
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090a528 sp=0xc44090a1d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090a878 sp=0xc44090a528
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090abc8 sp=0xc44090a878
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090af18 sp=0xc44090abc8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090b268 sp=0xc44090af18
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090b5b8 sp=0xc44090b268
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090b908 sp=0xc44090b5b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090bc58 sp=0xc44090b908
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090bfa8 sp=0xc44090bc58
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090c2f8 sp=0xc44090bfa8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090c648 sp=0xc44090c2f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090c998 sp=0xc44090c648
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090cce8 sp=0xc44090c998
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090d038 sp=0xc44090cce8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090d388 sp=0xc44090d038
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090d6d8 sp=0xc44090d388
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090da28 sp=0xc44090d6d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090dd78 sp=0xc44090da28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090e0c8 sp=0xc44090dd78
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090e418 sp=0xc44090e0c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090e768 sp=0xc44090e418
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090eab8 sp=0xc44090e768
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090ee08 sp=0xc44090eab8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090f158 sp=0xc44090ee08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090f4a8 sp=0xc44090f158
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090f7f8 sp=0xc44090f4a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090fb48 sp=0xc44090f7f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090fe98 sp=0xc44090fb48
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409101e8 sp=0xc44090fe98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440910538 sp=0xc4409101e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440910888 sp=0xc440910538
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440910bd8 sp=0xc440910888
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440910f28 sp=0xc440910bd8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440911278 sp=0xc440910f28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409115c8 sp=0xc440911278
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440911918 sp=0xc4409115c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440911c68 sp=0xc440911918
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440911fb8 sp=0xc440911c68
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440912308 sp=0xc440911fb8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440912658 sp=0xc440912308
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409129a8 sp=0xc440912658
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440912cf8 sp=0xc4409129a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440913048 sp=0xc440912cf8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440913398 sp=0xc440913048
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409136e8 sp=0xc440913398
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440913a38 sp=0xc4409136e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440913d88 sp=0xc440913a38
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409140d8 sp=0xc440913d88
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440914428 sp=0xc4409140d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440914778 sp=0xc440914428
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440914ac8 sp=0xc440914778
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420178040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440914e18 sp=0xc440914ac8
+...additional frames elided...
+created by github.com/ademuanthony/h2gh/services.init.1
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:22 +0xa3
+
+goroutine 1 [chan receive, 62 minutes]:
+github.com/astaxie/beego.(*App).Run(0xc42000d7a0)
+	/root/projects/go/src/github.com/astaxie/beego/app.go:186 +0x708
+github.com/astaxie/beego.Run(0x0, 0x0, 0x0)
+	/root/projects/go/src/github.com/astaxie/beego/beego.go:67 +0x51
+main.main()
+	/root/projects/go/src/github.com/ademuanthony/h2gh/main.go:35 +0x3c
+
+goroutine 17 [syscall, 62 minutes, locked to thread]:
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:2086 +0x1
+
+goroutine 5 [syscall, 62 minutes]:
+os/signal.signal_recv(0x0)
+	/usr/local/go/src/runtime/sigqueue.go:116 +0x157
+os/signal.loop()
+	/usr/local/go/src/os/signal/signal_unix.go:22 +0x22
+created by os/signal.init.1
+	/usr/local/go/src/os/signal/signal_unix.go:28 +0x41
+
+goroutine 6 [chan receive, 62 minutes]:
+database/sql.(*DB).connectionOpener(0xc42011fa20)
+	/usr/local/go/src/database/sql/sql.go:730 +0x4a
+created by database/sql.Open
+	/usr/local/go/src/database/sql/sql.go:493 +0x1e9
+
+goroutine 39 [IO wait, 29 minutes]:
+net.runtime_pollWait(0x7f2c0e8b5fd8, 0x72, 0x0)
+	/usr/local/go/src/runtime/netpoll.go:160 +0x59
+net.(*pollDesc).wait(0xc420398e60, 0x72, 0xc420037c90, 0xc42000c1f0)
+	/usr/local/go/src/net/fd_poll_runtime.go:73 +0x38
+net.(*pollDesc).waitRead(0xc420398e60, 0xb9d940, 0xc42000c1f0)
+	/usr/local/go/src/net/fd_poll_runtime.go:78 +0x34
+net.(*netFD).accept(0xc420398e00, 0x0, 0xb9c1c0, 0xc42086f4a0)
+	/usr/local/go/src/net/fd_unix.go:419 +0x238
+net.(*TCPListener).accept(0xc420026f58, 0x29e8d60800, 0x0, 0x0)
+	/usr/local/go/src/net/tcpsock_posix.go:132 +0x2e
+net.(*TCPListener).AcceptTCP(0xc420026f58, 0xc420037db8, 0xc420037dc0, 0xc420037db0)
+	/usr/local/go/src/net/tcpsock.go:209 +0x49
+net/http.tcpKeepAliveListener.Accept(0xc420026f58, 0x9a9840, 0xc420388780, 0xba1dc0, 0xc4203c2510)
+	/usr/local/go/src/net/http/server.go:2608 +0x2f
+net/http.(*Server).Serve(0xc420078300, 0xba16c0, 0xc420026f58, 0x0, 0x0)
+	/usr/local/go/src/net/http/server.go:2273 +0x1ce
+net/http.(*Server).ListenAndServe(0xc420078300, 0xc420346c10, 0xc420037f30)
+	/usr/local/go/src/net/http/server.go:2219 +0xb4
+github.com/astaxie/beego.(*App).Run.func4(0xc42000d7a0, 0xc420346be0, 0x3, 0xc420398d90)
+	/root/projects/go/src/github.com/astaxie/beego/app.go:178 +0x3c2
+created by github.com/astaxie/beego.(*App).Run
+	/root/projects/go/src/github.com/astaxie/beego/app.go:184 +0x753
+[35m[1m______
+| ___ \
+| |_/ /  ___   ___
+| ___ \ / _ \ / _ \
+| |_/ /|  __/|  __/
+\____/  \___| \___| v1.8.1
+[21m[0m2017/04/29 05:37:37 [34m[1mINFO    [21m[0m ▶ 0001 Using 'h2gh' as 'appname'
+2017/04/29 05:37:37 [34m[1mINFO    [21m[0m ▶ 0002 Initializing watcher...
+2017/04/29 05:37:38 [32m[1mSUCCESS [21m[0m ▶ 0003 Built Successfully!
+2017/04/29 05:37:38 [34m[1mINFO    [21m[0m ▶ 0004 Restarting 'h2gh'...
+2017/04/29 05:37:38 [32m[1mSUCCESS [21m[0m ▶ 0005 './h2gh' is running...
+2017/04/29 05:37:38 [1;34m[I] [asm_amd64.s:2086] http server Running on http://:80[0m
+2017/04/29 05:38:12 [1;34m[D] [server.go:2202] | 197.210.227.74|[42m 200 [0m|   1.259043ms|   match|[44m GET     [0m /     r:/[0m
+2017/04/29 05:38:22 [1;34m[D] [server.go:2202] |197.210.226.134|[47m 302 [0m|     93.619µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/04/29 05:38:26 [1;34m[D] [server.go:2202] |197.210.226.134|[42m 200 [0m|    1.97605ms|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/29 05:38:34 [1;34m[D] [server.go:2202] | 197.210.227.74|[42m 200 [0m|    837.187µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/29 05:38:45 [1;34m[D] [server.go:2202] | 197.210.227.74|[47m 302 [0m|  91.287055ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/04/29 05:38:49 [1;34m[D] [server.go:2202] | 197.210.227.74|[42m 200 [0m|   5.200448ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/04/29 05:40:35 [1;34m[D] [server.go:2202] |  37.221.246.12|[47m 302 [0m|     77.991µs| nomatch|[44m GET     [0m /manager/[0m
+2017/04/29 05:40:35 [1;34m[D] [server.go:2202] |  37.221.246.12|[42m 200 [0m|    874.533µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/29 06:17:41 [1;34m[D] [server.go:2202] |  180.76.15.161|[47m 302 [0m|     93.902µs| nomatch|[44m GET     [0m /robots.txt[0m
+2017/04/29 06:17:41 [1;34m[D] [server.go:2202] |   180.76.15.27|[42m 200 [0m|    825.029µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/04/29 06:19:51 [1;34m[D] [server.go:2202] |  180.76.15.135|[42m 200 [0m|    151.315µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2-bootstrap.min.css[0m
+2017/04/29 06:21:59 [1;34m[D] [server.go:2202] |  222.186.21.21|[47m 302 [0m|      76.01µs| nomatch|[44m GET     [0m /invoker/JMXInvokerServlet[0m
+2017/04/29 06:22:02 [1;34m[D] [server.go:2202] |  222.186.21.21|[42m 200 [0m|    807.454µs|   match|[44m GET     [0m /login   r:/login[0m
+Tick at 2017-04-29 06:37:38.535903103 +0000 UTC
+runtime: goroutine stack exceeds 1000000000-byte limit
+fatal error: stack overflow
+
+runtime stack:
+runtime.throw(0x95d6ac, 0xe)
+	/usr/local/go/src/runtime/panic.go:566 +0x95
+runtime.newstack()
+	/usr/local/go/src/runtime/stack.go:1061 +0x416
+runtime.morestack()
+	/usr/local/go/src/runtime/asm_amd64.s:366 +0x7f
+
+goroutine 4 [running]:
+github.com/astaxie/beego/orm.getFlatParams(0xc420173860, 0xc420333a70, 0x1, 0x1, 0xbc7c80, 0x499342, 0x8, 0x10)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db_utils.go:57 fp=0xc440500440 sp=0xc440500438
+github.com/astaxie/beego/orm.(*dbBase).GenerateOperatorSQL(0xc42015cd90, 0xc420166500, 0xc420173860, 0x955a5d, 0x5, 0xc420333a70, 0x1, 0x1, 0xbc7c80, 0x0, ...)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db.go:1114 +0x92 fp=0xc440500648 sp=0xc440500440
+github.com/astaxie/beego/orm.(*dbTables).getCondSQL(0xc440500fb8, 0xc4204c2860, 0x0, 0xbc7c80, 0x0, 0xc4204c66c0, 0x8e, 0xc420001a00, 0xc4405009c8)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db_tables.go:375 +0x3cc fp=0xc440500928 sp=0xc440500648
+github.com/astaxie/beego/orm.(*dbBase).ReadBatch(0xc42015cd90, 0xba1f00, 0xc420127c30, 0xc4204c1200, 0xc420166500, 0xc4204c2860, 0x88ca00, 0xc4204c27e0, 0xbc7c80, 0x0, ...)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db.go:949 +0xca0 fp=0xc4405012e0 sp=0xc440500928
+github.com/astaxie/beego/orm.(*querySet).All(0xc4204c1200, 0x88ca00, 0xc4204c27e0, 0x0, 0x0, 0x0, 0xba63c0, 0xc4204c1200, 0xbc7c80)
+	/root/projects/go/src/github.com/astaxie/beego/orm/orm_queryset.go:194 +0xc1 fp=0xc440501368 sp=0xc4405012e0
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:91 +0x32e fp=0xc4405016b8 sp=0xc440501368
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440501a08 sp=0xc4405016b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440501d58 sp=0xc440501a08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405020a8 sp=0xc440501d58
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405023f8 sp=0xc4405020a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440502748 sp=0xc4405023f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440502a98 sp=0xc440502748
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440502de8 sp=0xc440502a98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440503138 sp=0xc440502de8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440503488 sp=0xc440503138
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405037d8 sp=0xc440503488
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440503b28 sp=0xc4405037d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440503e78 sp=0xc440503b28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405041c8 sp=0xc440503e78
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440504518 sp=0xc4405041c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440504868 sp=0xc440504518
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440504bb8 sp=0xc440504868
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440504f08 sp=0xc440504bb8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440505258 sp=0xc440504f08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405055a8 sp=0xc440505258
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405058f8 sp=0xc4405055a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440505c48 sp=0xc4405058f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440505f98 sp=0xc440505c48
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405062e8 sp=0xc440505f98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440506638 sp=0xc4405062e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440506988 sp=0xc440506638
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440506cd8 sp=0xc440506988
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440507028 sp=0xc440506cd8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440507378 sp=0xc440507028
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405076c8 sp=0xc440507378
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440507a18 sp=0xc4405076c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440507d68 sp=0xc440507a18
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405080b8 sp=0xc440507d68
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440508408 sp=0xc4405080b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440508758 sp=0xc440508408
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440508aa8 sp=0xc440508758
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440508df8 sp=0xc440508aa8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440509148 sp=0xc440508df8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440509498 sp=0xc440509148
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405097e8 sp=0xc440509498
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440509b38 sp=0xc4405097e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440509e88 sp=0xc440509b38
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050a1d8 sp=0xc440509e88
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050a528 sp=0xc44050a1d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050a878 sp=0xc44050a528
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050abc8 sp=0xc44050a878
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050af18 sp=0xc44050abc8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050b268 sp=0xc44050af18
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050b5b8 sp=0xc44050b268
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050b908 sp=0xc44050b5b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050bc58 sp=0xc44050b908
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050bfa8 sp=0xc44050bc58
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050c2f8 sp=0xc44050bfa8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050c648 sp=0xc44050c2f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050c998 sp=0xc44050c648
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050cce8 sp=0xc44050c998
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050d038 sp=0xc44050cce8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050d388 sp=0xc44050d038
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050d6d8 sp=0xc44050d388
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050da28 sp=0xc44050d6d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050dd78 sp=0xc44050da28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050e0c8 sp=0xc44050dd78
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050e418 sp=0xc44050e0c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050e768 sp=0xc44050e418
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050eab8 sp=0xc44050e768
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050ee08 sp=0xc44050eab8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050f158 sp=0xc44050ee08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050f4a8 sp=0xc44050f158
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050f7f8 sp=0xc44050f4a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050fb48 sp=0xc44050f7f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44050fe98 sp=0xc44050fb48
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405101e8 sp=0xc44050fe98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440510538 sp=0xc4405101e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440510888 sp=0xc440510538
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440510bd8 sp=0xc440510888
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440510f28 sp=0xc440510bd8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440511278 sp=0xc440510f28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405115c8 sp=0xc440511278
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440511918 sp=0xc4405115c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440511c68 sp=0xc440511918
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440511fb8 sp=0xc440511c68
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440512308 sp=0xc440511fb8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440512658 sp=0xc440512308
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405129a8 sp=0xc440512658
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440512cf8 sp=0xc4405129a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440513048 sp=0xc440512cf8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440513398 sp=0xc440513048
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405136e8 sp=0xc440513398
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440513a38 sp=0xc4405136e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440513d88 sp=0xc440513a38
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4405140d8 sp=0xc440513d88
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440514428 sp=0xc4405140d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440514778 sp=0xc440514428
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440514ac8 sp=0xc440514778
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc42000c270)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440514e18 sp=0xc440514ac8
+...additional frames elided...
+created by github.com/ademuanthony/h2gh/services.init.1
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:22 +0xa3
+
+goroutine 1 [chan receive, 63 minutes]:
+github.com/astaxie/beego.(*App).Run(0xc420065660)
+	/root/projects/go/src/github.com/astaxie/beego/app.go:186 +0x708
+github.com/astaxie/beego.Run(0x0, 0x0, 0x0)
+	/root/projects/go/src/github.com/astaxie/beego/beego.go:67 +0x51
+main.main()
+	/root/projects/go/src/github.com/ademuanthony/h2gh/main.go:35 +0x3c
+
+goroutine 17 [syscall, 63 minutes, locked to thread]:
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:2086 +0x1
+
+goroutine 20 [syscall, 63 minutes]:
+os/signal.signal_recv(0x0)
+	/usr/local/go/src/runtime/sigqueue.go:116 +0x157
+os/signal.loop()
+	/usr/local/go/src/os/signal/signal_unix.go:22 +0x22
+created by os/signal.init.1
+	/usr/local/go/src/os/signal/signal_unix.go:28 +0x41
+
+goroutine 21 [chan receive, 63 minutes]:
+database/sql.(*DB).connectionOpener(0xc420127c30)
+	/usr/local/go/src/database/sql/sql.go:730 +0x4a
+created by database/sql.Open
+	/usr/local/go/src/database/sql/sql.go:493 +0x1e9
+
+goroutine 40 [IO wait, 19 minutes]:
+net.runtime_pollWait(0x7f9ccebd3fd8, 0x72, 0x0)
+	/usr/local/go/src/runtime/netpoll.go:160 +0x59
+net.(*pollDesc).wait(0xc4203a5aa0, 0x72, 0xc420037c90, 0xc4200640b0)
+	/usr/local/go/src/net/fd_poll_runtime.go:73 +0x38
+net.(*pollDesc).waitRead(0xc4203a5aa0, 0xb9d940, 0xc4200640b0)
+	/usr/local/go/src/net/fd_poll_runtime.go:78 +0x34
+net.(*netFD).accept(0xc4203a5a40, 0x0, 0xb9c1c0, 0xc4202c2000)
+	/usr/local/go/src/net/fd_unix.go:419 +0x238
+net.(*TCPListener).accept(0xc420026eb0, 0x29e8d60800, 0x0, 0x0)
+	/usr/local/go/src/net/tcpsock_posix.go:132 +0x2e
+net.(*TCPListener).AcceptTCP(0xc420026eb0, 0xc420037db8, 0xc420037dc0, 0xc420037db0)
+	/usr/local/go/src/net/tcpsock.go:209 +0x49
+net/http.tcpKeepAliveListener.Accept(0xc420026eb0, 0x9a9840, 0xc42018c000, 0xba1dc0, 0xc4203d4900)
+	/usr/local/go/src/net/http/server.go:2608 +0x2f
+net/http.(*Server).Serve(0xc420086300, 0xba16c0, 0xc420026eb0, 0x0, 0x0)
+	/usr/local/go/src/net/http/server.go:2273 +0x1ce
+net/http.(*Server).ListenAndServe(0xc420086300, 0xc4202ebe50, 0xc420037f30)
+	/usr/local/go/src/net/http/server.go:2219 +0xb4
+github.com/astaxie/beego.(*App).Run.func4(0xc420065660, 0xc4202ebe20, 0x3, 0xc4203a59d0)
+	/root/projects/go/src/github.com/astaxie/beego/app.go:178 +0x3c2
+created by github.com/astaxie/beego.(*App).Run
+	/root/projects/go/src/github.com/astaxie/beego/app.go:184 +0x753
+2017/05/01 16:25:15 [1;34m[I] [asm_amd64.s:2086] http server Running on http://:8001[0m
+2017/05/01 16:25:39 [1;34m[I] [asm_amd64.s:2086] http server Running on http://:8001[0m
+2017/05/01 16:29:55 [1;34m[I] [asm_amd64.s:2086] http server Running on http://:8001[0m
+2017/05/01 16:30:02 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|    971.133µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/05/01 16:30:03 [1;34m[D] [server.go:2202] |  129.56.10.115|[47m 302 [0m|     75.763µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/05/01 16:30:03 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|    925.858µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/05/01 16:30:23 [1;34m[D] [server.go:2202] |  129.56.10.115|[47m 302 [0m|  92.758384ms|   match|[46m POST    [0m /login   r:/login[0m
+2017/05/01 16:30:23 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|   6.413015ms|   match|[44m GET     [0m /dashboard   r:/dashboard[0m
+2017/05/01 16:30:23 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|    284.275µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/layout.min.css[0m
+2017/05/01 16:30:23 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|    169.564µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/themes/blue.min.css[0m
+2017/05/01 16:30:23 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|     97.805µs|   match|[44m GET     [0m /static/assets/layouts/layout2/css/custom.min.css[0m
+2017/05/01 16:30:24 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|    147.932µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/layout.min.js[0m
+2017/05/01 16:30:24 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|     76.851µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-sidebar.min.js[0m
+2017/05/01 16:30:24 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|     183.24µs|   match|[44m GET     [0m /static/assets/layouts/layout2/scripts/demo.min.js[0m
+2017/05/01 16:30:24 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|    160.893µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/avatar3_small.jpg[0m
+2017/05/01 16:30:24 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|    182.466µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2[0m
+2017/05/01 16:30:24 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|    250.166µs|   match|[44m GET     [0m /static/assets/layouts/global/scripts/quick-nav.min.js[0m
+2017/05/01 16:30:24 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|     82.176µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler.png[0m
+2017/05/01 16:30:24 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|     220.58µs|   match|[44m GET     [0m /static/assets/layouts/layout2/img/sidebar-toggler-inverse.png[0m
+2017/05/01 16:30:25 [1;34m[D] [server.go:2202] |  129.56.10.115|[43m 404 [0m|    265.613µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/05/01 16:37:50 [1;34m[D] [server.go:2202] |   66.249.69.89|[47m 302 [0m|     68.606µs| nomatch|[44m GET     [0m /robots.txt[0m
+2017/05/01 16:37:50 [1;34m[D] [server.go:2202] |   66.249.69.85|[42m 200 [0m|    814.829µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/05/01 16:37:50 [1;34m[D] [server.go:2202] |   66.249.69.93|[42m 200 [0m|   1.022436ms|   match|[44m GET     [0m /     r:/[0m
+2017/05/01 16:37:51 [1;34m[D] [server.go:2202] |   66.249.69.89|[42m 200 [0m|    151.918µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/05/01 16:37:51 [1;34m[D] [server.go:2202] |   66.249.69.85|[42m 200 [0m|     80.671µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/05/01 16:37:51 [1;34m[D] [server.go:2202] |   66.249.69.93|[42m 200 [0m|    758.582µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/05/01 16:37:51 [1;34m[D] [server.go:2202] |   66.249.69.85|[42m 200 [0m|    371.211µs|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/05/01 16:37:52 [1;34m[D] [server.go:2202] |   66.249.69.89|[42m 200 [0m|    366.704µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/05/01 16:50:41 [1;34m[D] [server.go:2202] |  129.56.10.115|[42m 200 [0m|   1.033791ms|   match|[44m GET     [0m /     r:/[0m
+2017/05/01 16:50:42 [1;34m[D] [server.go:2202] |  129.56.10.115|[43m 404 [0m|    266.776µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/05/01 17:23:19 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|   1.024557ms|   match|[44m GET     [0m /     r:/[0m
+2017/05/01 17:23:20 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|    351.887µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/05/01 17:23:20 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|    159.193µs|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/05/01 17:23:20 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|    170.792µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/05/01 17:23:20 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|     88.945µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/05/01 17:23:20 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|    227.751µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/05/01 17:23:20 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|    216.822µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/05/01 17:23:23 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|    251.779µs|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/05/01 17:23:23 [1;34m[D] [server.go:2202] | 105.112.18.218|[47m 302 [0m|     54.599µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/05/01 17:23:25 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|    954.066µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/05/01 17:23:25 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|    164.756µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/05/01 17:23:28 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|    448.962µs|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/05/01 17:23:29 [1;34m[D] [server.go:2202] | 105.112.18.218|[42m 200 [0m|    149.685µs|   match|[44m GET     [0m /static/monarch/assets/images/icons/favicon.png[0m
+2017/05/01 17:26:46 [1;34m[D] [server.go:2202] |   157.55.39.46|[42m 200 [0m|   1.008241ms|   match|[44m GET     [0m /     r:/[0m
+Tick at 2017-05-01 17:29:55.468339348 +0000 UTC
+runtime: goroutine stack exceeds 1000000000-byte limit
+fatal error: stack overflow
+
+runtime stack:
+runtime.throw(0x95d6ac, 0xe)
+	/usr/local/go/src/runtime/panic.go:566 +0x95
+runtime.newstack()
+	/usr/local/go/src/runtime/stack.go:1061 +0x416
+runtime.morestack()
+	/usr/local/go/src/runtime/asm_amd64.s:366 +0x7f
+
+goroutine 8 [running]:
+github.com/astaxie/beego/orm.getFlatParams(0xc420160ea0, 0xc42025f880, 0x1, 0x1, 0xbc7c80, 0x499342, 0x8, 0x10)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db_utils.go:57 fp=0xc440600440 sp=0xc440600438
+github.com/astaxie/beego/orm.(*dbBase).GenerateOperatorSQL(0xc42014aed0, 0xc42015a1e0, 0xc420160ea0, 0x955a5d, 0x5, 0xc42025f880, 0x1, 0x1, 0xbc7c80, 0x0, ...)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db.go:1114 +0x92 fp=0xc440600648 sp=0xc440600440
+github.com/astaxie/beego/orm.(*dbTables).getCondSQL(0xc440600fb8, 0xc4206392c0, 0x0, 0xbc7c80, 0x0, 0xc420047950, 0x8e, 0xc420172340, 0xc4406009c8)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db_tables.go:375 +0x3cc fp=0xc440600928 sp=0xc440600648
+github.com/astaxie/beego/orm.(*dbBase).ReadBatch(0xc42014aed0, 0xba1f00, 0xc420111ce0, 0xc420049500, 0xc42015a1e0, 0xc4206392c0, 0x88ca00, 0xc420639240, 0xbc7c80, 0x0, ...)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db.go:949 +0xca0 fp=0xc4406012e0 sp=0xc440600928
+github.com/astaxie/beego/orm.(*querySet).All(0xc420049500, 0x88ca00, 0xc420639240, 0x0, 0x0, 0x0, 0xba63c0, 0xc420049500, 0xbc7c80)
+	/root/projects/go/src/github.com/astaxie/beego/orm/orm_queryset.go:194 +0xc1 fp=0xc440601368 sp=0xc4406012e0
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:91 +0x32e fp=0xc4406016b8 sp=0xc440601368
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440601a08 sp=0xc4406016b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440601d58 sp=0xc440601a08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406020a8 sp=0xc440601d58
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406023f8 sp=0xc4406020a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440602748 sp=0xc4406023f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440602a98 sp=0xc440602748
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440602de8 sp=0xc440602a98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440603138 sp=0xc440602de8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440603488 sp=0xc440603138
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406037d8 sp=0xc440603488
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440603b28 sp=0xc4406037d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440603e78 sp=0xc440603b28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406041c8 sp=0xc440603e78
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440604518 sp=0xc4406041c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440604868 sp=0xc440604518
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440604bb8 sp=0xc440604868
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440604f08 sp=0xc440604bb8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440605258 sp=0xc440604f08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406055a8 sp=0xc440605258
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406058f8 sp=0xc4406055a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440605c48 sp=0xc4406058f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440605f98 sp=0xc440605c48
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406062e8 sp=0xc440605f98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440606638 sp=0xc4406062e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440606988 sp=0xc440606638
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440606cd8 sp=0xc440606988
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440607028 sp=0xc440606cd8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440607378 sp=0xc440607028
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406076c8 sp=0xc440607378
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440607a18 sp=0xc4406076c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440607d68 sp=0xc440607a18
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406080b8 sp=0xc440607d68
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440608408 sp=0xc4406080b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440608758 sp=0xc440608408
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440608aa8 sp=0xc440608758
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440608df8 sp=0xc440608aa8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440609148 sp=0xc440608df8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440609498 sp=0xc440609148
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406097e8 sp=0xc440609498
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440609b38 sp=0xc4406097e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440609e88 sp=0xc440609b38
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060a1d8 sp=0xc440609e88
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060a528 sp=0xc44060a1d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060a878 sp=0xc44060a528
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060abc8 sp=0xc44060a878
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060af18 sp=0xc44060abc8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060b268 sp=0xc44060af18
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060b5b8 sp=0xc44060b268
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060b908 sp=0xc44060b5b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060bc58 sp=0xc44060b908
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060bfa8 sp=0xc44060bc58
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060c2f8 sp=0xc44060bfa8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060c648 sp=0xc44060c2f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060c998 sp=0xc44060c648
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060cce8 sp=0xc44060c998
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060d038 sp=0xc44060cce8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060d388 sp=0xc44060d038
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060d6d8 sp=0xc44060d388
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060da28 sp=0xc44060d6d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060dd78 sp=0xc44060da28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060e0c8 sp=0xc44060dd78
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060e418 sp=0xc44060e0c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060e768 sp=0xc44060e418
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060eab8 sp=0xc44060e768
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060ee08 sp=0xc44060eab8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060f158 sp=0xc44060ee08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060f4a8 sp=0xc44060f158
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060f7f8 sp=0xc44060f4a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060fb48 sp=0xc44060f7f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44060fe98 sp=0xc44060fb48
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406101e8 sp=0xc44060fe98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440610538 sp=0xc4406101e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440610888 sp=0xc440610538
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440610bd8 sp=0xc440610888
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440610f28 sp=0xc440610bd8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440611278 sp=0xc440610f28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406115c8 sp=0xc440611278
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440611918 sp=0xc4406115c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440611c68 sp=0xc440611918
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440611fb8 sp=0xc440611c68
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440612308 sp=0xc440611fb8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440612658 sp=0xc440612308
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406129a8 sp=0xc440612658
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440612cf8 sp=0xc4406129a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440613048 sp=0xc440612cf8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440613398 sp=0xc440613048
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406136e8 sp=0xc440613398
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440613a38 sp=0xc4406136e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440613d88 sp=0xc440613a38
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4406140d8 sp=0xc440613d88
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440614428 sp=0xc4406140d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440614778 sp=0xc440614428
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440614ac8 sp=0xc440614778
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420170040)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440614e18 sp=0xc440614ac8
+...additional frames elided...
+created by github.com/ademuanthony/h2gh/services.init.1
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:22 +0xa3
+
+goroutine 1 [chan receive, 63 minutes]:
+github.com/astaxie/beego.(*App).Run(0xc42000d7a0)
+	/root/projects/go/src/github.com/astaxie/beego/app.go:186 +0x708
+github.com/astaxie/beego.Run(0x0, 0x0, 0x0)
+	/root/projects/go/src/github.com/astaxie/beego/beego.go:67 +0x51
+main.main()
+	/root/projects/go/src/github.com/ademuanthony/h2gh/main.go:35 +0x3c
+
+goroutine 17 [syscall, 63 minutes, locked to thread]:
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:2086 +0x1
+
+goroutine 5 [syscall, 63 minutes]:
+os/signal.signal_recv(0x0)
+	/usr/local/go/src/runtime/sigqueue.go:116 +0x157
+os/signal.loop()
+	/usr/local/go/src/os/signal/signal_unix.go:22 +0x22
+created by os/signal.init.1
+	/usr/local/go/src/os/signal/signal_unix.go:28 +0x41
+
+goroutine 6 [chan receive, 63 minutes]:
+database/sql.(*DB).connectionOpener(0xc420111ce0)
+	/usr/local/go/src/database/sql/sql.go:730 +0x4a
+created by database/sql.Open
+	/usr/local/go/src/database/sql/sql.go:493 +0x1e9
+
+goroutine 28 [IO wait, 7 minutes]:
+net.runtime_pollWait(0x7f0dafbb9fd8, 0x72, 0x0)
+	/usr/local/go/src/runtime/netpoll.go:160 +0x59
+net.(*pollDesc).wait(0xc420362fb0, 0x72, 0xc420037c90, 0xc42000c1f0)
+	/usr/local/go/src/net/fd_poll_runtime.go:73 +0x38
+net.(*pollDesc).waitRead(0xc420362fb0, 0xb9d940, 0xc42000c1f0)
+	/usr/local/go/src/net/fd_poll_runtime.go:78 +0x34
+net.(*netFD).accept(0xc420362f50, 0x0, 0xb9c1c0, 0xc4201fc020)
+	/usr/local/go/src/net/fd_unix.go:419 +0x238
+net.(*TCPListener).accept(0xc4200271d8, 0x29e8d60800, 0x0, 0x0)
+	/usr/local/go/src/net/tcpsock_posix.go:132 +0x2e
+net.(*TCPListener).AcceptTCP(0xc4200271d8, 0xc420037db8, 0xc420037dc0, 0xc420037db0)
+	/usr/local/go/src/net/tcpsock.go:209 +0x49
+net/http.tcpKeepAliveListener.Accept(0xc4200271d8, 0x9a9840, 0xc4202d2100, 0xba1dc0, 0xc420386840)
+	/usr/local/go/src/net/http/server.go:2608 +0x2f
+net/http.(*Server).Serve(0xc420078300, 0xba16c0, 0xc4200271d8, 0x0, 0x0)
+	/usr/local/go/src/net/http/server.go:2273 +0x1ce
+net/http.(*Server).ListenAndServe(0xc420078300, 0xc4202b5c20, 0xc420037f30)
+	/usr/local/go/src/net/http/server.go:2219 +0xb4
+github.com/astaxie/beego.(*App).Run.func4(0xc42000d7a0, 0xc4202b5bf0, 0x5, 0xc420362ee0)
+	/root/projects/go/src/github.com/astaxie/beego/app.go:178 +0x3c2
+created by github.com/astaxie/beego.(*App).Run
+	/root/projects/go/src/github.com/astaxie/beego/app.go:184 +0x753
+2017/05/02 12:09:35 [1;34m[I] [asm_amd64.s:2086] http server Running on http://:8001[0m
+2017/05/02 12:09:47 [1;34m[D] [server.go:2202] |    129.56.10.4|[42m 200 [0m|   1.273704ms|   match|[44m GET     [0m /     r:/[0m
+2017/05/02 12:09:48 [1;34m[D] [server.go:2202] |    129.56.10.4|[47m 302 [0m|     72.872µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/05/02 12:09:48 [1;34m[D] [server.go:2202] |    129.56.10.4|[42m 200 [0m|   2.227447ms|   match|[44m GET     [0m /login   r:/login[0m
+2017/05/02 12:09:58 [1;34m[D] [server.go:2202] |    129.56.10.4|[42m 200 [0m|    1.01644ms|   match|[44m GET     [0m /     r:/[0m
+2017/05/02 12:09:58 [1;34m[D] [server.go:2202] |    129.56.10.4|[47m 302 [0m|     51.682µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/05/02 12:09:59 [1;34m[D] [server.go:2202] |    129.56.10.4|[42m 200 [0m|    819.053µs|   match|[44m GET     [0m /login   r:/login[0m
+2017/05/02 12:09:59 [1;34m[D] [server.go:2202] |    129.56.10.4|[42m 200 [0m|    129.238µs|   match|[44m GET     [0m /static/monarch/assets/images/icons/favicon.png[0m
+2017/05/02 12:39:35 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|   1.092834ms|   match|[44m GET     [0m /     r:/[0m
+2017/05/02 12:39:36 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    863.797µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.css[0m
+2017/05/02 12:39:37 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    210.615µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel.js[0m
+2017/05/02 12:39:37 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|     416.73µs|   match|[44m GET     [0m /static/monarch/assets-minified/js-core.js[0m
+2017/05/02 12:39:37 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    354.128µs|   match|[44m GET     [0m /static/monarch/assets-minified/frontend-all-demo.js[0m
+2017/05/02 12:39:37 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|     81.811µs|   match|[44m GET     [0m /static/monarch/assets/widgets/owlcarousel/owlcarousel-demo.js[0m
+2017/05/02 12:39:40 [1;34m[D] [server.go:2202] |  105.112.22.81|[47m 302 [0m|     61.838µs| nomatch|[44m GET     [0m /static/image-resources/logo-alt.png[0m
+2017/05/02 12:39:41 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    205.903µs|   match|[44m GET     [0m /static/img/Naira-vs-Dollar-330x242.jpg[0m
+2017/05/02 12:39:41 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    211.494µs|   match|[44m GET     [0m /static/monarch/assets-minified/fontawesome-webfontba72.woff[0m
+2017/05/02 12:39:41 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|   2.439516ms|   match|[44m GET     [0m /login   r:/login[0m
+2017/05/02 12:39:43 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    305.316µs|   match|[44m GET     [0m /static/monarch/image-resources/poly-bg/poly-bg-1.jpg[0m
+2017/05/02 12:39:43 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    147.003µs|   match|[44m GET     [0m /static/monarch/assets-minified/linecons8f44.woff[0m
+2017/05/02 12:39:45 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|     60.954µs|   match|[44m GET     [0m /static/monarch/assets/images/icons/favicon.png[0m
+Banks: [{1  ACCESS BANK PLC false} {2  CITIBANK NIGERIA LIMITED false} {3  DIAMOND BANK PLC false} {4  ECOBANK NIGERIA PLC false} {5  ENTERPRISE BANK false} {6  FIDELITY BANK PLC false} {7  FIRST BANK OF NIGERIA PLC false} {8  FIRST CITY MONUMENT BANK PLC false} {9  GUARANTY TRUST BANK PLC false} {10  KEY STONE BANK false} {11  MAINSTREET BANK false} {12  SKYE BANK PLC false} {13  STANBIC IBTC BANK LTD. false} {14  STANDARD CHARTERED BANK NIGERIA LTD. false} {15  STERLING BANK PLC false} {16  UNION BANK OF NIGERIA PLC false} {17  UNITED BANK FOR AFRICA PLC false} {18  UNITY  BANK PLC false} {19  WEMA BANK PLC false} {20  ZENITH BANK PLC false} {21  HERITAGE BANKING COMPANY LTD. false}]
+2017/05/02 12:40:22 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|   2.792325ms|   match|[44m GET     [0m /register   r:/register[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|     212.79µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.min.js[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|     69.922µs|   match|[44m GET     [0m /static/assets/pages/css/login-2.min.css[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    190.083µs|   match|[44m GET     [0m /static/assets/global/css/plugins.min.css[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|   2.335603ms|   match|[44m GET     [0m /static/assets/global/css/components.min.css[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    141.465µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2-bootstrap.min.css[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    137.768µs|   match|[44m GET     [0m /static/assets/global/plugins/select2/css/select2.min.css[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    114.207µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    124.836µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/js/bootstrap.min.js[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    316.851µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap/css/bootstrap.min.css[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|     97.598µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/simple-line-icons.min.css[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    169.816µs|   match|[44m GET     [0m /static/assets/global/plugins/font-awesome/css/font-awesome.min.css[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|      98.76µs|   match|[44m GET     [0m /static/assets/global/plugins/js.cookie.min.js[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    116.846µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    113.787µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery.blockui.min.js[0m
+2017/05/02 12:40:23 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    130.386µs|   match|[44m GET     [0m /static/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js[0m
+2017/05/02 12:40:24 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    172.287µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/jquery.validate.min.js[0m
+2017/05/02 12:40:24 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    183.454µs|   match|[44m GET     [0m /static/assets/global/plugins/jquery-validation/js/additional-methods.min.js[0m
+2017/05/02 12:40:24 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|   1.248433ms|   match|[44m GET     [0m /static/assets/global/plugins/select2/js/select2.full.min.js[0m
+2017/05/02 12:40:24 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|     134.18µs|   match|[44m GET     [0m /static/assets/global/scripts/app.min.js[0m
+2017/05/02 12:40:24 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|     80.713µs|   match|[44m GET     [0m /static/assets/pages/scripts/login.min.js[0m
+2017/05/02 12:40:30 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    188.917µs|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff[0m
+2017/05/02 12:40:30 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|   2.853137ms|   match|[44m GET     [0m /static/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.svg[0m
+2017/05/02 12:40:33 [1;34m[D] [server.go:2202] |  105.112.22.81|[47m 302 [0m|     51.887µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2017/05/02 12:40:34 [1;34m[D] [server.go:2202] |  105.112.22.81|[42m 200 [0m|    789.783µs|   match|[44m GET     [0m /login   r:/login[0m
+Tick at 2017-05-02 13:09:35.455491546 +0000 UTC
+runtime: goroutine stack exceeds 1000000000-byte limit
+fatal error: stack overflow
+
+runtime stack:
+runtime.throw(0x95d6ac, 0xe)
+	/usr/local/go/src/runtime/panic.go:566 +0x95
+runtime.newstack()
+	/usr/local/go/src/runtime/stack.go:1061 +0x416
+runtime.morestack()
+	/usr/local/go/src/runtime/asm_amd64.s:366 +0x7f
+
+goroutine 19 [running]:
+github.com/astaxie/beego/orm.getFlatParams(0xc420165040, 0xc4208b4440, 0x1, 0x1, 0xbc7c80, 0x499342, 0x8, 0x10)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db_utils.go:57 fp=0xc440900440 sp=0xc440900438
+github.com/astaxie/beego/orm.(*dbBase).GenerateOperatorSQL(0xc42014ced0, 0xc4201543c0, 0xc420165040, 0x955a5d, 0x5, 0xc4208b4440, 0x1, 0x1, 0xbc7c80, 0x0, ...)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db.go:1114 +0x92 fp=0xc440900648 sp=0xc440900440
+github.com/astaxie/beego/orm.(*dbTables).getCondSQL(0xc440900fb8, 0xc4208ab560, 0x0, 0xbc7c80, 0x0, 0xc4208af290, 0x8e, 0xc420188680, 0xc4409009c8)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db_tables.go:375 +0x3cc fp=0xc440900928 sp=0xc440900648
+github.com/astaxie/beego/orm.(*dbBase).ReadBatch(0xc42014ced0, 0xba1f00, 0xc420128370, 0xc4208b0c80, 0xc4201543c0, 0xc4208ab560, 0x88ca00, 0xc4208ab4e0, 0xbc7c80, 0x0, ...)
+	/root/projects/go/src/github.com/astaxie/beego/orm/db.go:949 +0xca0 fp=0xc4409012e0 sp=0xc440900928
+github.com/astaxie/beego/orm.(*querySet).All(0xc4208b0c80, 0x88ca00, 0xc4208ab4e0, 0x0, 0x0, 0x0, 0xba63c0, 0xc4208b0c80, 0xbc7c80)
+	/root/projects/go/src/github.com/astaxie/beego/orm/orm_queryset.go:194 +0xc1 fp=0xc440901368 sp=0xc4409012e0
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:91 +0x32e fp=0xc4409016b8 sp=0xc440901368
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440901a08 sp=0xc4409016b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440901d58 sp=0xc440901a08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409020a8 sp=0xc440901d58
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409023f8 sp=0xc4409020a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440902748 sp=0xc4409023f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440902a98 sp=0xc440902748
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440902de8 sp=0xc440902a98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440903138 sp=0xc440902de8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440903488 sp=0xc440903138
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409037d8 sp=0xc440903488
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440903b28 sp=0xc4409037d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440903e78 sp=0xc440903b28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409041c8 sp=0xc440903e78
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440904518 sp=0xc4409041c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440904868 sp=0xc440904518
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440904bb8 sp=0xc440904868
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440904f08 sp=0xc440904bb8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440905258 sp=0xc440904f08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409055a8 sp=0xc440905258
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409058f8 sp=0xc4409055a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440905c48 sp=0xc4409058f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440905f98 sp=0xc440905c48
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409062e8 sp=0xc440905f98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440906638 sp=0xc4409062e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440906988 sp=0xc440906638
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440906cd8 sp=0xc440906988
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440907028 sp=0xc440906cd8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440907378 sp=0xc440907028
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409076c8 sp=0xc440907378
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440907a18 sp=0xc4409076c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440907d68 sp=0xc440907a18
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409080b8 sp=0xc440907d68
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440908408 sp=0xc4409080b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440908758 sp=0xc440908408
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440908aa8 sp=0xc440908758
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440908df8 sp=0xc440908aa8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440909148 sp=0xc440908df8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440909498 sp=0xc440909148
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409097e8 sp=0xc440909498
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440909b38 sp=0xc4409097e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440909e88 sp=0xc440909b38
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090a1d8 sp=0xc440909e88
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090a528 sp=0xc44090a1d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090a878 sp=0xc44090a528
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090abc8 sp=0xc44090a878
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090af18 sp=0xc44090abc8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090b268 sp=0xc44090af18
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090b5b8 sp=0xc44090b268
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090b908 sp=0xc44090b5b8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090bc58 sp=0xc44090b908
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090bfa8 sp=0xc44090bc58
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090c2f8 sp=0xc44090bfa8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090c648 sp=0xc44090c2f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090c998 sp=0xc44090c648
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090cce8 sp=0xc44090c998
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090d038 sp=0xc44090cce8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090d388 sp=0xc44090d038
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090d6d8 sp=0xc44090d388
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090da28 sp=0xc44090d6d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090dd78 sp=0xc44090da28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090e0c8 sp=0xc44090dd78
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090e418 sp=0xc44090e0c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090e768 sp=0xc44090e418
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090eab8 sp=0xc44090e768
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090ee08 sp=0xc44090eab8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090f158 sp=0xc44090ee08
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090f4a8 sp=0xc44090f158
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090f7f8 sp=0xc44090f4a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090fb48 sp=0xc44090f7f8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc44090fe98 sp=0xc44090fb48
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409101e8 sp=0xc44090fe98
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440910538 sp=0xc4409101e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440910888 sp=0xc440910538
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440910bd8 sp=0xc440910888
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440910f28 sp=0xc440910bd8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440911278 sp=0xc440910f28
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409115c8 sp=0xc440911278
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440911918 sp=0xc4409115c8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440911c68 sp=0xc440911918
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440911fb8 sp=0xc440911c68
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440912308 sp=0xc440911fb8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440912658 sp=0xc440912308
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409129a8 sp=0xc440912658
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440912cf8 sp=0xc4409129a8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440913048 sp=0xc440912cf8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440913398 sp=0xc440913048
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409136e8 sp=0xc440913398
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440913a38 sp=0xc4409136e8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440913d88 sp=0xc440913a38
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc4409140d8 sp=0xc440913d88
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440914428 sp=0xc4409140d8
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440914778 sp=0xc440914428
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440914ac8 sp=0xc440914778
+github.com/ademuanthony/h2gh/services.(*Peer2PeerService).RemoveExpiredPayments(0xc420172130)
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:111 +0x62a fp=0xc440914e18 sp=0xc440914ac8
+...additional frames elided...
+created by github.com/ademuanthony/h2gh/services.init.1
+	/root/projects/go/src/github.com/ademuanthony/h2gh/services/peer2peerService.go:22 +0xa3
+
+goroutine 1 [chan receive, 63 minutes]:
+github.com/astaxie/beego.(*App).Run(0xc42000d7a0)
+	/root/projects/go/src/github.com/astaxie/beego/app.go:186 +0x708
+github.com/astaxie/beego.Run(0x0, 0x0, 0x0)
+	/root/projects/go/src/github.com/astaxie/beego/beego.go:67 +0x51
+main.main()
+	/root/projects/go/src/github.com/ademuanthony/h2gh/main.go:35 +0x3c
+
+goroutine 17 [syscall, 63 minutes, locked to thread]:
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:2086 +0x1
+
+goroutine 5 [syscall, 63 minutes]:
+os/signal.signal_recv(0x0)
+	/usr/local/go/src/runtime/sigqueue.go:116 +0x157
+os/signal.loop()
+	/usr/local/go/src/os/signal/signal_unix.go:22 +0x22
+created by os/signal.init.1
+	/usr/local/go/src/os/signal/signal_unix.go:28 +0x41
+
+goroutine 6 [chan receive, 63 minutes]:
+database/sql.(*DB).connectionOpener(0xc420128370)
+	/usr/local/go/src/database/sql/sql.go:730 +0x4a
+created by database/sql.Open
+	/usr/local/go/src/database/sql/sql.go:493 +0x1e9
+
+goroutine 38 [IO wait, 32 minutes]:
+net.runtime_pollWait(0x7fe9273effd8, 0x72, 0x0)
+	/usr/local/go/src/runtime/netpoll.go:160 +0x59
+net.(*pollDesc).wait(0xc420395aa0, 0x72, 0xc420032c90, 0xc42000c1f0)
+	/usr/local/go/src/net/fd_poll_runtime.go:73 +0x38
+net.(*pollDesc).waitRead(0xc420395aa0, 0xb9d940, 0xc42000c1f0)
+	/usr/local/go/src/net/fd_poll_runtime.go:78 +0x34
+net.(*netFD).accept(0xc420395a40, 0x0, 0xb9c1c0, 0xc42022a000)
+	/usr/local/go/src/net/fd_unix.go:419 +0x238
+net.(*TCPListener).accept(0xc42017cea0, 0x29e8d60800, 0x0, 0x0)
+	/usr/local/go/src/net/tcpsock_posix.go:132 +0x2e
+net.(*TCPListener).AcceptTCP(0xc42017cea0, 0xc420032db8, 0xc420032dc0, 0xc420032db0)
+	/usr/local/go/src/net/tcpsock.go:209 +0x49
+net/http.tcpKeepAliveListener.Accept(0xc42017cea0, 0x9a9840, 0xc4203ae000, 0xba1dc0, 0xc4203d6870)
+	/usr/local/go/src/net/http/server.go:2608 +0x2f
+net/http.(*Server).Serve(0xc420078300, 0xba16c0, 0xc42017cea0, 0x0, 0x0)
+	/usr/local/go/src/net/http/server.go:2273 +0x1ce
+net/http.(*Server).ListenAndServe(0xc420078300, 0xc4202e9d10, 0xc420032f30)
+	/usr/local/go/src/net/http/server.go:2219 +0xb4
+github.com/astaxie/beego.(*App).Run.func4(0xc42000d7a0, 0xc4202e9ce0, 0x5, 0xc4203959d0)
+	/root/projects/go/src/github.com/astaxie/beego/app.go:178 +0x3c2
+created by github.com/astaxie/beego.(*App).Run
+	/root/projects/go/src/github.com/astaxie/beego/app.go:184 +0x753
+exit status 2

@@ -61,10 +61,10 @@ func (this *DashboardController) Index()  {
 
 	sql = "SELECT SUM(amount) AS totalAmount from payment WHERE to_member_id = ? AND status = ? AND amount = ?"
 
-	o.Raw(sql, currentUserId, models.StatusConfirmed, 15000).Values(&params)
+	o.Raw(sql, currentUserId, models.StatusConfirmed, 4000).Values(&params)
 	this.Data["TotalRebate"] = params[0]["totalAmount"]
 
-	o.Raw(sql, currentUserId, models.StatusConfirmed, 5000).Values(&params)
+	o.Raw(sql, currentUserId, models.StatusConfirmed, 1000).Values(&params)
 	this.Data["TotalBonus"] = params[0]["totalAmount"]
 
 

@@ -14,7 +14,6 @@ import (
 
 type AuthController struct {
 	beego.Controller
-
 }
 
 func (this *AuthController) Login()  {
@@ -174,6 +173,24 @@ func (this *AuthController) Register() {
 		this.Ctx.Redirect(302, "/dashboard")
 	}
 
+}
+
+func (this *AuthController) ForgotPassword() {
+
+	flash := beego.NewFlash()
+	flash.Store(&this.Controller)
+
+	if this.Ctx.Input.Method() == "POST"{
+		o := orm.NewOrm()
+		email := this.GetString("email")
+		var member models.Member
+		err := o.QueryTable(new(models.Member)).Filter("emial", email).One(&member)
+		if err != nil{
+			flash.Error("No record found for the email address you provided")
+			this.Redirect("login", 302)
+			return
+		}
+	}
 }
 
 func buildBankOptions(selectedBankId int64, banks []models.Bank) []dto.Option {

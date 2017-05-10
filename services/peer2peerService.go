@@ -30,7 +30,7 @@ type Peer2PeerService struct {
 func (this Peer2PeerService) CreatePayment(fromMemberId int64) error {
 	// Get the next queue for rebate
 	var rebateQueue models.Queue
-	err := this.O.QueryTable(new(models.Queue)).Filter("amount", 15000).Filter("status", models.StatusPending).RelatedSel().OrderBy("sort_order").One(&rebateQueue)
+	err := this.O.QueryTable(new(models.Queue)).Filter("amount", 4000).Filter("status", models.StatusPending).RelatedSel().OrderBy("sort_order").One(&rebateQueue)
 	if err != nil{
 		return errors.New("No one is on queue to receive payment")
 	}
@@ -58,7 +58,7 @@ func (this Peer2PeerService) CreatePayment(fromMemberId int64) error {
 	var bonusQueue models.Queue
 
 	// Get the next queue for an active member
-	err = this.O.QueryTable(new(models.Queue)).Filter("amount", 5000).Filter("Member_starus", models.StatusActive).Filter("status", models.StatusPending).RelatedSel().OrderBy("sort_order").One(&bonusQueue)
+	err = this.O.QueryTable(new(models.Queue)).Filter("amount", 1000).Filter("Member_starus", models.StatusActive).Filter("status", models.StatusPending).RelatedSel().OrderBy("sort_order").One(&bonusQueue)
 	if err != nil{
 		return errors.New("Please tell admin about this. There is no bonus payment on the current queue")
 	}
@@ -119,7 +119,7 @@ func (this Peer2PeerService) QueueUserForPayment(memberId int64, amount float64)
 
 	qCount, _ := this.O.QueryTable(new(models.Queue)).Filter("member_id", memberId).Filter("amount", amount).Filter("status", models.StatusPending).Count()
 
-	if amount != 5000 && qCount >= 2{
+	if amount != 1000 && qCount >= 2{
 		return errors.New(utilities.ErrorUserAlreadyInQueue)
 	}
 
@@ -132,7 +132,7 @@ func (this Peer2PeerService) QueueUserForPayment(memberId int64, amount float64)
 	member.Id = memberId
 
 	var description string
-	if amount == 5000{
+	if amount == 1000{
 		description = "Referall Bonus"
 	}else{
 		description = "Membership Rebate"

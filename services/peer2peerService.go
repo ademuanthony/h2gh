@@ -108,7 +108,7 @@ func (this *Peer2PeerService) RemoveExpiredPayments()  {
 	}
 
 	// Loop continuously
-	this.RemoveExpiredPayments()
+	//this.RemoveExpiredPayments()
 }
 
 func (this Peer2PeerService) QueueUserForPayment(memberId int64, amount float64) error {

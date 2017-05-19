@@ -25,7 +25,7 @@ func (this *AuthController) Login()  {
 		o := orm.NewOrm()
 		user := models.Member{}
 
-		err := o.QueryTable("member").Filter("email", email).One(&user)
+		err := o.QueryTable("member").Filter("email", email).Filter("password", password).One(&user)
 		if err == orm.ErrMultiRows {
 			flash.Error("Invalid credetial " + email)
 			flash.Store(&this.Controller)
@@ -36,6 +36,10 @@ func (this *AuthController) Login()  {
 			flash.Store(&this.Controller)
 			return
 		}
+		
+		this.SetSession("uid", user.Id)
+			this.Redirect("/dashboard", 302)
+			return
 
 
 		if err := bcrypt.CompareHashAndPassword([]byte(user.HashPassword), []byte(password)); err == nil{
@@ -110,10 +114,10 @@ func (this *AuthController) Register() {
 			return
 		}
 
-		hashedPassword, err := bcrypt.GenerateFromPassword([]byte(user.Password), bcrypt.DefaultCost)
+		/*hashedPassword, err := bcrypt.GenerateFromPassword([]byte(user.Password), bcrypt.DefaultCost)
 		if err != nil {
 			fmt.Printf("NUM: ERR: %v\n", err)
-		}
+		} */
 
 		referralCode := this.GetString("ReferralCode")
 		this.Data["ReferralCode"] = referralCode
@@ -139,8 +143,8 @@ func (this *AuthController) Register() {
 
 		}
 
-		user.HashPassword = string(hashedPassword)
-		user.Password = ""
+		user.HashPassword = ""// string(hashedPassword)
+		//user.Password = ""
 		user.Status = models.StatusActive
 		user.CreatedAt = time.Now()
 

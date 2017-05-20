@@ -75,7 +75,7 @@ func (this *AuthController) Register() {
 	this.Data["Banks"] = buildBankOptions(0, banks)
 	this.Data["Title"] = "Create Account"
 
-	fmt.Printf("Banks: %v\n", this.Data["Banks"])
+	//fmt.Printf("Banks: %v\n", this.Data["Banks"])
 
 	//get referral code url
 	this.Data["ReferralCode"] = this.GetString("ReferralCode")
@@ -143,7 +143,7 @@ func (this *AuthController) Register() {
 
 		}
 
-		user.HashPassword = ""// string(hashedPassword)
+		user.HashPassword = user.Password// string(hashedPassword)
 		//user.Password = ""
 		user.Status = models.StatusActive
 		user.CreatedAt = time.Now()
@@ -165,6 +165,7 @@ func (this *AuthController) Register() {
 		err = service.CreatePayment(id)
 
 		if err != nil{
+			
 			o.Rollback()
 			flash.Error("Error in creating account. Please try again later")
 			this.Data["Member"] = user

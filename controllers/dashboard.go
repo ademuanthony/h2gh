@@ -6,6 +6,7 @@ import (
 	"github.com/ademuanthony/h2gh/models"
 	"github.com/astaxie/beego/orm"
 	"github.com/ademuanthony/h2gh/services"
+	"github.com/ademuanthony/h2gh/utilities"
 )
 
 type DashboardController struct {
@@ -61,10 +62,10 @@ func (this *DashboardController) Index()  {
 
 	sql = "SELECT SUM(amount) AS totalAmount from payment WHERE to_member_id = ? AND status = ? AND amount = ?"
 
-	o.Raw(sql, currentUserId, models.StatusConfirmed, 4000).Values(&params)
+	o.Raw(sql, currentUserId, models.StatusConfirmed, utilities.UnitRebateAmount).Values(&params)
 	this.Data["TotalRebate"] = params[0]["totalAmount"]
 
-	o.Raw(sql, currentUserId, models.StatusConfirmed, 1000).Values(&params)
+	o.Raw(sql, currentUserId, models.StatusConfirmed, utilities.ReferralBonusAmount).Values(&params)
 	this.Data["TotalBonus"] = params[0]["totalAmount"]
 
 

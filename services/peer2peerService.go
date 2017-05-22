@@ -58,7 +58,7 @@ func (this Peer2PeerService) CreatePayment(fromMemberId int64) error {
 	var bonusQueue models.Queue
 
 	// Get the next queue for an active member
-	err = this.O.QueryTable(new(models.Queue)).Filter("amount", utilities.ReferralBonusAmount).Filter("Member_starus", models.StatusActive).Filter("status", models.StatusPending).RelatedSel().OrderBy("sort_order").One(&bonusQueue)
+	err = this.O.QueryTable(new(models.Queue)).Filter("amount", utilities.ReferralBonusAmount).Filter("Member__status", models.StatusActive).Filter("status", models.StatusPending).RelatedSel().OrderBy("sort_order").One(&bonusQueue)
 	if err != nil{
 		return errors.New("Please tell admin about this. There is no bonus payment on the current queue")
 	}

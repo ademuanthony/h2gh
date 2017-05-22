@@ -160,6 +160,7 @@ func (this *AuthController) Register() {
 			return
 		}
 
+
 		// pair new user to make payment
 		service := services.Peer2PeerService{O: o}
 		err = service.CreatePayment(id)

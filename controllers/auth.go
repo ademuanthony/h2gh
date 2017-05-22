@@ -165,6 +165,7 @@ func (this *AuthController) Register() {
 		err = service.CreatePayment(id)
 
 		if err != nil{
+			fmt.Sprintf("%v\n", err)
 			o.Rollback()
 			flash.Error("Error in creating account. Please try again later")
 			this.Data["Member"] = user

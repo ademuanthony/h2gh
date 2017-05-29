@@ -7,20 +7,21 @@ import (
 )
 
 type Member struct {
-	Id           	int64
-	ReferralId	int64
-	Email        	string
-	Password     	string
-	HashPassword 	string
-	FirstName    	string
-	LastName     	string
-	PhoneNumber  	string
-	AccountName  	string
-	AccountNumber 	string
-	Status 		string
-	CreatedAt	time.Time
+	Id           		int64
+	ReferralId		int64
+	ReferralPaymentStatus	string
+	Email        		string
+	Password     		string
+	HashPassword 		string
+	FirstName    		string
+	LastName     		string
+	PhoneNumber  		string
+	AccountName  		string
+	AccountNumber 		string
+	Status 			string
+	CreatedAt		time.Time
 
-	Bank *Bank `orm:"rel(fk)"`
+	Bank 			*Bank `orm:"rel(fk)"`
 }
 
 func (this Member) GetReferralCode() string {

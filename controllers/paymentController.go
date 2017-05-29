@@ -68,9 +68,9 @@ func (this *PaymentController) Confirm() {
 	//if the member have cleared all his payment
 	if !o.QueryTable(new(models.Payment)).Filter("from_member_id", payment.FromMember.Id).Filter("status", models.StatusPending).Exclude("id", paymentId).Exist(){
 		//queue the user that made this payment to receive payment
-		err = peer2peerService.QueueUserForPayment(payment.FromMember.Id, utilities.UnitRebateAmount)
+		err = peer2peerService.QueueUserForPayment(payment.FromMember.Id, utilities.UnitRebateAmount, utilities.UnitRebateDescription)
 		if err == nil{
-			err = peer2peerService.QueueUserForPayment(payment.FromMember.Id, utilities.UnitRebateAmount)
+			err = peer2peerService.QueueUserForPayment(payment.FromMember.Id, utilities.UnitRebateAmount, utilities.UnitRebateDescription)
 		}
 		if err != nil && err.Error() != utilities.ErrorUserAlreadyInQueue{
 			panic(err)
@@ -80,16 +80,29 @@ func (this *PaymentController) Confirm() {
 			return
 		}
 
-		// queue his referrer for bonus
-		if payment.FromMember.ReferralId > 0{
-			err = peer2peerService.QueueUserForPayment(payment.FromMember.ReferralId, utilities.ReferralBonusAmount)
+		// If the donor was referred and his referrer have not been paid, queue his referrer for bonus
+		if payment.FromMember.ReferralId > 0  && payment.FromMember.ReferralPaymentStatus == models.StatusPending{
+			//check if his pending down-lines are up to five
+			var downlines []models.Member
+			_, err := o.QueryTable(new(models.Member)).Filter("referrer_id", payment.FromMember.ReferralId).
+				Filter("referral_payment_status", models.StatusPending).All(&downlines)
+			if err == nil && len(downlines) >= 5{
+				for i := 0; i < 5; i++ {
+					member := downlines[i]
+					member.ReferralPaymentStatus = models.StatusPaidOut
+					o.Update(&member)
+				}
+
+			}
+
+			/*err = peer2peerService.QueueUserForPayment(payment.FromMember.ReferralId, utilities.ReferralBonusAmount)
 			if err != nil && err.Error() != utilities.ErrorUserAlreadyInQueue{
 				panic(err)
 				o.Rollback()
 				flash.Error("Something want wrong. Please try again")
 				this.Redirect("/dashboard", http.StatusTemporaryRedirect)
 				return
-			}
+			}*/
 		}
 	}
 

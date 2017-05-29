@@ -29,32 +29,42 @@ type Peer2PeerService struct {
 // Create a payment to be made by the From member ID
 func (this Peer2PeerService) CreatePayment(fromMemberId int64) error {
 	// Get the next queue for rebate
-	var rebateQueue models.Queue
-	err := this.O.QueryTable(new(models.Queue)).Filter("amount", utilities.UnitRebateAmount).Filter("status", models.StatusPending).RelatedSel().OrderBy("sort_order").One(&rebateQueue)
+	var queue models.Queue
+
+	//get bonus else get rebate
+	err := this.O.QueryTable(new(models.Queue)).Filter("description", utilities.ReferralBonusDescription).
+		Filter("status", models.StatusPending).RelatedSel().OrderBy("sort_order").One(&queue)
+
 	if err != nil{
-		return errors.New("No one is on queue to receive payment")
+		err = this.O.QueryTable(new(models.Queue)).Filter("description", utilities.UnitRebateDescription).
+			Filter("status", models.StatusPending).RelatedSel().OrderBy("sort_order").One(&queue)
+		if err != nil{
+			return errors.New("No one is on queue to receive payment")
+		}
 	}
+
 	var payment models.Payment
 
 	fromMember := new(models.Member)
 	fromMember.Id = fromMemberId
 
 	toMember := new(models.Member)
-	toMember.Id = rebateQueue.Member.Id
+	toMember.Id = queue.Member.Id
 
-	payment.Amount = rebateQueue.Amount
+	payment.Amount = queue.Amount
 	payment.Status = models.StatusPending
 	payment.Description = "Membership Rebate"
 	payment.FromMember = fromMember
 	payment.ToMember = toMember
 	payment.CreatedAt = time.Now()
 	payment.PenaltyTime = time.Now().AddDate(0, 0, 1)
-	payment.QueueId = rebateQueue.Id
+	payment.QueueId = queue.Id
 
 	this.O.Insert(&payment)
-	rebateQueue.Status = models.StatusPaired
-	this.O.Update(&rebateQueue)
+	queue.Status = models.StatusPaired
+	this.O.Update(&queue)
 
+	/*
 	var bonusQueue models.Queue
 
 	// Get the next queue for an active member
@@ -77,7 +87,7 @@ func (this Peer2PeerService) CreatePayment(fromMemberId int64) error {
 	this.O.Insert(&bonusPayment)
 	bonusQueue.Status = models.StatusPaired
 	this.O.Update(&bonusQueue)
-
+*/
 	return nil
 }
 
@@ -111,32 +121,27 @@ func (this *Peer2PeerService) RemoveExpiredPayments()  {
 	//this.RemoveExpiredPayments()
 }
 
-func (this Peer2PeerService) QueueUserForPayment(memberId int64, amount float64) error {
+func (this Peer2PeerService) QueueUserForPayment(memberId int64, amount float64, description string) error {
 
 	if ok := this.O.QueryTable(new(models.Member)).Filter("id", memberId).Exist(); !ok{
 		return errors.New("Invalid Member Id")
 	}
 
-	qCount, _ := this.O.QueryTable(new(models.Queue)).Filter("member_id", memberId).Filter("amount", amount).Filter("status", models.StatusPending).Count()
+	qCount, _ := this.O.QueryTable(new(models.Queue)).Filter("member_id", memberId).Filter("amount", amount).
+		Filter("status", models.StatusPending).Filter("description", description).Count()
 
-	if amount != utilities.ReferralBonusAmount && qCount >= 2{
+	if description != utilities.ReferralBonusDescription && qCount >= 2{
 		return errors.New(utilities.ErrorUserAlreadyInQueue)
 	}
 
 	var params []orm.Params
-	this.O.Raw("SELECT MAX(sort_order) AS sort_order FROM queue WHERE amount = ?", amount).Values(&params)
+	this.O.Raw("SELECT MAX(sort_order) AS sort_order FROM queue WHERE description = ?", description).Values(&params)
 
 	maxSortOrder, _ := strconv.ParseInt((params[0]["sort_order"]).(string), 10, 64)
 
 	member := new(models.Member)
 	member.Id = memberId
 
-	var description string
-	if amount == utilities.ReferralBonusAmount{
-		description = "Referall Bonus"
-	}else{
-		description = "Membership Rebate"
-	}
 
 	var queue = models.Queue{
 		Amount:amount, Member:member,

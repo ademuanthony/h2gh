@@ -11,6 +11,8 @@ func GetLastDayOfTheMonth(year int, month time.Month) int {
 
 const (
 	PackageAmount float64 = 5000
-	UnitRebateAmount float64 = 4500
-	ReferralBonusAmount = 500
+	UnitRebateAmount float64 = 5000
+	ReferralBonusAmount = 1000
+	UnitRebateDescription = "Membership Rebate"
+	ReferralBonusDescription = "Referral Bonus"
 )

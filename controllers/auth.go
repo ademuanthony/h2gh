@@ -140,6 +140,7 @@ func (this *AuthController) Register() {
 				return
 			}
 			user.ReferralId = id
+			user.ReferralPaymentStatus = models.StatusPending
 
 		}
 

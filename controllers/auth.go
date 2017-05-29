@@ -114,10 +114,10 @@ func (this *AuthController) Register() {
 			return
 		}
 
-		/*hashedPassword, err := bcrypt.GenerateFromPassword([]byte(user.Password), bcrypt.DefaultCost)
+		hashedPassword, err := bcrypt.GenerateFromPassword([]byte(user.Password), bcrypt.DefaultCost)
 		if err != nil {
 			fmt.Printf("NUM: ERR: %v\n", err)
-		} */
+		}
 
 		referralCode := this.GetString("ReferralCode")
 		this.Data["ReferralCode"] = referralCode
@@ -143,8 +143,8 @@ func (this *AuthController) Register() {
 
 		}
 
-		user.HashPassword = user.Password// string(hashedPassword)
-		//user.Password = ""
+		user.HashPassword = string(hashedPassword)
+		user.Password = ""
 		user.Status = models.StatusActive
 		user.CreatedAt = time.Now()
 

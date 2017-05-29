@@ -18,5 +18,7 @@ func (this MessageService) SendEmail(from, to, title, body, contentType string) 
 	// Send the email to Bob, Cora and Dan.
 	if err := d.DialAndSend(m); err != nil {
 		panic(err)
+		return err
 	}
+	return nil
 }

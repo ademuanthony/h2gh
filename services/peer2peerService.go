@@ -106,7 +106,7 @@ func (this Peer2PeerService) CreatePayment(fromMemberId int64) error {
 	)
 
 	messageService := MessageService{}
-	go messageService.SendEmail("info@help2gethelp.com", toMember.Email, "Account Paired", messageBody, "text/html")
+	go messageService.SendEmail("info@help2gethelp.com", fromMember.Email, "Account Paired", messageBody, "text/html")
 
 	messageBody = fmt.Sprintf("Dear %s, <br/>" +
 		"%s has been asked to pay you the sum of %f from help2gethelp.com. His phone number is %s", toMember.LastName, fromMember.LastName,

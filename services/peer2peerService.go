@@ -93,12 +93,12 @@ func (this Peer2PeerService) CreatePayment(fromMemberId int64) error {
 
 	//send message to the donor and receiver
 	messageBody := fmt.Sprintf("Dear %s, <br/>" +
-		"<p>You have been paired to pay %s the sum of %f from help2gethelp.com</p>" +
+		"<p>You have been paired to pay %s the sum of %f on help2gethelp.com</p>" +
 		"<p>Below is the beneficiary details<br/>" +
 		"Name: %s %s<br/>" +
 		"Phone Number: %s<br/>" +
-		"Bank Name: %s" +
-		"Account Name: %s" +
+		"Bank Name: %s<br/>" +
+		"Account Name: %s<br/>" +
 		"Account Number: %s</p>" +
 		"<p>Please make the payment before 24 hours to avoid account termination</p>",
 		fromMember.LastName, toMember.LastName, payment.Amount, toMember.LastName, toMember.FirstName,

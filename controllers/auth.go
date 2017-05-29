@@ -172,7 +172,19 @@ func (this *AuthController) Register() {
 
 		o.Commit()
 		this.SetSession("uid", user.Id)
-		beego.BeeLogger.Error("Inserted id, " + string(id))
+
+		//send the welcome email
+		const emailStringFormat string = "Dear <b>%s</b>,<br/>" +
+			"<p>We are excited to welcome you the help2gethelp.com. This is where you will give help and receive help in return.</p>" +
+			"<p>You can start making more money by sharing your referral code with friends and make N1000 " +
+			"whenever someone join the system through" +
+			" your referral link</p>" +
+			"<p><b>Referral Link:</b> %s <br/>" +
+			"Username: %s</p>"
+		emailString := fmt.Sprintf(emailStringFormat, user.LastName, user.GetReferralCode(), user.Email)
+		messageService := services.MessageService{}
+		go messageService.SendEmail("info@helptogethelp.com", user.Email, "Welcome to Help to Get Help", emailString, "text/html")
+
 		this.Ctx.Redirect(302, "/dashboard")
 	}
 

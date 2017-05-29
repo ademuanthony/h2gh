@@ -88,6 +88,32 @@ func (this Peer2PeerService) CreatePayment(fromMemberId int64) error {
 	bonusQueue.Status = models.StatusPaired
 	this.O.Update(&bonusQueue)
 */
+	this.O.QueryTable(new(models.Member)).Filter("id", fromMemberId).RelatedSel().One(fromMember)
+	this.O.QueryTable(new(models.Member)).Filter("id", toMember.Id).RelatedSel().One(toMember)
+
+	//send message to the donor and receiver
+	messageBody := fmt.Sprintf("Dear %s, <br/>" +
+		"<p>You have been paired to pay %s the sum of %d from help2gethelp.com</p>" +
+		"<p>Below is the beneficiary details<br/>" +
+		"Name: %s %s<br/>" +
+		"Phone Number: %s<br/>" +
+		"Bank Name: %s" +
+		"Account Name: %s" +
+		"Account Number: %s</p>" +
+		"<p>Please make the payment before 24 hours to avoid account termination</p>",
+		fromMember.LastName, toMember.LastName, payment.Amount, toMember.LastName, toMember.FirstName,
+		toMember.PhoneNumber, toMember.Bank.Name, toMember.AccountName, toMember.AccountNumber,
+	)
+
+	messageService := MessageService{}
+	go messageService.SendEmail("info@help2gethelp.com", toMember.Email, "Account Paired", messageBody, "text/html")
+
+	messageBody = fmt.Sprintf("Dear %s, <br/>" +
+		"%s has been asked to pay you the sum of %d from help2gethelp.com. His phone number is %s", toMember.LastName, fromMember.LastName,
+		payment.Amount, fromMember.PhoneNumber,
+	)
+	go messageService.SendEmail("info@help2gethelp.com", toMember.Email, "Account Matched", messageBody, "text/html")
+
 	return nil
 }
 
